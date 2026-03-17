@@ -36,6 +36,8 @@ weeklyResults = {
 #positions set to blank dictionary. 
 positions = {}
 
+eventName = json_data['events'][0]['shortName']
+
 competitors = json_data['events'][0]['competitions'][0]['competitors']
 
 for competitor in competitors:
@@ -65,7 +67,7 @@ points = 8
 #create/edit text file to output to. 
 with open("weeklyResults.txt", "w") as f:
 
-    print("Weekly Results:", file=f)
+    print(f"Weekly Results: {eventName}", file=f)
     print("-"*40, file=f)
     for player, pos in sortedResults:
         #print player name, their pick and the finishing position

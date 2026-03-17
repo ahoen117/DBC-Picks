@@ -1,7 +1,5 @@
 https://www.espn.com/racing/results
 
-Use the above website to copy results into Results.csv
-
-Manually update picks in WeeklyPicks.csv
+This version still used data from the above link, but its accessed via the ESPN api. 
 
 After running the python script, check results in weeklyResults.txt and look out for any error messages at the bottom of the list regarding spelling. 

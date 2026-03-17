@@ -71,3 +71,10 @@ with open("weeklyResults.txt", "w") as f:
         #blank line as seperator between players
         print("", file=f)
 
+    print("Pick order for next week is: ", file=f)
+    print("-"*40, file=f)
+
+    for player in reversed(sortedResults):
+        print(player[0], file=f)
+
+

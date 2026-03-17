@@ -1,4 +1,21 @@
 import csv
+import requests
+import json
+
+url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    # 3. Parse the JSON response into a Python object (e.g., dictionary or list)
+    json_data = response.json()
+    
+    # 4. Define the filename to save the data
+    filename = 'scoreboard.json'
+    
+    # 5. Save the Python object to a JSON file
+    with open(filename, 'w') as f:
+        json.dump(json_data, f, indent=4)
 
 weeklyPicks = {}
 
@@ -19,21 +36,21 @@ weeklyResults = {
 #positions set to blank dictionary. 
 positions = {}
 
-with open('Results.csv', newline='') as results:
-    resultsreader = csv.reader(results, delimiter=',')
-    for row in resultsreader:
-        if row:
+competitors = json_data['events'][0]['competitions'][0]['competitors']
+
+for competitor in competitors:
+    if row:
             #get full name and position
-            full_name = row[1]
-            pos = int(row[0])
-            #last_parts is a list splitting the name by spaces
-            last_parts = full_name.split()
-            #get last name from end of list, or second to the end if ending in "Jr."
-            last_name = last_parts[-1]
-            if last_name == "Jr.":
-                last_name = last_parts[-2]
-            #edit positions dict to key=last_name and value=position
-            positions[last_name] = pos
+        full_name = competitor['athlete']['fullName']
+        pos = int(competitor['order'])
+        #last_parts is a list splitting the name by spaces
+        last_parts = full_name.split()
+        #get last name from end of list, or second to the end if ending in "Jr."
+        last_name = last_parts[-1]
+        if last_name == "Jr.":
+            last_name = last_parts[-2]
+        #edit positions dict to key=last_name and value=position
+        positions[last_name] = pos
 
 #set weeklyResults to their matched finishing position, if position doesn't exist, give position 999
 for player, last_name in weeklyPicks.items():

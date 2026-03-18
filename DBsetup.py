@@ -1,27 +1,42 @@
-import json
 import sqlite3
 
-with open('PlayerStats.json') as f:
-    data = json.load(f)
-
+# Connect to the database (creates the file if it doesn't exist)
 conn = sqlite3.connect('dbcPicks.db')
 cur = conn.cursor()
 
-# Insert players
-for player, info in data.items():
-    cur.execute("INSERT OR REPLACE INTO players (player_name, total_points) VALUES (?, ?)",
-                (player, info['points']))
+# 1. Players table
+cur.execute('''
+CREATE TABLE IF NOT EXISTS players (
+    player_name TEXT PRIMARY KEY,
+    total_points INTEGER DEFAULT 0
+)
+''')
 
-    # Insert historical chosen drivers
-    for driver in info['chosen']:
-        cur.execute("INSERT INTO picks (player_name, driver, is_current_pick) VALUES (?, ?, 0)",
-                    (player, driver))
+# 2. Picks table (main history + current pick)
+cur.execute('''
+CREATE TABLE IF NOT EXISTS picks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    player_name TEXT NOT NULL,
+    driver TEXT NOT NULL,
+    week INTEGER,                   -- e.g. 1 = Daytona, 2 = Atlanta, etc.
+    is_current_pick BOOLEAN DEFAULT 0,
+    picked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (player_name) REFERENCES players(player_name)
+)
+''')
 
-    # Insert current pick
-    if 'pick' in info and info['pick']:
-        cur.execute("INSERT INTO picks (player_name, driver, is_current_pick) VALUES (?, ?, 1)",
-                    (player, info['pick']))
+# 3. Optional: Drivers table (full roster for availability checks)
+cur.execute('''
+CREATE TABLE IF NOT EXISTS drivers (
+    driver_name TEXT PRIMARY KEY,
+    car_number TEXT,
+    team TEXT,
+    active BOOLEAN DEFAULT 1
+)
+''')
 
+# Commit changes and close
 conn.commit()
 conn.close()
-print("Migration done!")
+
+print("Database and tables created successfully!")

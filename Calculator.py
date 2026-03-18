@@ -2,6 +2,10 @@ import csv
 import requests
 import json
 
+with open("PlayerStats.json") as ps:
+    playerStats = json.load(ps)
+
+
 url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
 response = requests.get(url)
@@ -19,14 +23,10 @@ if response.status_code == 200:
 
 weeklyPicks = {}
 
-with open('WeeklyPicks.csv', newline='') as picks:
-    reader = csv.reader(picks)
-    for row in reader:
-        if len(row) >=2:
-            #key is set to name in weekly picks csv
-            player = row[0].strip()
-            #value is set to pick in weekly picks csv
-            weeklyPicks[player] = row[1].strip()
+
+for person in playerStats:
+    #value is set to pick in weekly picks csv
+    weeklyPicks[person] = playerStats[person]["pick"]
 
 #setup basic format for weeklyResults dict
 weeklyResults = {
@@ -42,8 +42,7 @@ competitors = json_data['events'][0]['competitions'][0]['competitors']
 
 #fill out positions dict with driver name and finishing position.
 for competitor in competitors:
-    if row:
-            #get full name and position
+        #get full name and position
         full_name = competitor['athlete']['fullName']
         pos = int(competitor['order'])
         #last_parts is a list splitting the name by spaces
@@ -77,6 +76,10 @@ with open("weeklyResults.txt", "w") as f:
         #if 999 give reminder to check spelling
         if pos == 999:
             print("Check for spelling errors in WeeklyPicks.csv...", file=f)
+
+        oldPoints = int(playerStats[player]['points'])
+
+        totalPoints = points + oldPoints
         
         #print points
         print(f"You get {points} points", file=f)
@@ -84,10 +87,16 @@ with open("weeklyResults.txt", "w") as f:
         #if you pick the winner you get extra point
         if pos == 1:
             print("You get a bonus point for picking the race winner", file=f)
+            totalPoints += 1
 
+        print(f"Your total for the season is: {totalPoints} points", file=f)
+
+        playerStats[player]['points'] = totalPoints
+        
         #adjust points each itteration
         points -= 1
-        
+
+    
         #blank line as seperator between players
         print("", file=f)
 
@@ -96,5 +105,8 @@ with open("weeklyResults.txt", "w") as f:
 
     for player in reversed(sortedResults):
         print(player[0], file=f)
+
+with open("PlayerStats.json", 'w') as ps:
+        json.dump(playerStats, ps, indent=4)
 
 

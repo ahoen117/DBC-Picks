@@ -3,38 +3,47 @@ Weekly Results: NASCAR Cup Series at Las Vegas
 Aaron:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 8 points
+Your total for the season is: 23 points
 
 Tomas:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 7 points
+Your total for the season is: 40 points
 
 Taylor:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 6 points
+Your total for the season is: 33 points
 
 Dakota:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 5 points
+Your total for the season is: 34 points
 
 Quentin:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 4 points
+Your total for the season is: 39 points
 
 Travis:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 3 points
+Your total for the season is: 27 points
 
 Will:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 2 points
+Your total for the season is: 29 points
 
 David:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 1 points
+Your total for the season is: 18 points
 
 Randy:  finished 999
 Check for spelling errors in WeeklyPicks.csv...
 You get 0 points
+Your total for the season is: 10 points
 
 Pick order for next week is: 
 ----------------------------------------

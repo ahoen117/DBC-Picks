@@ -2,7 +2,11 @@
     "Aaron": {
         "chosen": ["Blaney", "Buescher", "Reddick", "Stenhouse", "Hocevar", "Zilisch"],
         "points": 15,
+<<<<<<< Updated upstream
         "pick": "Hamlin"
+=======
+        "pick": "Elliott"
+>>>>>>> Stashed changes
     },
     "Tomas": {
         "chosen": ["Larson", "Hamlin", "Bell", "Logano", "Wallace", "Byron"],
@@ -32,7 +36,11 @@
     "Will": {
         "chosen": ["LaJoie", "Busch", "Hamlin", "Logano", "Reddick", "Keselowski"],
         "points": 27,
+<<<<<<< Updated upstream
         "pick": "Logano"
+=======
+        "pick": "Buescher"
+>>>>>>> Stashed changes
     },
     "David": {
         "chosen": ["Cindric", "Larson", "Elliott", "Berry", "Bowman", "Hocevar"],

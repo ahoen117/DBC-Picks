@@ -1,6 +1,6 @@
-import csv
 import requests
 import json
+import sys
 
 with open("PlayerStats.json") as ps:
     playerStats = json.load(ps)
@@ -25,8 +25,14 @@ weeklyPicks = {}
 
 
 for person in playerStats:
+    if playerStats[person]["pick"] in playerStats[person]["chosen"]:
+        print(f"Error: {playerStats[person]["pick"]} has already been chosen this season by {person}")
+        sys.exit(1)
     #value is set to pick in weekly picks csv
     weeklyPicks[person] = playerStats[person]["pick"]
+
+    playerStats[person]["chosen"].append(playerStats[person]["pick"]) 
+    print(playerStats[person]["chosen"])
 
 #setup basic format for weeklyResults dict
 weeklyResults = {
@@ -106,7 +112,7 @@ with open("weeklyResults.txt", "w") as f:
     for player in reversed(sortedResults):
         print(player[0], file=f)
 
-with open("PlayerStats.json", 'w') as ps:
-        json.dump(playerStats, ps, indent=4)
+# with open("PlayerStats.json", 'w') as ps:
+#         json.dump(playerStats, ps, indent=4)
 
 

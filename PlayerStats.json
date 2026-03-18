@@ -1,47 +1,47 @@
 {
     "Aaron": {
-        "chosen": [],
+        "chosen": ["Blaney", "Buescher", "Reddick", "Stenhouse", "Hocevar", "Zilisch"],
         "points": 15,
-        "pick": ""
+        "pick": "Hamlin"
     },
     "Tomas": {
-        "chosen": [],
+        "chosen": ["Larson", "Hamlin", "Bell", "Logano", "Wallace", "Byron"],
         "points": 33,
-        "pick": ""
+        "pick": "Larson"
     },
     "Taylor": {
-        "chosen": [],
+        "chosen": ["Larson", "Blaney", "Bell", "Logano", "Byron", "Keselowski"],
         "points": 27,
-        "pick": ""
+        "pick": "Busch"
     },
     "Dakota": {
-        "chosen": [],
+        "chosen": ["Cindric", "Suarez", "Bell", "Berry", "McDowell", "Keselowski"],
         "points": 29,
-        "pick": ""
+        "pick": "Keselowski"
     },
     "Quentin": {
-        "chosen": [],
+        "chosen": ["Hamlin", "Blaney", "Allmendinger", "Stenhouse", "Bowman", "Keselowski"],
         "points": 35,
-        "pick": ""
+        "pick": "Bell"
     },
     "Travis": {
-        "chosen": [],
+        "chosen": ["Chastain", "Bell", "Byron", "Myers", "McDowell", "Gisbergen"],
         "points": 24,
-        "pick": ""
+        "pick": "Reddick"
     },
     "Will": {
-        "chosen": [],
+        "chosen": ["LaJoie", "Busch", "Hamlin", "Logano", "Reddick", "Keselowski"],
         "points": 27,
-        "pick": ""
+        "pick": "Logano"
     },
     "David": {
-        "chosen": [],
+        "chosen": ["Cindric", "Larson", "Elliott", "Berry", "Bowman", "Hocevar"],
         "points": 17,
-        "pick": ""
+        "pick": "Berry"
     },
     "Randy": {
-        "chosen": [],
+        "chosen": ["Busch", "Hamlin", "Allmendinger", "Gilliland", "Custer", "Finchum"],
         "points": 10,
-        "pick": ""
+        "pick": "Chastain"
     }
 }

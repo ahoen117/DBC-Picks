@@ -1,58 +1,50 @@
 Weekly Results: NASCAR Cup Series at Las Vegas
 ----------------------------------------
-Aaron:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Aaron: Hamlin finished 1
 You get 8 points
-Your total for the season is: 23 points
+You get a bonus point for picking the race winner
+Your total for the season is: 24 points
 
-Tomas:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Quentin: Bell finished 4
 You get 7 points
-Your total for the season is: 40 points
+Your total for the season is: 42 points
 
-Taylor:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Tomas: Larson finished 7
 You get 6 points
-Your total for the season is: 33 points
+Your total for the season is: 39 points
 
-Dakota:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Dakota: Keselowski finished 10
 You get 5 points
 Your total for the season is: 34 points
 
-Quentin:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Travis: Reddick finished 13
 You get 4 points
-Your total for the season is: 39 points
+Your total for the season is: 28 points
 
-Travis:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Will: Logano finished 15
 You get 3 points
-Your total for the season is: 27 points
+Your total for the season is: 30 points
 
-Will:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Randy: Chastain finished 17
 You get 2 points
-Your total for the season is: 29 points
+Your total for the season is: 12 points
 
-David:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Taylor: Busch finished 28
 You get 1 points
-Your total for the season is: 18 points
+Your total for the season is: 28 points
 
-Randy:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+David: Berry finished 31
 You get 0 points
-Your total for the season is: 10 points
+Your total for the season is: 17 points
 
 Pick order for next week is: 
 ----------------------------------------
-Randy
 David
+Taylor
+Randy
 Will
 Travis
-Quentin
 Dakota
-Taylor
 Tomas
+Quentin
 Aaron

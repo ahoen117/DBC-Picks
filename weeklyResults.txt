@@ -1,41 +1,49 @@
 Weekly Results: NASCAR Cup Series at Las Vegas
 ----------------------------------------
-Tomas: Hamlin finished 1
+Aaron:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 8 points
-You get a bonus point for picking the race winner
 
-Dakota: Bell finished 4
+Tomas:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 7 points
 
-Taylor: Larson finished 7
+Taylor:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 6 points
 
-Quentin: Keselowski finished 10
+Dakota:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 5 points
 
-Aaron: Reddick finished 13
+Quentin:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 4 points
 
-Will: Logano finished 15
+Travis:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 3 points
 
-Travis: Chastain finished 17
+Will:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 2 points
 
-Randy: Busch finished 28
+David:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 1 points
 
-Dakota Dad: Berry finished 31
+Randy:  finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 0 points
 
 Pick order for next week is: 
 ----------------------------------------
-Dakota Dad
 Randy
-Travis
+David
 Will
-Aaron
+Travis
 Quentin
-Taylor
 Dakota
+Taylor
 Tomas
+Aaron

@@ -40,6 +40,7 @@ eventName = json_data['events'][0]['shortName']
 
 competitors = json_data['events'][0]['competitions'][0]['competitors']
 
+#fill out positions dict with driver name and finishing position.
 for competitor in competitors:
     if row:
             #get full name and position

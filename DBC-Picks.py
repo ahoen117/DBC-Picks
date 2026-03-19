@@ -2,8 +2,10 @@ import requests
 import json
 import sqlite3
 
+#week 7 is Darlington
 week = 7
 
+#set False for testing, will reuse saved scoreboard.json. True will grab new scoreboard.json file using api. 
 useApi = False
 
 def get_db_connection():

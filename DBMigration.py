@@ -1,27 +1,20 @@
-import json
+import csv
 import sqlite3
-
-with open('PlayerStats.json') as f:
-    data = json.load(f)
 
 conn = sqlite3.connect('dbcPicks.db')
 cur = conn.cursor()
 
-# Insert players
-for player, info in data.items():
-    cur.execute("INSERT OR REPLACE INTO players (player_name, total_points) VALUES (?, ?)",
-                (player, info['points']))
+with open('Driver_list.csv') as f:
+    reader = csv.reader(f, delimiter=',')
 
-    # Insert historical chosen drivers
-    for driver in info['chosen']:
-        cur.execute("INSERT INTO picks (player_name, driver, is_current_pick) VALUES (?, ?, 0)",
-                    (player, driver))
+    print(reader)
 
-    # Insert current pick
-    # if 'pick' in info and info['pick']:
-    #     cur.execute("INSERT INTO picks (player_name, driver, is_current_pick) VALUES (?, ?, 1)",
-    #                 (player, info['pick']))
+    for row in reader:
+
+        cur.execute("INSERT INTO drivers(driver_name, car_number, team) VALUES (?, ?, ?)",
+                     (row[0], row[1], row[4],))
+
 
 conn.commit()
 conn.close()
-print("Migration done!")
+print("Driver table updated!")

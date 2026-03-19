@@ -1,6 +1,0 @@
-Implement SQL into calculator.py
-
-find and save driver roster
-
-script to import driver roster into db
-

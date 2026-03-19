@@ -66,7 +66,6 @@ def get_standings():
 with open("PlayerStats.json") as ps:
     playerStats = json.load(ps)
 
-
 url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
 response = requests.get(url)
@@ -138,7 +137,6 @@ with open("weeklyResults.txt", "w") as f:
             print("Check for spelling errors in WeeklyPicks.csv...", file=f)
 
         oldPoints = get_player_points(player)
-        # oldPoints = int(playerStats[player]['points'])
 
         totalPoints = points + oldPoints
         
@@ -153,7 +151,6 @@ with open("weeklyResults.txt", "w") as f:
         print(f"Your total for the season is: {totalPoints} points", file=f)
 
         update_player_points(player, totalPoints)
-        #playerStats[player]['points'] = totalPoints
         
         #adjust points each itteration
         points -= 1
@@ -162,18 +159,20 @@ with open("weeklyResults.txt", "w") as f:
         print("", file=f)
 
     print("Current Standings: ", file=f)
+
+    #blank line as seperator between players
     print("-"*40, file=f)    
 
     for rank, (name, pts) in enumerate(get_standings(), 1):
         print(f"{rank}. {name}: {pts} pts", file=f)
-
+    
+    print("")
     print("Pick order for next week is: ", file=f)
+
+    #blank line as seperator between players
     print("-"*40, file=f)
 
     for player in reversed(sortedResults):
         print(player[0], file=f)
-
-# with open("PlayerStats.json", 'w') as ps:
-#         json.dump(playerStats, ps, indent=4)
 
 

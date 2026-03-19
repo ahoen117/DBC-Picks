@@ -41,6 +41,17 @@ Check for spelling errors in WeeklyPicks.csv...
 You get 0 points
 Your total for the season is: 35 points
 
+Current Standings: 
+----------------------------------------
+1. Tomas: 36 pts
+2. Quentin: 35 pts
+3. Travis: 33 pts
+4. Will: 33 pts
+5. Dakota: 30 pts
+6. Taylor: 29 pts
+7. Aaron: 22 pts
+8. David: 21 pts
+9. Randy: 15 pts
 Pick order for next week is: 
 ----------------------------------------
 Quentin

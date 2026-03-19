@@ -9,57 +9,53 @@ Aaron: Elliott finished 2
 You get 7 points
 Your total for the season is: 22 points
 
-Will: Buescher finished 6
+Quentin: Byron finished 3
 You get 6 points
-Your total for the season is: 33 points
+Your total for the season is: 41 points
+
+Will: Buescher finished 6
+You get 5 points
+Your total for the season is: 32 points
 
 Randy: Briscoe finished 8
-You get 5 points
-Your total for the season is: 15 points
-
-David: Jones finished 20
 You get 4 points
-Your total for the season is: 21 points
+Your total for the season is: 14 points
 
-Tomas:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Taylor: Wallace finished 9
 You get 3 points
-Your total for the season is: 36 points
-
-Taylor:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
-You get 2 points
-Your total for the season is: 29 points
-
-Dakota:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
-You get 1 points
 Your total for the season is: 30 points
 
-Quentin:  finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Dakota: Reddick finished 13
+You get 2 points
+Your total for the season is: 31 points
+
+Tomas: Chastain finished 17
+You get 1 points
+Your total for the season is: 34 points
+
+David: Jones finished 20
 You get 0 points
-Your total for the season is: 35 points
+Your total for the season is: 17 points
 
 Current Standings: 
 ----------------------------------------
-1. Tomas: 36 pts
-2. Quentin: 35 pts
+1. Quentin: 41 pts
+2. Tomas: 34 pts
 3. Travis: 33 pts
-4. Will: 33 pts
-5. Dakota: 30 pts
-6. Taylor: 29 pts
+4. Will: 32 pts
+5. Dakota: 31 pts
+6. Taylor: 30 pts
 7. Aaron: 22 pts
-8. David: 21 pts
-9. Randy: 15 pts
+8. David: 17 pts
+9. Randy: 14 pts
 Pick order for next week is: 
 ----------------------------------------
-Quentin
+David
+Tomas
 Dakota
 Taylor
-Tomas
-David
 Randy
 Will
+Quentin
 Aaron
 Travis

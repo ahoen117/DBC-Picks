@@ -1,7 +1,10 @@
 import requests
 import json
-import sys
 import sqlite3
+
+week = 7
+
+useApi = False
 
 def get_db_connection():
     conn = sqlite3.connect('dbcPicks.db')
@@ -66,25 +69,30 @@ def get_standings():
 with open("PlayerStats.json") as ps:
     playerStats = json.load(ps)
 
-url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
-response = requests.get(url)
+if useApi == True:
+    url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
-if response.status_code == 200:
-    # 3. Parse the JSON response into a Python object (e.g., dictionary or list)
-    json_data = response.json()
-    
-    # 4. Define the filename to save the data
-    filename = 'scoreboard.json'
-    
-    # 5. Save the Python object to a JSON file
-    with open(filename, 'w') as f:
-        json.dump(json_data, f, indent=4)
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        # 3. Parse the JSON response into a Python object (e.g., dictionary or list)
+        json_data = response.json()
+        
+        # 4. Define the filename to save the data
+        filename = 'scoreboard.json'
+        
+        # 5. Save the Python object to a JSON file
+        with open(filename, 'w') as f:
+            json.dump(json_data, f, indent=4)
+else:
+    with open('scoreboard.json', 'r') as f:
+        json_data = json.load(f)
 
 for person in playerStats:
     #value is set to pick in weekly picks csv
 
-    add_pick(person, playerStats[person]["pick"])
+    add_pick(person, playerStats[person]["pick"], week)
 
 #setup basic format for weeklyResults dict
 weeklyResults = {
@@ -147,8 +155,6 @@ with open("weeklyResults.txt", "w") as f:
         if pos == 1:
             print("You get a bonus point for picking the race winner", file=f)
             totalPoints += 1
-
-        print(f"Your total for the season is: {totalPoints} points", file=f)
 
         update_player_points(player, totalPoints)
         

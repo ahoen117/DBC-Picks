@@ -2,9 +2,6 @@ import requests
 import json
 import sqlite3
 
-#week 7 is Darlington
-week = 7
-
 #set False for testing, will reuse saved scoreboard.json. True will grab new scoreboard.json file using api. 
 useApi = False
 
@@ -68,6 +65,22 @@ def get_standings():
     conn.close()
     return standings
 
+def get_week():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT value FROM config WHERE key = 'current_week'")
+    week = cur.fetchone()
+    return week[0]
+
+def incriment_week(current_week):
+    conn = get_db_connection()
+    cur = conn.cursor()
+    new_week = current_week + 1
+    cur.execute("UPDATE config SET value = ? WHERE key = 'current_week'", (new_week,))
+    conn.commit()
+    conn.close()
+
+
 with open("PlayerStats.json") as ps:
     playerStats = json.load(ps)
 
@@ -90,6 +103,8 @@ if useApi == True:
 else:
     with open('scoreboard.json', 'r') as f:
         json_data = json.load(f)
+
+week = get_week()
 
 for person in playerStats:
     #value is set to pick in weekly picks csv
@@ -132,6 +147,8 @@ sortedResults = sorted(weeklyResults.items(), key=lambda x: x[1])
 
 #set weekly number of points 8 to first, 0 to last. We have 9 players.
 points = 8
+
+incriment_week(week)
 
 #create/edit text file to output to. 
 with open("weeklyResults.txt", "w") as f:

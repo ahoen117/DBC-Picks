@@ -2,6 +2,7 @@ import requests
 import json
 import sqlite3
 import shutil
+from pathlib import Path
 
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
 testing = True

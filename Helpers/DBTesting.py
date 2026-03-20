@@ -1,7 +1,11 @@
 import sqlite3
+from pathlib import Path
+
+dbPath = Path.cwd()
+dbPath = dbPath.parent
 
 # Connect to the database (creates the file if it doesn't exist)
-conn = sqlite3.connect('dbcPicks.db')
+conn = sqlite3.connect(dbPath / 'dbcPicks.db')
 conn.row_factory = sqlite3.Row
 cur = conn.cursor()
 

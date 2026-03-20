@@ -1,7 +1,11 @@
-import csv
+#import csv
 import sqlite3
+from pathlib import Path
 
-conn = sqlite3.connect('dbcPicks_test.db')
+dbPath = Path.cwd()
+dbPath = dbPath.parent
+
+conn = sqlite3.connect(dbPath / 'dbcPicks_test.db')
 cur = conn.cursor()
 
 # with open('Driver_list.csv') as f:
@@ -16,6 +20,6 @@ cur = conn.cursor()
 
 cur.execute("INSERT INTO players(player_name, total_points) VALUES (?, ?)", ("Test", 0))
 
-conn.commit()
+#conn.commit()
 conn.close()
 print("Driver table updated!")

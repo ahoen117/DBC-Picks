@@ -5,10 +5,15 @@ import shutil
 
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
 testing = True
+#set variable to true if you want to have the program overwrite the dbcPicks.db.bak file with the current version of the db.
+createBackup = True
 
 #copy db to make a test.db file if testing is active. 
 if testing == True:
     shutil.copy('dbcPicks.db', 'dbcPicks_test.db')
+
+if createBackup == True:
+    shutil.copy('dbcPicks.db', 'dbcPicks.db.bak')
 
 def get_db_connection():
     if testing == True:

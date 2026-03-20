@@ -1,12 +1,20 @@
 import requests
 import json
 import sqlite3
+import shutil
 
-#set False for testing, will reuse saved scoreboard.json. True will grab new scoreboard.json file using api. 
-useApi = False
+#set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
+testing = True
+
+#copy db to make a test.db file if testing is active. 
+if testing == True:
+    shutil.copy('dbcPicks.db', 'dbcPicks_test.db')
 
 def get_db_connection():
-    conn = sqlite3.connect('dbcPicks.db')
+    if testing == True:
+        conn = sqlite3.connect('dbcPicks_test.db')
+    else:
+        conn = sqlite3.connect('dbcPicks.db')
     conn.row_factory = sqlite3.Row   # makes rows behave like dicts (very convenient)
     return conn
 
@@ -27,6 +35,7 @@ def add_pick(player_name, driver, week=None, make_current=False):
         INSERT INTO picks(player_name, driver, week, is_current_pick)
         VALUES(?,?,?,?)
     """, (player_name, driver, week, 1 if make_current else 0))
+
 
     conn.commit()
     conn.close()
@@ -50,6 +59,7 @@ def update_player_points(player_name, new_points):
         SET total_points = ? 
         WHERE player_name = ?
     """, (new_points, player_name))
+
     conn.commit()
     conn.close()
 
@@ -77,6 +87,7 @@ def incriment_week(current_week):
     cur = conn.cursor()
     new_week = current_week + 1
     cur.execute("UPDATE config SET value = ? WHERE key = 'current_week'", (new_week,))
+
     conn.commit()
     conn.close()
 
@@ -85,7 +96,7 @@ with open("PlayerStats.json") as ps:
     playerStats = json.load(ps)
 
 
-if useApi == True:
+if testing == False:
     url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
     response = requests.get(url)

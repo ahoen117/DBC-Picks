@@ -208,7 +208,7 @@ with open("weeklyResults.txt", "w") as f:
     for rank, (name, pts) in enumerate(get_standings(), 1):
         print(f"{rank}. {name}: {pts} pts", file=f)
     
-    print("")
+    print("", file=f)
     print("Pick order for next week is: ", file=f)
 
     #blank line as seperator between players

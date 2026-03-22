@@ -7,7 +7,7 @@ from pathlib import Path
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
 testing = False
 #set variable to true if you want to have the program overwrite the dbcPicks.db.bak file with the current version of the db.
-createBackup = False
+createBackup = True
 
 #copy db to make a test.db file if testing is active. 
 if testing == True:

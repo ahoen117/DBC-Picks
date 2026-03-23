@@ -10,29 +10,35 @@
     table { border-collapse: collapse; width: 100%; max-width: 1600px; margin: 0 auto; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     th, td { border: 1px solid #999; padding: 10px; text-align: center; font-size: 14px; }
     th { background: #222; color: white; position: sticky; top: 0; z-index: 10; }
-    #pickOrder {text-align: center;}
+    li {padding: 10px; font-size: 1.2rem; font-weight: bold;}
     .driver { text-align: left; font-weight: bold; background: #f0f0f0; width: 220px; color: black; }
     .red { background: #d61717; color: white; }
     .green { background: #4caf50; color: white; }
     .points-row { background: #ffffcc; font-weight: bold; }
     #loading { text-align: center; font-size: 1.3em; margin: 50px; }
+    #pickOrder {text-align: center; font-family: Arial, sans-serif; margin: 20px; padding-top: 100px;}
+    #list {text-align: center; list-style-position: inside; padding: 20px;}
+    .table-container {  overflow-x: auto; width: 100%;}
+
   </style>
 </head>
 <body>
   <h1 id="title">Loading...</h1>
 
   <div id="loading">Loading picks...</div>
-  <table id="table" style="display:none;">
+  <div class="table-container">
+    <table id="table" style="display:none;">
     <!-- Header and rows built by JS -->
-  </table>
+    </table>
+  </div>
 
-  <h2 id="pickOrder">Pick Order</h2>
-  <ol>
+  <h2 id="pickOrder">Pick order for next race</h2>
+  <ol id="list">
     <!-- Header and rows built by JS -->
   </ol>
 
   <script>
-    async function loadData() {
+    async function loadData() { 
       const res = await fetch('Website/picks-data.json');
       const data = await res.json();
 
@@ -63,6 +69,14 @@
       table.innerHTML = html;
       document.getElementById('loading').style.display = 'none';
       table.style.display = 'table';
+
+
+      const list = document.getElementById('list');
+      let listHtml = '';
+
+      data.sorted_results.forEach(item => listHtml += `<li>${item}</li>`);
+
+      list.innerHTML = listHtml;
     }
 
     window.onload = loadData;

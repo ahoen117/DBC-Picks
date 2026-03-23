@@ -13,8 +13,6 @@ def export_to_json(race_name="DARLINGTON", output_file="picks-data.json"):
 
     players = sorted(players)
 
-    print(players)
-
     # 2. All unique drivers (alphabetical)
     cur.execute("SELECT DISTINCT driver FROM picks ORDER BY driver")
     drivers = [row['driver'] for row in cur.fetchall()]

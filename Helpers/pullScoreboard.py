@@ -1,5 +1,6 @@
 import requests
 import json
+from pathlib import Path
 
 url = "https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard"
 
@@ -11,9 +12,11 @@ if response.status_code == 200:
     
     # 4. Define the filename to save the data
     filename = 'scoreboard_test.json'
+
+    filepath = Path.cwd().parent / filename
     
     # 5. Save the Python object to a JSON file
-    with open(filename, 'w') as f:
+    with open(filepath, 'w') as f:
         json.dump(json_data, f, indent=4)
 
 print("Done! File should be saved.")

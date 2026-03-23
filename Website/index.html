@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBC picks</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
+    h1 { text-align: center; color: #222; }
+    table { border-collapse: collapse; width: 100%; max-width: 1600px; margin: 0 auto; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    th, td { border: 1px solid #999; padding: 10px; text-align: center; font-size: 14px; }
+    th { background: #222; color: white; position: sticky; top: 0; z-index: 10; }
+    .driver { text-align: left; font-weight: bold; background: #f0f0f0; width: 220px; color: black; }
+    .red { background: #d61717; color: white; }
+    .green { background: #4caf50; color: white; }
+    .points-row { background: #ffffcc; font-weight: bold; }
+    #loading { text-align: center; font-size: 1.3em; margin: 50px; }
+  </style>
+</head>
+<body>
+  <h1 id="title">Loading...</h1>
+
+  <div id="loading">Loading picks...</div>
+  <table id="table" style="display:none;">
+    <!-- Header and rows built by JS -->
+  </table>
+
+  <script>
+    async function loadData() {
+      const res = await fetch('picks-data.json');
+      const data = await res.json();
+
+      document.getElementById('title').textContent = data.race_name;
+
+      const table = document.getElementById('table');
+      let html = '<thead><tr><th class="driver"><u>Drivers</u></th>';
+
+      data.players.forEach(p => html += `<th>${p}</th>`);
+      html += '</tr></thead><tbody>';
+
+      // Driver rows
+      data.drivers.forEach(driver => {
+        html += `<tr><td class="driver">${driver}</td>`;
+        data.players.forEach(player => {
+          const isCurrent = data.picks[player] && data.picks[player][driver];
+          const cls = isCurrent ? 'green' : (data.picks[player] && driver in data.picks[player] ? 'red' : '');
+          html += `<td class="${cls}">${cls ? driver : ''}</td>`;
+        });
+        html += '</tr>';
+      });
+
+      // Race Total Points row
+      html += '<tr class="points-row"><td class="driver"><strong>Season Total Points</strong></td>';
+      data.players.forEach(p => html += `<td>${data.total_points[p] || 0}</td>`);
+      html += '</tr></tbody>';
+
+      table.innerHTML = html;
+      document.getElementById('loading').style.display = 'none';
+      table.style.display = 'table';
+    }
+
+    window.onload = loadData;
+  </script>
+</body>
+</html>

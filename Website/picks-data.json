@@ -1,0 +1,152 @@
+{
+  "race_name": "DARLINGTON",
+  "last_updated": "2026-03-23 15:58",
+  "players": [
+    "Aaron",
+    "Dakota",
+    "David",
+    "Quentin",
+    "Randy",
+    "Taylor",
+    "Tomas",
+    "Travis",
+    "Will"
+  ],
+  "drivers": [
+    "Allmendinger",
+    "Bell",
+    "Berry",
+    "Blaney",
+    "Bowman",
+    "Briscoe",
+    "Buescher",
+    "Busch",
+    "Byron",
+    "Chastain",
+    "Cindric",
+    "Custer",
+    "Elliott",
+    "Finchum",
+    "Gilliland",
+    "Gisbergen",
+    "Hamlin",
+    "Hocevar",
+    "Jones",
+    "Keselowski",
+    "LaJoie",
+    "Larson",
+    "Logano",
+    "McDowell",
+    "Myers",
+    "Reddick",
+    "Stenhouse",
+    "Suarez",
+    "Wallace",
+    "Zilisch"
+  ],
+  "picks": {
+    "Aaron": {
+      "Blaney": false,
+      "Buescher": false,
+      "Reddick": false,
+      "Stenhouse": false,
+      "Hocevar": false,
+      "Zilisch": false,
+      "Elliott": false
+    },
+    "Tomas": {
+      "Larson": false,
+      "Hamlin": false,
+      "Bell": false,
+      "Logano": false,
+      "Wallace": false,
+      "Byron": false,
+      "Chastain": false
+    },
+    "Taylor": {
+      "Larson": false,
+      "Blaney": false,
+      "Bell": false,
+      "Logano": false,
+      "Byron": false,
+      "Keselowski": false,
+      "Wallace": false
+    },
+    "Dakota": {
+      "Cindric": false,
+      "Suarez": false,
+      "Bell": false,
+      "Berry": false,
+      "McDowell": false,
+      "Keselowski": false,
+      "Reddick": false
+    },
+    "Quentin": {
+      "Hamlin": false,
+      "Blaney": false,
+      "Allmendinger": false,
+      "Stenhouse": false,
+      "Bowman": false,
+      "Keselowski": false,
+      "Byron": false
+    },
+    "Travis": {
+      "Chastain": false,
+      "Bell": false,
+      "Byron": false,
+      "Myers": false,
+      "McDowell": false,
+      "Gisbergen": false,
+      "Hamlin": false
+    },
+    "Will": {
+      "LaJoie": false,
+      "Busch": false,
+      "Hamlin": false,
+      "Logano": false,
+      "Reddick": false,
+      "Keselowski": false,
+      "Buescher": false
+    },
+    "David": {
+      "Cindric": false,
+      "Larson": false,
+      "Elliott": false,
+      "Berry": false,
+      "Bowman": false,
+      "Hocevar": false,
+      "Jones": false
+    },
+    "Randy": {
+      "Busch": false,
+      "Hamlin": false,
+      "Allmendinger": false,
+      "Gilliland": false,
+      "Custer": false,
+      "Finchum": false,
+      "Briscoe": false
+    }
+  },
+  "last_week_points": {
+    "Aaron": 0,
+    "Dakota": 0,
+    "David": 0,
+    "Quentin": 0,
+    "Randy": 0,
+    "Taylor": 0,
+    "Tomas": 0,
+    "Travis": 0,
+    "Will": 0
+  },
+  "total_points": {
+    "Aaron": 17,
+    "Tomas": 34,
+    "Taylor": 27,
+    "Dakota": 38,
+    "Quentin": 42,
+    "Travis": 28,
+    "Will": 33,
+    "David": 22,
+    "Randy": 13
+  }
+}

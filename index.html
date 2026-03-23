@@ -27,7 +27,7 @@
 
   <script>
     async function loadData() {
-      const res = await fetch('picks-data.json');
+      const res = await fetch('Website/picks-data.json');
       const data = await res.json();
 
       document.getElementById('title').textContent = data.race_name;

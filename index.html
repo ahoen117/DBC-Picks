@@ -10,6 +10,7 @@
     table { border-collapse: collapse; width: 100%; max-width: 1600px; margin: 0 auto; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
     th, td { border: 1px solid #999; padding: 10px; text-align: center; font-size: 14px; }
     th { background: #222; color: white; position: sticky; top: 0; z-index: 10; }
+    #pickOrder {text-align: center;}
     .driver { text-align: left; font-weight: bold; background: #f0f0f0; width: 220px; color: black; }
     .red { background: #d61717; color: white; }
     .green { background: #4caf50; color: white; }
@@ -24,6 +25,11 @@
   <table id="table" style="display:none;">
     <!-- Header and rows built by JS -->
   </table>
+
+  <h2 id="pickOrder">Pick Order</h2>
+  <ol>
+    <!-- Header and rows built by JS -->
+  </ol>
 
   <script>
     async function loadData() {

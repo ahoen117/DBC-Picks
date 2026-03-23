@@ -127,7 +127,7 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
 
     # Last Week Points — placeholder for now (you can add a column later if you want)
     # For now we'll just use 0 or pull from another table if you add it
-    last_week_points = {p: 0 for p in players}   # ← change this later if you store last week points
+
 
     conn.close()
 
@@ -137,8 +137,8 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
         "players": players,
         "drivers": drivers,
         "picks": picks,
-        "last_week_points": last_week_points,
-        "total_points": total_points
+        "total_points": total_points,
+        "sorted_results": reversedResults,
     }
 
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -265,6 +265,9 @@ with open("weeklyResults.txt", "w") as f:
 
     for player in reversed(sortedResults):
         print(player[0], file=f)
+
+reversedResults = [item[0] for item in sortedResults]
+reversedResults.reverse()
 
 export_to_json(eventName)
 

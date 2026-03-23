@@ -1,6 +1,6 @@
 {
   "race_name": "NASCAR Cup Series at Darlington",
-  "last_updated": "2026-03-23 16:23",
+  "last_updated": "2026-03-23 16:48",
   "players": [
     "Aaron",
     "Dakota",
@@ -116,17 +116,6 @@
       "Finchum": false
     }
   },
-  "last_week_points": {
-    "Aaron": 0,
-    "Dakota": 0,
-    "David": 0,
-    "Quentin": 0,
-    "Randy": 0,
-    "Taylor": 0,
-    "Tomas": 0,
-    "Travis": 0,
-    "Will": 0
-  },
   "total_points": {
     "Aaron": 17,
     "Tomas": 34,
@@ -137,5 +126,16 @@
     "Will": 33,
     "David": 22,
     "Randy": 13
-  }
+  },
+  "sorted_results": [
+    "Taylor",
+    "Tomas",
+    "Aaron",
+    "Randy",
+    "Travis",
+    "David",
+    "Will",
+    "Quentin",
+    "Dakota"
+  ]
 }

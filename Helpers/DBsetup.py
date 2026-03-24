@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 
 dbPath = Path.cwd()
-dbPath = dbPath.parent
+#dbPath = dbPath.parent
 
 # Connect to the database (creates the file if it doesn't exist)
 conn = sqlite3.connect(dbPath / 'dbcPicks.db')
@@ -39,14 +39,22 @@ cur = conn.cursor()
 # )
 # ''')
 
-cur.execute("CREATE TABLE IF NOT EXISTS weeklyPoints (player_name TEXT PRIMARY KEY, weekly_points INTEGER)")
 
 players = ['David', 'Randy', 'Travis', 'Will', 'Aaron', 'Quentin', 'Taylor', 'Dakota', 'Tomas']
 
-players = sorted(players)
+points = [22,13,28,33,17,42,27,38,34]
+
+pIndex = 0
 
 for player in players:
     cur.execute("INSERT OR REPLACE INTO weeklyPoints (player_name, weekly_points) VALUES (?,?)", (player, 0))
+
+
+for player in players:
+    point = points[pIndex]
+    print(point)
+    cur.execute("INSERT OR REPLACE INTO players (player_name, total_points) VALUES (?,?)", (player, point))
+    pIndex += 1
 
 # Commit changes and close
 conn.commit()

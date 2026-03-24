@@ -16,9 +16,13 @@
     .green { background: #4caf50; color: white; }
     .points-row { background: #ffffcc; font-weight: bold; }
     #loading { text-align: center; font-size: 1.3em; margin: 50px; }
-    #pickOrder {text-align: center; font-family: Arial, sans-serif; margin: 20px; padding-top: 100px;}
+    #pickOrder {text-align: center; font-family: Arial, sans-serif;}
     #list {text-align: center; list-style-position: inside; padding: 20px;}
-    .table-container {  overflow-x: auto; width: 100%;}
+    .table-container { overflow-x: auto; width: 100%;}
+    #pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
+    border-radius: 50px;}
+    #listParent {display: flex; gap: 20px; padding: 50px 200px;}
+    #logoImg {margin: auto; border-radius: 20px;}
     
 
   </style>
@@ -32,12 +36,15 @@
     <!-- Header and rows built by JS -->
     </table>
   </div>
-
-  <h2 id="pickOrder">Pick order for next race</h2>
-  <ol id="list">
-    <!-- Header and rows built by JS -->
-  </ol>
-
+  <div id="listParent">
+    <div id="pickOrderDiv">
+      <h2 id="pickOrder">Pick order for next race</h2>
+      <ol id="list">
+        <!-- Header and rows built by JS -->
+      </ol>
+    </div>
+    <img id="logoImg" src="https://m.media-amazon.com/images/M/MV5BYWQ4MTcxY2EtNmY1Ni00NWU4LWJmOTEtMjBjMmU0MzJkYTdmXkEyXkFqcGc@._V1_.jpg" alt="DBC Logo" width="200" height="200"/>
+  </div>
   <script>
     async function loadData() { 
       const res = await fetch('Website/picks-data.json');

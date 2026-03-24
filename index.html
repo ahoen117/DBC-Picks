@@ -21,8 +21,6 @@
     .table-container { overflow-x: auto; width: 100%;}
     #pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
     border-radius: 50px;}
-    #listParent {display: flex; gap: 20px; padding: 50px 200px;}
-    #logoImg {margin: auto; border-radius: 20px;}
     
 
   </style>
@@ -36,15 +34,12 @@
     <!-- Header and rows built by JS -->
     </table>
   </div>
-  <div id="listParent">
     <div id="pickOrderDiv">
       <h2 id="pickOrder">Pick order for next race</h2>
       <ol id="list">
         <!-- Header and rows built by JS -->
       </ol>
     </div>
-    <img id="logoImg" src="https://m.media-amazon.com/images/M/MV5BYWQ4MTcxY2EtNmY1Ni00NWU4LWJmOTEtMjBjMmU0MzJkYTdmXkEyXkFqcGc@._V1_.jpg" alt="DBC Logo" width="200" height="200"/>
-  </div>
   <script>
     async function loadData() { 
       const res = await fetch('Website/picks-data.json');

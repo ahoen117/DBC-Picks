@@ -16,10 +16,10 @@
     .green { background: #4caf50; color: white; }
     .points-row { background: #ffffcc; font-weight: bold; }
     #loading { text-align: center; font-size: 1.3em; margin: 50px; }
-    #pickOrder {text-align: center; font-family: Arial, sans-serif;}
-    #list {text-align: center; list-style-position: inside; padding: 20px;}
+    #pickOrder, #weeklyResults {text-align: center; font-family: Arial, sans-serif;}
+    #list, #weekly_list {text-align: center; list-style-position: inside; padding: 20px;}
     .table-container { overflow-x: auto; width: 100%;}
-    #pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
+    .pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
     border-radius: 50px;}
     
 
@@ -34,12 +34,18 @@
     <!-- Header and rows built by JS -->
     </table>
   </div>
-    <div id="pickOrderDiv">
-      <h2 id="pickOrder">Pick order for next race</h2>
-      <ol id="list">
-        <!-- Header and rows built by JS -->
-      </ol>
-    </div>
+  <div class="pickOrderDiv">
+    <h2 id="weeklyResults">Weekly Results</h2>
+    <ol id="weekly_list">
+      <!-- Header and rows built by JS -->
+    </ol>
+  </div>
+  <div class="pickOrderDiv">
+    <h2 id="pickOrder">Pick order for next race</h2>
+    <ol id="list">
+      <!-- Header and rows built by JS -->
+    </ol>
+  </div>
   <script>
     async function loadData() { 
       const res = await fetch('Website/picks-data.json');
@@ -72,6 +78,13 @@
       table.innerHTML = html;
       document.getElementById('loading').style.display = 'none';
       table.style.display = 'table';
+
+
+      const weeklyList = document.getElementById('weekly_list');
+      let weeklyHtml = '';
+
+      data.players.forEach(p => weeklyHtml += `<li>${p} : ${data.weekly_points[p]} points</li>`);
+      weeklyList.innerHTML = weeklyHtml;
 
 
       const list = document.getElementById('list');

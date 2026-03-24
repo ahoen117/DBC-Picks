@@ -39,9 +39,14 @@ cur = conn.cursor()
 # )
 # ''')
 
-cur.execute("CREATE TABLE IF NOT EXISTS config (key TEXT PRIMARY KEY, value INTEGER)")
+cur.execute("CREATE TABLE IF NOT EXISTS weeklyPoints (player_name TEXT PRIMARY KEY, weekly_points INTEGER)")
 
-cur.execute("INSERT OR REPLACE INTO config (key, value) VALUES ('current_week', 7)")
+players = ['David', 'Randy', 'Travis', 'Will', 'Aaron', 'Quentin', 'Taylor', 'Dakota', 'Tomas']
+
+players = sorted(players)
+
+for player in players:
+    cur.execute("INSERT OR REPLACE INTO weeklyPoints (player_name, weekly_points) VALUES (?,?)", (player, 0))
 
 # Commit changes and close
 conn.commit()

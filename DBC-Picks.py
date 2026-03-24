@@ -98,13 +98,21 @@ def incriment_week(current_week):
     conn.commit()
     conn.close()
 
+def updateWeeklyPoints(playerName, weeklyPoints):
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("UPDATE weeklyPoints SET weekly_points = ? WHERE player_name = ?", (weeklyPoints, playerName))
+
+    conn.commit()
+    conn.close()
+
 def export_to_json(race_name, output_file="Website/picks-data.json"):
-    conn = sqlite3.connect('dbcPicks.db')
-    conn.row_factory = sqlite3.Row
+    conn = get_db_connection()
     cur = conn.cursor()
 
     # 1. Players in your exact order
-    players = ['David', 'Randy', 'Travis', 'Will', 'Aaron', 'Quentin', 'Taylor', 'Dakota', 'Tomas']
+    cur.execute("SELECT DISTINCT player_name FROM picks")
+    players = [row['player_name'] for row in cur.fetchall()]
 
     players = sorted(players)
 
@@ -128,6 +136,9 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
     # Last Week Points — placeholder for now (you can add a column later if you want)
     # For now we'll just use 0 or pull from another table if you add it
 
+    cur.execute("SELECT player_name, weekly_points FROM weeklyPoints")
+    weekly_points = {row['player_name']: row['weekly_points'] for row in cur.fetchall()}
+
 
     conn.close()
 
@@ -138,6 +149,7 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
         "drivers": drivers,
         "picks": picks,
         "total_points": total_points,
+        "weekly_points": weekly_points,
         "sorted_results": reversedResults,
     }
 
@@ -230,6 +242,8 @@ with open("weeklyResults.txt", "w") as f:
             print("Check for spelling errors in WeeklyPicks.csv...", file=f)
 
         oldPoints = get_player_points(player)
+
+        updateWeeklyPoints(player, points)
 
         totalPoints = points + oldPoints
         

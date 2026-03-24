@@ -5,9 +5,9 @@ from pathlib import Path
 dbPath = Path.cwd()
 
 
-week = 8
+week = 7
 
-conn = sqlite3.connect(dbPath / 'dbcPicks.db')
+conn = sqlite3.connect(dbPath.parent / 'dbcPicks.db')
 cur = conn.cursor()
 
 cur.execute("DELETE FROM picks WHERE week = ?", (week,))

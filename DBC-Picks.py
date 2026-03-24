@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
-testing = False
+testing = True
 #set variable to true if you want to have the program overwrite the dbcPicks.db.bak file with the current version of the db.
 createBackup = True
 
@@ -109,8 +109,8 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
     players = sorted(players)
 
     # 2. All unique drivers (alphabetical)
-    cur.execute("SELECT DISTINCT driver FROM picks ORDER BY driver")
-    drivers = [row['driver'] for row in cur.fetchall()]
+    cur.execute("SELECT DISTINCT driver_name FROM drivers ORDER BY driver_name")
+    drivers = [row['driver_name'] for row in cur.fetchall()]
 
     # 3. Picks data (who picked what and is it current week?)
     cur.execute("SELECT player_name, driver, is_current_pick FROM picks")

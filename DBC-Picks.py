@@ -8,7 +8,7 @@ from datetime import datetime
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
 testing = True
 #set variable to true if you want to have the program overwrite the dbcPicks.db.bak file with the current version of the db.
-createBackup = True
+createBackup = False
 
 #copy db to make a test.db file if testing is active. 
 if testing == True:
@@ -234,6 +234,7 @@ with open("weeklyResults.txt", "w") as f:
     print(f"Weekly Results: {eventName}", file=f)
     print("-"*40, file=f)
     for player, pos in sortedResults:
+        jsonPoints = 0
         #print player name, their pick and the finishing position
         print(f"{player}: {playerStats[player]["pick"]} finished {pos}", file=f)
 
@@ -243,7 +244,7 @@ with open("weeklyResults.txt", "w") as f:
 
         oldPoints = get_player_points(player)
 
-        updateWeeklyPoints(player, points)
+        jsonPoints += points
 
         totalPoints = points + oldPoints
         
@@ -254,8 +255,12 @@ with open("weeklyResults.txt", "w") as f:
         if pos == 1:
             print("You get a bonus point for picking the race winner", file=f)
             totalPoints += 1
+            jsonPoints += 1
+            
 
         update_player_points(player, totalPoints)
+
+        updateWeeklyPoints(player, jsonPoints)
         
         #adjust points each itteration
         points -= 1

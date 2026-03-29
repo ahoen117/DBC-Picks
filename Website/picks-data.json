@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Darlington",
-  "last_updated": "2026-03-24 14:44",
+  "race_name": "NASCAR Cup Series at Martinsville",
+  "last_updated": "2026-03-29 18:59",
   "players": [
     "Aaron",
     "Dakota",
@@ -67,7 +67,8 @@
       "Stenhouse": false,
       "Hocevar": false,
       "Zilisch": false,
-      "Elliott": false
+      "Elliott": false,
+      "Logano": false
     },
     "Tomas": {
       "Larson": false,
@@ -76,7 +77,8 @@
       "Logano": false,
       "Wallace": false,
       "Byron": false,
-      "Chastain": false
+      "Chastain": false,
+      "Reddick": false
     },
     "Taylor": {
       "Larson": false,
@@ -85,7 +87,8 @@
       "Logano": false,
       "Byron": false,
       "Keselowski": false,
-      "Wallace": false
+      "Wallace": false,
+      "Buescher": false
     },
     "Dakota": {
       "Cindric": false,
@@ -94,7 +97,8 @@
       "Berry": false,
       "McDowell": false,
       "Keselowski": false,
-      "Reddick": false
+      "Reddick": false,
+      "Blaney": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -103,7 +107,8 @@
       "Stenhouse": false,
       "Bowman": false,
       "Keselowski": false,
-      "Byron": false
+      "Byron": false,
+      "Elliott": false
     },
     "Travis": {
       "Chastain": false,
@@ -112,7 +117,8 @@
       "Myers": false,
       "McDowell": false,
       "Gisbergen": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Briscoe": false
     },
     "Will": {
       "LaJoie": false,
@@ -121,7 +127,8 @@
       "Logano": false,
       "Reddick": false,
       "Keselowski": false,
-      "Buescher": false
+      "Buescher": false,
+      "Preece": false
     },
     "David": {
       "Cindric": false,
@@ -130,7 +137,8 @@
       "Berry": false,
       "Bowman": false,
       "Hocevar": false,
-      "Jones": false
+      "Jones": false,
+      "Bell": false
     },
     "Randy": {
       "Busch": false,
@@ -139,40 +147,41 @@
       "Gilliland": false,
       "Custer": false,
       "Finchum": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Wallace": false
     }
   },
   "total_points": {
-    "Aaron": 17,
-    "Tomas": 34,
-    "Taylor": 27,
-    "Dakota": 38,
-    "Quentin": 42,
-    "Travis": 28,
-    "Will": 33,
-    "David": 22,
-    "Randy": 13
+    "David": 27,
+    "Randy": 13,
+    "Travis": 31,
+    "Will": 37,
+    "Aaron": 24,
+    "Quentin": 51,
+    "Taylor": 28,
+    "Dakota": 44,
+    "Tomas": 36
   },
   "weekly_points": {
-    "Aaron": 2,
-    "Dakota": 8,
     "David": 5,
-    "Quentin": 7,
-    "Randy": 3,
-    "Taylor": 0,
-    "Tomas": 1,
-    "Travis": 4,
-    "Will": 6
+    "Randy": 0,
+    "Travis": 3,
+    "Will": 4,
+    "Aaron": 7,
+    "Quentin": 9,
+    "Taylor": 1,
+    "Dakota": 6,
+    "Tomas": 2
   },
   "sorted_results": [
+    "Randy",
     "Taylor",
     "Tomas",
-    "Aaron",
-    "Randy",
     "Travis",
-    "David",
     "Will",
-    "Quentin",
-    "Dakota"
+    "David",
+    "Dakota",
+    "Aaron",
+    "Quentin"
   ]
 }

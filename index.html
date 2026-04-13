@@ -17,7 +17,7 @@
     .green { background: #4caf50; color: white; }
     .points-row { background: #ffffcc; font-weight: bold; }
     #loading { text-align: center; font-size: 1.3em; margin: 50px; }
-    #pickOrder, #weeklyResults {text-align: center; font-family: Arial, sans-serif;}
+    #pickOrder, #weeklyResults, #currentResults {text-align: center; font-family: Arial, sans-serif;}
     #list, #weekly_list {text-align: center; list-style-position: inside; padding: 20px;}
     .table-container { overflow-x: auto; width: 100%;}
     .pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
@@ -38,6 +38,12 @@
   <div class="pickOrderDiv">
     <h2 id="weeklyResults">Weekly Results</h2>
     <ol id="weekly_list">
+      <!-- Header and rows built by JS -->
+    </ol>
+  </div>
+  <div class="pickOrderDiv">
+    <h2 id="currentResults">Season Points</h2>
+    <ol id="current_list">
       <!-- Header and rows built by JS -->
     </ol>
   </div>
@@ -71,10 +77,10 @@
         html += '</tr>';
       });
 
-      // Race Total Points row
-      html += '<tr class="points-row"><td class="driver"><strong>Season Total Points</strong></td>';
-      data.players.forEach(p => html += `<td>${data.total_points[p] || 0}</td>`);
-      html += '</tr></tbody>';
+      // // Race Total Points row
+      // html += '<tr class="points-row"><td class="driver"><strong>Season Total Points</strong></td>';
+      // data.players.forEach(p => html += `<td>${data.total_points[player.p] || 0}</td>`);
+      // html += '</tr></tbody>';
 
       table.innerHTML = html;
       document.getElementById('loading').style.display = 'none';
@@ -84,9 +90,14 @@
       const weeklyList = document.getElementById('weekly_list');
       let weeklyHtml = '';
 
-      data.players.forEach(p => weeklyHtml += `<li>${p} : ${data.weekly_points[p]} points</li>`);
+      data.weekly_points.forEach(p => {weeklyHtml += `<li>${p.player} : ${p.points} points</li>`});
       weeklyList.innerHTML = weeklyHtml;
 
+      const currentList = document.getElementById('current_list');
+      let currentHtml = '';
+
+      data.total_points.forEach(p => {currentHtml += `<li>${p.player} : ${p.points} points</li>`});
+      currentList.innerHTML = currentHtml;
 
       const list = document.getElementById('list');
       let listHtml = '';

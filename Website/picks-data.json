@@ -1,6 +1,6 @@
 {
   "race_name": "NASCAR Cup Series at Bristol",
-  "last_updated": "2026-04-13 09:14",
+  "last_updated": "2026-04-13 13:18",
   "players": [
     "Aaron",
     "Dakota",
@@ -160,28 +160,82 @@
       "Larson": false
     }
   },
-  "total_points": {
-    "David": 31,
-    "Randy": 19,
-    "Travis": 38,
-    "Will": 42,
-    "Aaron": 24,
-    "Quentin": 53,
-    "Taylor": 29,
-    "Dakota": 47,
-    "Tomas": 45
-  },
-  "weekly_points": {
-    "David": 4,
-    "Randy": 6,
-    "Travis": 7,
-    "Will": 5,
-    "Aaron": 0,
-    "Quentin": 2,
-    "Taylor": 1,
-    "Dakota": 3,
-    "Tomas": 9
-  },
+  "total_points": [
+    {
+      "player": "Quentin",
+      "points": 53
+    },
+    {
+      "player": "Dakota",
+      "points": 47
+    },
+    {
+      "player": "Tomas",
+      "points": 45
+    },
+    {
+      "player": "Will",
+      "points": 42
+    },
+    {
+      "player": "Travis",
+      "points": 38
+    },
+    {
+      "player": "David",
+      "points": 31
+    },
+    {
+      "player": "Taylor",
+      "points": 29
+    },
+    {
+      "player": "Aaron",
+      "points": 24
+    },
+    {
+      "player": "Randy",
+      "points": 19
+    }
+  ],
+  "weekly_points": [
+    {
+      "player": "Tomas",
+      "points": 9
+    },
+    {
+      "player": "Travis",
+      "points": 7
+    },
+    {
+      "player": "Randy",
+      "points": 6
+    },
+    {
+      "player": "Will",
+      "points": 5
+    },
+    {
+      "player": "David",
+      "points": 4
+    },
+    {
+      "player": "Dakota",
+      "points": 3
+    },
+    {
+      "player": "Quentin",
+      "points": 2
+    },
+    {
+      "player": "Taylor",
+      "points": 1
+    },
+    {
+      "player": "Aaron",
+      "points": 0
+    }
+  ],
   "sorted_results": [
     "Aaron",
     "Taylor",

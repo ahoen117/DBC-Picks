@@ -130,14 +130,14 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
         picks[p][row['driver']] = bool(row['is_current_pick'])
 
     # 4. Points (total from your players table)
-    cur.execute("SELECT player_name, total_points FROM players")
-    total_points = {row['player_name']: row['total_points'] for row in cur.fetchall()}
+    cur.execute("SELECT player_name, total_points FROM players ORDER BY total_points DESC")
+    total_points = [{"player": row[0], "points": row[1]} for row in cur.fetchall()]
 
     # Last Week Points — placeholder for now (you can add a column later if you want)
     # For now we'll just use 0 or pull from another table if you add it
 
-    cur.execute("SELECT player_name, weekly_points FROM weeklyPoints")
-    weekly_points = {row['player_name']: row['weekly_points'] for row in cur.fetchall()}
+    cur.execute("SELECT player_name, weekly_points FROM weeklyPoints ORDER BY weekly_points DESC")
+    weekly_points = [{"player": row[0], "points": row[1]} for row in cur.fetchall()]
 
 
     conn.close()

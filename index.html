@@ -1,64 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Update after Bristol -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DBC picks</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 20px; 
+      background: #f4f4f4; 
+    }
     h1 { text-align: center; color: #222; }
-    table { border-collapse: collapse; width: 100%; max-width: 1600px; margin: 0 auto; background: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-    th, td { border: 1px solid #999; padding: 10px; text-align: center; font-size: 14px; }
-    th { background: #222; color: white; position: sticky; top: 0; z-index: 10; }
-    li {padding: 10px; font-size: 1.2rem; font-weight: bold;}
-    .driver { text-align: left; font-weight: bold; background: #f0f0f0; width: 220px; color: black; }
+
+    .table-container {
+      overflow-x: auto;
+      overflow-y: auto;
+      width: 100%;
+      position: relative;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      max-height: 90vh;
+    }
+
+    table { 
+      border-collapse: separate;     /* Changed from collapse - this is key */
+      border-spacing: 0;
+      width: max-content;
+      min-width: 100%;
+      background: white;
+    }
+
+    th, td { 
+      border: 1px solid #999; 
+      padding: 10px; 
+      text-align: center; 
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    /* Sticky header row */
+    thead th {
+      background: #222; 
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    /* === STICKY FIRST COLUMN (Drivers) === */
+    th:first-child,
+    td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 15;
+      background: #f0f0f0;
+      font-weight: bold;
+      border-right: 3px solid #555;
+      width: 100px;
+    }
+
+    /* Corner cell - highest priority */
+    thead th:first-child {
+      z-index: 30;
+      background: #222;
+      color: white;
+    }
+
+    .driver {
+      text-align: left;
+      width: 220px;
+      color: black;
+    }
+
     .red { background: #d61717; color: white; }
     .green { background: #4caf50; color: white; }
     .points-row { background: #ffffcc; font-weight: bold; }
-    #loading { text-align: center; font-size: 1.3em; margin: 50px; }
-    #pickOrder, #weeklyResults, #currentResults {text-align: center; font-family: Arial, sans-serif;}
-    #list, #weekly_list {text-align: center; list-style-position: inside; padding: 20px;}
-    .table-container { overflow-x: auto; width: 100%;}
-    .pickOrderDiv {background-color: #ebebeb; margin: 100px auto; padding: 50px; width: fit-content; justify-content: center; border: 2px  solid black;
-    border-radius: 50px;}
-    
 
+    li { padding: 10px; font-size: 1.2rem; font-weight: bold; }
+
+    #loading { 
+      text-align: center; 
+      font-size: 1.3em; 
+      margin: 50px; 
+    }
+
+    .pickOrderDiv {
+      background-color: #ebebeb; 
+      margin: 40px auto; 
+      padding: 30px; 
+      width: fit-content; 
+      border: 2px solid black;
+      border-radius: 50px;
+    }
   </style>
 </head>
 <body>
   <h1 id="title">Loading...</h1>
 
   <div id="loading">Loading picks...</div>
+
   <div class="table-container">
     <table id="table" style="display:none;">
-    <!-- Header and rows built by JS -->
+      <!-- Built by JS -->
     </table>
   </div>
+
   <div class="pickOrderDiv">
     <h2 id="weeklyResults">Weekly Results</h2>
-    <ol id="weekly_list">
-      <!-- Header and rows built by JS -->
-    </ol>
+    <ol id="weekly_list"></ol>
   </div>
+
   <div class="pickOrderDiv">
     <h2 id="currentResults">Season Points</h2>
-    <ol id="current_list">
-      <!-- Header and rows built by JS -->
-    </ol>
+    <ol id="current_list"></ol>
   </div>
+
   <div class="pickOrderDiv">
     <h2 id="pickOrder">Pick order for next race</h2>
-    <ol id="list">
-      <!-- Header and rows built by JS -->
-    </ol>
+    <ol id="list"></ol>
   </div>
+
   <script>
     async function loadData() { 
       const res = await fetch('Website/picks-data.json');
       const data = await res.json();
 
-      document.getElementById('title').textContent = data.race_name;
+      document.getElementById('title').textContent = data.race_name || "DBC Picks";
 
       const table = document.getElementById('table');
       let html = '<thead><tr><th class="driver"><u>Drivers</u></th>';
@@ -66,7 +134,6 @@
       data.players.forEach(p => html += `<th>${p}</th>`);
       html += '</tr></thead><tbody>';
 
-      // Driver rows
       data.drivers.forEach(driver => {
         html += `<tr><td class="driver">${driver}</td>`;
         data.players.forEach(player => {
@@ -77,33 +144,32 @@
         html += '</tr>';
       });
 
-      // // Race Total Points row
-      // html += '<tr class="points-row"><td class="driver"><strong>Season Total Points</strong></td>';
-      // data.players.forEach(p => html += `<td>${data.total_points[player.p] || 0}</td>`);
-      // html += '</tr></tbody>';
-
       table.innerHTML = html;
       document.getElementById('loading').style.display = 'none';
       table.style.display = 'table';
 
-
+      // Weekly list
       const weeklyList = document.getElementById('weekly_list');
       let weeklyHtml = '';
-
-      data.weekly_points.forEach(p => {weeklyHtml += `<li>${p.player} : ${p.points} points</li>`});
+      (data.weekly_points || []).forEach(p => {
+        weeklyHtml += `<li>${p.player} : ${p.points} points</li>`;
+      });
       weeklyList.innerHTML = weeklyHtml;
 
+      // Season points list
       const currentList = document.getElementById('current_list');
       let currentHtml = '';
-
-      data.total_points.forEach(p => {currentHtml += `<li>${p.player} : ${p.points} points</li>`});
+      (data.total_points || []).forEach(p => {
+        currentHtml += `<li>${p.player} : ${p.points} points</li>`;
+      });
       currentList.innerHTML = currentHtml;
 
+      // Pick order list
       const list = document.getElementById('list');
       let listHtml = '';
-
-      data.sorted_results.forEach(item => listHtml += `<li>${item}</li>`);
-
+      (data.sorted_results || []).forEach(item => {
+        listHtml += `<li>${item}</li>`;
+      });
       list.innerHTML = listHtml;
     }
 

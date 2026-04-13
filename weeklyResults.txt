@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Martinsville
+Weekly Results: NASCAR Cup Series at Bristol
 ----------------------------------------
-Quentin: Elliott finished 1
+Tomas: Gibbs finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Aaron: Logano finished 3
+Travis: Blaney finished 2
 You get 7 points
 
-Dakota: Blaney finished 6
+Randy: Larson finished 3
 You get 6 points
 
-David: Bell finished 7
+Will: Briscoe finished 5
 You get 5 points
 
-Will: Preece finished 12
+David: Hamlin finished 9
 You get 4 points
 
-Travis: Briscoe finished 14
+Dakota: Buescher finished 13
 You get 3 points
 
-Tomas: Reddick finished 15
+Quentin: Chastain finished 20
 You get 2 points
 
-Taylor: Buescher finished 19
+Taylor: Elliott finished 22
 You get 1 points
 
-Randy: Wallace finished 36
+Aaron: Bell finished 27
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Quentin: 51 pts
-2. Dakota: 44 pts
-3. Will: 37 pts
-4. Tomas: 36 pts
-5. Travis: 31 pts
-6. Taylor: 28 pts
-7. David: 27 pts
+1. Quentin: 53 pts
+2. Dakota: 47 pts
+3. Tomas: 45 pts
+4. Will: 42 pts
+5. Travis: 38 pts
+6. David: 31 pts
+7. Taylor: 29 pts
 8. Aaron: 24 pts
-9. Randy: 13 pts
+9. Randy: 19 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Randy
-Taylor
-Tomas
-Travis
-Will
-David
-Dakota
 Aaron
+Taylor
 Quentin
+Dakota
+David
+Will
+Randy
+Travis
+Tomas

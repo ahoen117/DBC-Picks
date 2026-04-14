@@ -85,6 +85,12 @@
       margin: 50px; 
     }
 
+    #flexContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .pickOrderDiv {
       background-color: #ebebeb; 
       margin: 40px auto; 
@@ -106,20 +112,21 @@
       <!-- Built by JS -->
     </table>
   </div>
+  <div id="flexContainer">
+    <div class="pickOrderDiv">
+      <h2 id="weeklyResults">Weekly Results</h2>
+      <ol id="weekly_list"></ol>
+    </div>
 
-  <div class="pickOrderDiv">
-    <h2 id="weeklyResults">Weekly Results</h2>
-    <ol id="weekly_list"></ol>
-  </div>
+    <div class="pickOrderDiv">
+      <h2 id="currentResults">Season Points</h2>
+      <ol id="current_list"></ol>
+    </div>
 
-  <div class="pickOrderDiv">
-    <h2 id="currentResults">Season Points</h2>
-    <ol id="current_list"></ol>
-  </div>
-
-  <div class="pickOrderDiv">
-    <h2 id="pickOrder">Pick order for next race</h2>
-    <ol id="list"></ol>
+    <div class="pickOrderDiv">
+      <h2 id="pickOrder">Pick order for next race</h2>
+      <ol id="list"></ol>
+    </div>
   </div>
 
   <script>

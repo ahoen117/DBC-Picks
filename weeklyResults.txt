@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Bristol
+Weekly Results: NASCAR Cup Series at Kansas
 ----------------------------------------
-Tomas: Gibbs finished 1
+Travis: Reddick finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Travis: Blaney finished 2
+Aaron: Larson finished 2
 You get 7 points
 
-Randy: Larson finished 3
+Randy: Keselowski finished 6
 You get 6 points
 
-Will: Briscoe finished 5
+Dakota: Gibbs finished 9
 You get 5 points
 
-David: Hamlin finished 9
+David: Buescher finished 10
 You get 4 points
 
-Dakota: Buescher finished 13
+Will: Gilliland finished 17
 You get 3 points
 
-Quentin: Chastain finished 20
+Tomas: Bowman finished 18
 You get 2 points
 
-Taylor: Elliott finished 22
+Quentin: Bell finished 20
 You get 1 points
 
-Aaron: Bell finished 27
+Taylor: Dillon finished 33
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Quentin: 53 pts
-2. Dakota: 47 pts
-3. Tomas: 45 pts
-4. Will: 42 pts
-5. Travis: 38 pts
-6. David: 31 pts
-7. Taylor: 29 pts
-8. Aaron: 24 pts
-9. Randy: 19 pts
+1. Quentin: 54 pts
+2. Dakota: 52 pts
+3. Travis: 47 pts
+4. Tomas: 47 pts
+5. Will: 45 pts
+6. David: 35 pts
+7. Aaron: 31 pts
+8. Taylor: 29 pts
+9. Randy: 25 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Aaron
 Taylor
 Quentin
-Dakota
-David
-Will
-Randy
-Travis
 Tomas
+Will
+David
+Dakota
+Randy
+Aaron
+Travis

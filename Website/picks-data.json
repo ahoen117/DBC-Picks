@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Bristol",
-  "last_updated": "2026-04-13 13:18",
+  "race_name": "NASCAR Cup Series at Kansas",
+  "last_updated": "2026-04-19 20:07",
   "players": [
     "Aaron",
     "Dakota",
@@ -69,7 +69,8 @@
       "Zilisch": false,
       "Elliott": false,
       "Logano": false,
-      "Bell": false
+      "Bell": false,
+      "Larson": false
     },
     "Tomas": {
       "Larson": false,
@@ -80,7 +81,8 @@
       "Byron": false,
       "Chastain": false,
       "Reddick": false,
-      "Gibbs": false
+      "Gibbs": false,
+      "Bowman": false
     },
     "Taylor": {
       "Larson": false,
@@ -91,7 +93,8 @@
       "Keselowski": false,
       "Wallace": false,
       "Buescher": false,
-      "Elliott": false
+      "Elliott": false,
+      "Dillon": false
     },
     "Dakota": {
       "Cindric": false,
@@ -102,7 +105,8 @@
       "Keselowski": false,
       "Reddick": false,
       "Blaney": false,
-      "Buescher": false
+      "Buescher": false,
+      "Gibbs": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -113,7 +117,8 @@
       "Keselowski": false,
       "Byron": false,
       "Elliott": false,
-      "Chastain": false
+      "Chastain": false,
+      "Bell": false
     },
     "Travis": {
       "Chastain": false,
@@ -124,7 +129,8 @@
       "Gisbergen": false,
       "Hamlin": false,
       "Briscoe": false,
-      "Blaney": false
+      "Blaney": false,
+      "Reddick": false
     },
     "Will": {
       "LaJoie": false,
@@ -135,7 +141,8 @@
       "Keselowski": false,
       "Buescher": false,
       "Preece": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Gilliland": false
     },
     "David": {
       "Cindric": false,
@@ -146,7 +153,8 @@
       "Hocevar": false,
       "Jones": false,
       "Bell": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Buescher": false
     },
     "Randy": {
       "Busch": false,
@@ -157,32 +165,37 @@
       "Finchum": false,
       "Briscoe": false,
       "Wallace": false,
-      "Larson": false
+      "Larson": false,
+      "Keselowski": false
     }
   },
   "total_points": [
     {
       "player": "Quentin",
-      "points": 53
+      "points": 54
     },
     {
       "player": "Dakota",
+      "points": 52
+    },
+    {
+      "player": "Travis",
       "points": 47
     },
     {
       "player": "Tomas",
-      "points": 45
+      "points": 47
     },
     {
       "player": "Will",
-      "points": 42
-    },
-    {
-      "player": "Travis",
-      "points": 38
+      "points": 45
     },
     {
       "player": "David",
+      "points": 35
+    },
+    {
+      "player": "Aaron",
       "points": 31
     },
     {
@@ -190,21 +203,17 @@
       "points": 29
     },
     {
-      "player": "Aaron",
-      "points": 24
-    },
-    {
       "player": "Randy",
-      "points": 19
+      "points": 25
     }
   ],
   "weekly_points": [
     {
-      "player": "Tomas",
+      "player": "Travis",
       "points": 9
     },
     {
-      "player": "Travis",
+      "player": "Aaron",
       "points": 7
     },
     {
@@ -212,7 +221,7 @@
       "points": 6
     },
     {
-      "player": "Will",
+      "player": "Dakota",
       "points": 5
     },
     {
@@ -220,31 +229,31 @@
       "points": 4
     },
     {
-      "player": "Dakota",
+      "player": "Will",
       "points": 3
     },
     {
-      "player": "Quentin",
+      "player": "Tomas",
       "points": 2
     },
     {
-      "player": "Taylor",
+      "player": "Quentin",
       "points": 1
     },
     {
-      "player": "Aaron",
+      "player": "Taylor",
       "points": 0
     }
   ],
   "sorted_results": [
-    "Aaron",
     "Taylor",
     "Quentin",
-    "Dakota",
-    "David",
+    "Tomas",
     "Will",
+    "David",
+    "Dakota",
     "Randy",
-    "Travis",
-    "Tomas"
+    "Aaron",
+    "Travis"
   ]
 }

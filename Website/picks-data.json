@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Talladega",
-  "last_updated": "2026-04-26 22:04",
+  "race_name": "NASCAR Cup Series at Texas",
+  "last_updated": "2026-05-03 19:21",
   "players": [
     "Aaron",
     "Dakota",
@@ -71,7 +71,8 @@
       "Logano": false,
       "Bell": false,
       "Larson": false,
-      "Ware": false
+      "Ware": false,
+      "Byron": false
     },
     "Tomas": {
       "Larson": false,
@@ -84,7 +85,8 @@
       "Reddick": false,
       "Gibbs": false,
       "Bowman": false,
-      "Elliott": false
+      "Elliott": false,
+      "Berry": false
     },
     "Taylor": {
       "Larson": false,
@@ -97,7 +99,8 @@
       "Buescher": false,
       "Elliott": false,
       "Dillon": false,
-      "Busch": false
+      "Busch": false,
+      "Hamlin": false
     },
     "Dakota": {
       "Cindric": false,
@@ -110,7 +113,8 @@
       "Blaney": false,
       "Buescher": false,
       "Gibbs": false,
-      "Stenhouse": false
+      "Stenhouse": false,
+      "Herbst": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -123,7 +127,8 @@
       "Elliott": false,
       "Chastain": false,
       "Bell": false,
-      "Larson": false
+      "Larson": false,
+      "Suarez": false
     },
     "Travis": {
       "Chastain": false,
@@ -136,7 +141,8 @@
       "Briscoe": false,
       "Blaney": false,
       "Reddick": false,
-      "Keselowski": false
+      "Keselowski": false,
+      "Elliott": false
     },
     "Will": {
       "LaJoie": false,
@@ -149,7 +155,8 @@
       "Preece": false,
       "Briscoe": false,
       "Gilliland": false,
-      "Wallace": false
+      "Wallace": false,
+      "Jones": false
     },
     "David": {
       "Cindric": false,
@@ -162,7 +169,8 @@
       "Bell": false,
       "Hamlin": false,
       "Buescher": false,
-      "Reddick": false
+      "Reddick": false,
+      "Gibbs": false
     },
     "Randy": {
       "Busch": false,
@@ -175,94 +183,95 @@
       "Wallace": false,
       "Larson": false,
       "Keselowski": false,
-      "Bell": false
+      "Bell": false,
+      "Hocevar": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 59
-    },
-    {
-      "player": "Tomas",
-      "points": 55
+      "points": 62
     },
     {
       "player": "Quentin",
-      "points": 54
+      "points": 60
     },
     {
       "player": "Travis",
-      "points": 49
+      "points": 58
+    },
+    {
+      "player": "Tomas",
+      "points": 56
     },
     {
       "player": "Will",
-      "points": 46
+      "points": 48
+    },
+    {
+      "player": "Taylor",
+      "points": 42
     },
     {
       "player": "David",
       "points": 40
     },
     {
-      "player": "Taylor",
-      "points": 35
-    },
-    {
       "player": "Aaron",
-      "points": 34
+      "points": 38
     },
     {
       "player": "Randy",
-      "points": 29
+      "points": 34
     }
   ],
   "weekly_points": [
     {
-      "player": "Tomas",
-      "points": 8
-    },
-    {
-      "player": "Dakota",
-      "points": 7
+      "player": "Travis",
+      "points": 9
     },
     {
       "player": "Taylor",
-      "points": 6
-    },
-    {
-      "player": "David",
-      "points": 5
-    },
-    {
-      "player": "Randy",
-      "points": 4
-    },
-    {
-      "player": "Aaron",
-      "points": 3
-    },
-    {
-      "player": "Travis",
-      "points": 2
-    },
-    {
-      "player": "Will",
-      "points": 1
+      "points": 7
     },
     {
       "player": "Quentin",
+      "points": 6
+    },
+    {
+      "player": "Randy",
+      "points": 5
+    },
+    {
+      "player": "Aaron",
+      "points": 4
+    },
+    {
+      "player": "Dakota",
+      "points": 3
+    },
+    {
+      "player": "Will",
+      "points": 2
+    },
+    {
+      "player": "Tomas",
+      "points": 1
+    },
+    {
+      "player": "David",
       "points": 0
     }
   ],
   "sorted_results": [
-    "Quentin",
+    "David",
+    "Tomas",
     "Will",
-    "Travis",
+    "Dakota",
     "Aaron",
     "Randy",
-    "David",
+    "Quentin",
     "Taylor",
-    "Dakota",
-    "Tomas"
+    "Travis"
   ]
 }

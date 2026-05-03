@@ -1,52 +1,53 @@
-Weekly Results: NASCAR Cup Series at Talladega
+Weekly Results: NASCAR Cup Series at Texas
 ----------------------------------------
-Tomas: Elliott finished 4
+Travis: Elliott finished 1
 You get 8 points
+You get a bonus point for picking the race winner
 
-Dakota: Stenhouse finished 6
+Taylor: Hamlin finished 2
 You get 7 points
 
-Taylor: Busch finished 10
+Quentin: Suarez finished 6
 You get 6 points
 
-David: Reddick finished 14
+Randy: Hocevar finished 7
 You get 5 points
 
-Randy: Bell finished 17
+Aaron: Byron finished 8
 You get 4 points
 
-Aaron: Ware finished 21
+Dakota: Herbst finished 11
 You get 3 points
 
-Travis: Keselowski finished 31
+Will: Jones finished 12
 You get 2 points
 
-Will: Wallace finished 36
+Tomas: Berry finished 29
 You get 1 points
 
-Quentin: Larson finished 40
+David: Gibbs finished 36
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 59 pts
-2. Tomas: 55 pts
-3. Quentin: 54 pts
-4. Travis: 49 pts
-5. Will: 46 pts
-6. David: 40 pts
-7. Taylor: 35 pts
-8. Aaron: 34 pts
-9. Randy: 29 pts
+1. Dakota: 62 pts
+2. Quentin: 60 pts
+3. Travis: 58 pts
+4. Tomas: 56 pts
+5. Will: 48 pts
+6. Taylor: 42 pts
+7. David: 40 pts
+8. Aaron: 38 pts
+9. Randy: 34 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Quentin
+David
+Tomas
 Will
-Travis
+Dakota
 Aaron
 Randy
-David
+Quentin
 Taylor
-Dakota
-Tomas
+Travis

@@ -28,7 +28,7 @@
                         "full",
                         "default"
                     ],
-                    "lastUpdated": "2026-05-03T12:16Z"
+                    "lastUpdated": "2026-05-09T18:45Z"
                 }
             ],
             "calendarType": "list",
@@ -158,8 +158,8 @@
                 },
                 {
                     "label": "NASCAR Cup Series All Star Race",
-                    "startDate": "2026-05-17T22:00Z",
-                    "endDate": "2026-05-17T22:00Z",
+                    "startDate": "2026-05-17T20:00Z",
+                    "endDate": "2026-05-17T20:00Z",
                     "event": {
                         "$ref": "http://sports.core.api.espn.pvt/v2/sports/racing/leagues/nascar-premier/events/202605170027?lang=en&region=us"
                     }
@@ -197,7 +197,7 @@
                     }
                 },
                 {
-                    "label": "NASCAR Truck Series at San Diego",
+                    "label": "NASCAR Cup Series at San Diego",
                     "startDate": "2026-06-21T23:00Z",
                     "endDate": "2026-06-21T23:00Z",
                     "event": {
@@ -364,15 +364,15 @@
         "year": 2026
     },
     "day": {
-        "date": "2026-05-03"
+        "date": "2026-05-10"
     },
     "events": [
         {
-            "id": "202605030054",
-            "uid": "s:2000~l:2021~e:202605030054",
-            "date": "2026-05-03T19:30Z",
-            "name": "NASCAR Cup Series at Texas",
-            "shortName": "NASCAR Cup Series at Texas",
+            "id": "202605100013",
+            "uid": "s:2000~l:2021~e:202605100013",
+            "date": "2026-05-10T19:00Z",
+            "name": "NASCAR Cup Series at Watkins Glen",
+            "shortName": "NASCAR Cup Series at Watkins Glen",
             "season": {
                 "year": 2026,
                 "type": 2,
@@ -380,25 +380,25 @@
             },
             "competitions": [
                 {
-                    "id": "202605030054",
-                    "uid": "s:2000~l:2021~e:202605030054~c:202605030054",
-                    "date": "2026-05-03T19:30Z",
+                    "id": "202605100013",
+                    "uid": "s:2000~l:2021~e:202605100013~c:202605100013",
+                    "date": "2026-05-10T19:00Z",
                     "timeValid": true,
                     "recent": false,
                     "competitors": [
                         {
-                            "id": "4574",
-                            "uid": "s:2000~a:4574",
+                            "id": "5772",
+                            "uid": "s:2000~a:5772",
                             "type": "athlete",
                             "order": 1,
-                            "winner": true,
+                            "winner": false,
                             "athlete": {
-                                "fullName": "Chase Elliott",
-                                "displayName": "Chase Elliott",
-                                "shortName": "C. Elliott",
+                                "fullName": "Shane van Gisbergen",
+                                "displayName": "Shane van Gisbergen",
+                                "shortName": "S. van Gisbergen",
                                 "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+                                    "alt": "New Zealand",
                                     "rel": [
                                         "country-flag"
                                     ]
@@ -407,15 +407,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "747",
-                            "uid": "s:2000~a:747",
+                            "id": "4729",
+                            "uid": "s:2000~a:4729",
                             "type": "athlete",
                             "order": 2,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Denny Hamlin",
-                                "displayName": "Denny Hamlin",
-                                "shortName": "D. Hamlin",
+                                "fullName": "Michael McDowell",
+                                "displayName": "Michael McDowell",
+                                "shortName": "M. McDowell",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -427,15 +427,35 @@
                             "statistics": []
                         },
                         {
-                            "id": "4555",
-                            "uid": "s:2000~a:4555",
+                            "id": "5651",
+                            "uid": "s:2000~a:5651",
                             "type": "athlete",
                             "order": 3,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Alex Bowman",
-                                "displayName": "Alex Bowman",
-                                "shortName": "A. Bowman",
+                                "fullName": "Ty Gibbs",
+                                "displayName": "Ty Gibbs",
+                                "shortName": "T. Gibbs",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4773",
+                            "uid": "s:2000~a:4773",
+                            "type": "athlete",
+                            "order": 4,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Chase Briscoe",
+                                "displayName": "Chase Briscoe",
+                                "shortName": "C. Briscoe",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -450,7 +470,7 @@
                             "id": "4577",
                             "uid": "s:2000~a:4577",
                             "type": "athlete",
-                            "order": 4,
+                            "order": 5,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Tyler Reddick",
@@ -467,10 +487,130 @@
                             "statistics": []
                         },
                         {
+                            "id": "4332",
+                            "uid": "s:2000~a:4332",
+                            "type": "athlete",
+                            "order": 6,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Austin Dillon",
+                                "displayName": "Austin Dillon",
+                                "shortName": "A. Dillon",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "805",
+                            "uid": "s:2000~a:805",
+                            "type": "athlete",
+                            "order": 7,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "AJ Allmendinger",
+                                "displayName": "AJ Allmendinger",
+                                "shortName": "A. Allmendinger",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "580",
+                            "uid": "s:2000~a:580",
+                            "type": "athlete",
+                            "order": 8,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Kyle Busch",
+                                "displayName": "Kyle Busch",
+                                "shortName": "Ky. Busch",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4718",
+                            "uid": "s:2000~a:4718",
+                            "type": "athlete",
+                            "order": 9,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Austin Cindric",
+                                "displayName": "Austin Cindric",
+                                "shortName": "A. Cindric",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4612",
+                            "uid": "s:2000~a:4612",
+                            "type": "athlete",
+                            "order": 10,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "John Hunter Nemechek",
+                                "displayName": "John Hunter Nemechek",
+                                "shortName": "J. Nemechek",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4531",
+                            "uid": "s:2000~a:4531",
+                            "type": "athlete",
+                            "order": 11,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Ryan Blaney",
+                                "displayName": "Ryan Blaney",
+                                "shortName": "R. Blaney",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
                             "id": "4480",
                             "uid": "s:2000~a:4480",
                             "type": "athlete",
-                            "order": 5,
+                            "order": 12,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Chris Buescher",
@@ -490,7 +630,7 @@
                             "id": "4645",
                             "uid": "s:2000~a:4645",
                             "type": "athlete",
-                            "order": 6,
+                            "order": 13,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Daniel Suarez",
@@ -499,146 +639,6 @@
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
                                     "alt": "Mexico",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "5610",
-                            "uid": "s:2000~a:5610",
-                            "type": "athlete",
-                            "order": 7,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Carson Hocevar",
-                                "displayName": "Carson Hocevar",
-                                "shortName": "C. Hocevar",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4721",
-                            "uid": "s:2000~a:4721",
-                            "type": "athlete",
-                            "order": 8,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "William Byron",
-                                "displayName": "William Byron",
-                                "shortName": "W. Byron",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4534",
-                            "uid": "s:2000~a:4534",
-                            "type": "athlete",
-                            "order": 9,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Bubba Wallace",
-                                "displayName": "Bubba Wallace",
-                                "shortName": "B. Wallace",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4531",
-                            "uid": "s:2000~a:4531",
-                            "type": "athlete",
-                            "order": 10,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Ryan Blaney",
-                                "displayName": "Ryan Blaney",
-                                "shortName": "R. Blaney",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "5555",
-                            "uid": "s:2000~a:5555",
-                            "type": "athlete",
-                            "order": 11,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Riley Herbst",
-                                "displayName": "Riley Herbst",
-                                "shortName": "R. Herbst",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4777",
-                            "uid": "s:2000~a:4777",
-                            "type": "athlete",
-                            "order": 12,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Erik Jones",
-                                "displayName": "Erik Jones",
-                                "shortName": "E. Jones",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "626",
-                            "uid": "s:2000~a:626",
-                            "type": "athlete",
-                            "order": 13,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Brad Keselowski",
-                                "displayName": "Brad Keselowski",
-                                "shortName": "B. Keselowski",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
                                     "rel": [
                                         "country-flag"
                                     ]
@@ -667,15 +667,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "4718",
-                            "uid": "s:2000~a:4718",
+                            "id": "4634",
+                            "uid": "s:2000~a:4634",
                             "type": "athlete",
                             "order": 15,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Austin Cindric",
-                                "displayName": "Austin Cindric",
-                                "shortName": "A. Cindric",
+                                "fullName": "Cole Custer",
+                                "displayName": "Cole Custer",
+                                "shortName": "C. Custer",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -687,15 +687,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "5801",
-                            "uid": "s:2000~a:5801",
+                            "id": "747",
+                            "uid": "s:2000~a:747",
                             "type": "athlete",
                             "order": 16,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Connor Zilisch",
-                                "displayName": "Connor Zilisch",
-                                "shortName": "C. Zilisch",
+                                "fullName": "Denny Hamlin",
+                                "displayName": "Denny Hamlin",
+                                "shortName": "D. Hamlin",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -707,95 +707,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "5772",
-                            "uid": "s:2000~a:5772",
+                            "id": "4782",
+                            "uid": "s:2000~a:4782",
                             "type": "athlete",
                             "order": 17,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Shane van Gisbergen",
-                                "displayName": "Shane van Gisbergen",
-                                "shortName": "S. van Gisbergen",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-                                    "alt": "New Zealand",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4332",
-                            "uid": "s:2000~a:4332",
-                            "type": "athlete",
-                            "order": 18,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Austin Dillon",
-                                "displayName": "Austin Dillon",
-                                "shortName": "A. Dillon",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4351",
-                            "uid": "s:2000~a:4351",
-                            "type": "athlete",
-                            "order": 19,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Ricky Stenhouse Jr.",
-                                "displayName": "Ricky Stenhouse Jr.",
-                                "shortName": "R. Stenhouse Jr.",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "580",
-                            "uid": "s:2000~a:580",
-                            "type": "athlete",
-                            "order": 20,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Kyle Busch",
-                                "displayName": "Kyle Busch",
-                                "shortName": "Ky. Busch",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4612",
-                            "uid": "s:2000~a:4612",
-                            "type": "athlete",
-                            "order": 21,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "John Hunter Nemechek",
-                                "displayName": "John Hunter Nemechek",
-                                "shortName": "J. Nemechek",
+                                "fullName": "Todd Gilliland",
+                                "displayName": "Todd Gilliland",
+                                "shortName": "T. Gilliland",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -810,7 +730,7 @@
                             "id": "5558",
                             "uid": "s:2000~a:5558",
                             "type": "athlete",
-                            "order": 22,
+                            "order": 18,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Zane Smith",
@@ -827,15 +747,95 @@
                             "statistics": []
                         },
                         {
-                            "id": "4773",
-                            "uid": "s:2000~a:4773",
+                            "id": "4777",
+                            "uid": "s:2000~a:4777",
+                            "type": "athlete",
+                            "order": 19,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Erik Jones",
+                                "displayName": "Erik Jones",
+                                "shortName": "E. Jones",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "5801",
+                            "uid": "s:2000~a:5801",
+                            "type": "athlete",
+                            "order": 20,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Connor Zilisch",
+                                "displayName": "Connor Zilisch",
+                                "shortName": "C. Zilisch",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4700",
+                            "uid": "s:2000~a:4700",
+                            "type": "athlete",
+                            "order": 21,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Christopher Bell",
+                                "displayName": "Christopher Bell",
+                                "shortName": "C. Bell",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4768",
+                            "uid": "s:2000~a:4768",
+                            "type": "athlete",
+                            "order": 22,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Noah Gragson",
+                                "displayName": "Noah Gragson",
+                                "shortName": "N. Gragson",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4539",
+                            "uid": "s:2000~a:4539",
                             "type": "athlete",
                             "order": 23,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Chase Briscoe",
-                                "displayName": "Chase Briscoe",
-                                "shortName": "C. Briscoe",
+                                "fullName": "Kyle Larson",
+                                "displayName": "Kyle Larson",
+                                "shortName": "K. Larson",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -847,15 +847,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "4511",
-                            "uid": "s:2000~a:4511",
+                            "id": "4574",
+                            "uid": "s:2000~a:4574",
                             "type": "athlete",
                             "order": 24,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Ty Dillon",
-                                "displayName": "Ty Dillon",
-                                "shortName": "T. Dillon",
+                                "fullName": "Chase Elliott",
+                                "displayName": "Chase Elliott",
+                                "shortName": "C. Elliott",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -867,15 +867,35 @@
                             "statistics": []
                         },
                         {
-                            "id": "805",
-                            "uid": "s:2000~a:805",
+                            "id": "4555",
+                            "uid": "s:2000~a:4555",
                             "type": "athlete",
                             "order": 25,
                             "winner": false,
                             "athlete": {
-                                "fullName": "AJ Allmendinger",
-                                "displayName": "AJ Allmendinger",
-                                "shortName": "A. Allmendinger",
+                                "fullName": "Alex Bowman",
+                                "displayName": "Alex Bowman",
+                                "shortName": "A. Bowman",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "5555",
+                            "uid": "s:2000~a:5555",
+                            "type": "athlete",
+                            "order": 26,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Riley Herbst",
+                                "displayName": "Riley Herbst",
+                                "shortName": "R. Herbst",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -890,7 +910,7 @@
                             "id": "4495",
                             "uid": "s:2000~a:4495",
                             "type": "athlete",
-                            "order": 26,
+                            "order": 27,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Ross Chastain",
@@ -907,35 +927,15 @@
                             "statistics": []
                         },
                         {
-                            "id": "4729",
-                            "uid": "s:2000~a:4729",
-                            "type": "athlete",
-                            "order": 27,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Michael McDowell",
-                                "displayName": "Michael McDowell",
-                                "shortName": "M. McDowell",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4768",
-                            "uid": "s:2000~a:4768",
+                            "id": "5610",
+                            "uid": "s:2000~a:5610",
                             "type": "athlete",
                             "order": 28,
                             "winner": false,
                             "athlete": {
-                                "fullName": "Noah Gragson",
-                                "displayName": "Noah Gragson",
-                                "shortName": "N. Gragson",
+                                "fullName": "Carson Hocevar",
+                                "displayName": "Carson Hocevar",
+                                "shortName": "C. Hocevar",
                                 "flag": {
                                     "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
                                     "alt": "USA",
@@ -967,10 +967,150 @@
                             "statistics": []
                         },
                         {
+                            "id": "4351",
+                            "uid": "s:2000~a:4351",
+                            "type": "athlete",
+                            "order": 30,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Ricky Stenhouse Jr.",
+                                "displayName": "Ricky Stenhouse Jr.",
+                                "shortName": "R. Stenhouse Jr.",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "626",
+                            "uid": "s:2000~a:626",
+                            "type": "athlete",
+                            "order": 31,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Brad Keselowski",
+                                "displayName": "Brad Keselowski",
+                                "shortName": "B. Keselowski",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4534",
+                            "uid": "s:2000~a:4534",
+                            "type": "athlete",
+                            "order": 32,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Bubba Wallace",
+                                "displayName": "Bubba Wallace",
+                                "shortName": "B. Wallace",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4511",
+                            "uid": "s:2000~a:4511",
+                            "type": "athlete",
+                            "order": 33,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Ty Dillon",
+                                "displayName": "Ty Dillon",
+                                "shortName": "T. Dillon",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4757",
+                            "uid": "s:2000~a:4757",
+                            "type": "athlete",
+                            "order": 34,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Josh Bilicki",
+                                "displayName": "Josh Bilicki",
+                                "shortName": "J. Bilicki",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "808",
+                            "uid": "s:2000~a:808",
+                            "type": "athlete",
+                            "order": 35,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "Katherine Legge",
+                                "displayName": "Katherine Legge",
+                                "shortName": "K. Legge",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+                                    "alt": "England",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
+                            "id": "4721",
+                            "uid": "s:2000~a:4721",
+                            "type": "athlete",
+                            "order": 36,
+                            "winner": false,
+                            "athlete": {
+                                "fullName": "William Byron",
+                                "displayName": "William Byron",
+                                "shortName": "W. Byron",
+                                "flag": {
+                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                                    "alt": "USA",
+                                    "rel": [
+                                        "country-flag"
+                                    ]
+                                }
+                            },
+                            "statistics": []
+                        },
+                        {
                             "id": "4658",
                             "uid": "s:2000~a:4658",
                             "type": "athlete",
-                            "order": 30,
+                            "order": 37,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Cody Ware",
@@ -987,123 +1127,10 @@
                             "statistics": []
                         },
                         {
-                            "id": "5670",
-                            "uid": "s:2000~a:5670",
-                            "type": "athlete",
-                            "order": 31,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Corey Heim",
-                                "displayName": "Corey Heim",
-                                "shortName": "C. Heim",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4782",
-                            "uid": "s:2000~a:4782",
-                            "type": "athlete",
-                            "order": 32,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Todd Gilliland",
-                                "displayName": "Todd Gilliland",
-                                "shortName": "T. Gilliland",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4783",
-                            "uid": "s:2000~a:4783",
-                            "type": "athlete",
-                            "order": 33,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Chad Finchum",
-                                "displayName": "Chad Finchum",
-                                "shortName": "C. Finchum"
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4539",
-                            "uid": "s:2000~a:4539",
-                            "type": "athlete",
-                            "order": 34,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Kyle Larson",
-                                "displayName": "Kyle Larson",
-                                "shortName": "K. Larson",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "4634",
-                            "uid": "s:2000~a:4634",
-                            "type": "athlete",
-                            "order": 35,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Cole Custer",
-                                "displayName": "Cole Custer",
-                                "shortName": "C. Custer",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
-                            "id": "5651",
-                            "uid": "s:2000~a:5651",
-                            "type": "athlete",
-                            "order": 36,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Ty Gibbs",
-                                "displayName": "Ty Gibbs",
-                                "shortName": "T. Gibbs",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
-                        },
-                        {
                             "id": "4319",
                             "uid": "s:2000~a:4319",
                             "type": "athlete",
-                            "order": 37,
+                            "order": 38,
                             "winner": false,
                             "athlete": {
                                 "fullName": "Joey Logano",
@@ -1118,30 +1145,10 @@
                                 }
                             },
                             "statistics": []
-                        },
-                        {
-                            "id": "4700",
-                            "uid": "s:2000~a:4700",
-                            "type": "athlete",
-                            "order": 38,
-                            "winner": false,
-                            "athlete": {
-                                "fullName": "Christopher Bell",
-                                "displayName": "Christopher Bell",
-                                "shortName": "C. Bell",
-                                "flag": {
-                                    "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-                                    "alt": "USA",
-                                    "rel": [
-                                        "country-flag"
-                                    ]
-                                }
-                            },
-                            "statistics": []
                         }
                     ],
                     "status": {
-                        "period": 267,
+                        "period": 100,
                         "type": {
                             "id": "3",
                             "name": "STATUS_FINAL",
@@ -1161,7 +1168,7 @@
                             ]
                         }
                     ],
-                    "startDate": "2026-05-03T19:30Z",
+                    "startDate": "2026-05-10T19:00Z",
                     "broadcast": "FS1/HBO Max",
                     "geoBroadcasts": [
                         {
@@ -1214,7 +1221,7 @@
                 }
             ],
             "status": {
-                "period": 267,
+                "period": 100,
                 "type": {
                     "id": "3",
                     "name": "STATUS_FINAL",

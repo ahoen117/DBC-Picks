@@ -241,6 +241,8 @@ with open("weeklyResults.txt", "w") as f:
         #if 999 give reminder to check spelling
         if pos == 999:
             print("Check for spelling errors in WeeklyPicks.csv...", file=f)
+            points = 0
+
 
         oldPoints = get_player_points(player)
 

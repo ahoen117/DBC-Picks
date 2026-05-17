@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Watkins Glen
+Weekly Results: NASCAR Cup Series All Star Race
 ----------------------------------------
-David: Gisbergen finished 1
+Randy: Zilisch finished 5
 You get 8 points
-You get a bonus point for picking the race winner
 
-Taylor: McDowell finished 2
+Aaron: Bowman finished 9
 You get 7 points
 
-Will: Allmendinger finished 7
+David: Keselowski finished 10
 You get 6 points
 
-Quentin: Buescher finished 12
+Taylor: Hocevar finished 14
 You get 5 points
 
-Travis: Suarez finished 13
+Dakota: Busch finished 17
 You get 4 points
 
-Dakota: Smith finished 18
+Will: Bell finished 23
 You get 3 points
 
-Tomas: Zilisch finished 20
+Quentin: Gibbs finished 24
 You get 2 points
 
-Aaron: Chastain finished 27
+Travis: Larson finished 26
 You get 1 points
 
-Randy: Byron finished 36
+Tomas: Preece finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Quentin: 65 pts
-2. Dakota: 65 pts
-3. Travis: 62 pts
+1. Dakota: 69 pts
+2. Quentin: 67 pts
+3. Travis: 63 pts
 4. Tomas: 58 pts
-5. Will: 54 pts
-6. David: 49 pts
-7. Taylor: 49 pts
-8. Aaron: 39 pts
-9. Randy: 34 pts
+5. Will: 57 pts
+6. David: 55 pts
+7. Taylor: 54 pts
+8. Aaron: 46 pts
+9. Randy: 42 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Randy
-Aaron
 Tomas
-Dakota
 Travis
 Quentin
 Will
+Dakota
 Taylor
 David
+Aaron
+Randy

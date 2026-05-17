@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Watkins Glen",
-  "last_updated": "2026-05-10 18:20",
+  "race_name": "NASCAR Cup Series All Star Race",
+  "last_updated": "2026-05-17 17:14",
   "players": [
     "Aaron",
     "Dakota",
@@ -73,7 +73,8 @@
       "Larson": false,
       "Ware": false,
       "Byron": false,
-      "Chastain": false
+      "Chastain": false,
+      "Bowman": false
     },
     "Tomas": {
       "Larson": false,
@@ -88,7 +89,8 @@
       "Bowman": false,
       "Elliott": false,
       "Berry": false,
-      "Zilisch": false
+      "Zilisch": false,
+      "Preece": false
     },
     "Taylor": {
       "Larson": false,
@@ -103,7 +105,8 @@
       "Dillon": false,
       "Busch": false,
       "Hamlin": false,
-      "McDowell": false
+      "McDowell": false,
+      "Hocevar": false
     },
     "Dakota": {
       "Cindric": false,
@@ -118,7 +121,8 @@
       "Gibbs": false,
       "Stenhouse": false,
       "Herbst": false,
-      "Smith": false
+      "Smith": false,
+      "Busch": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -133,7 +137,8 @@
       "Bell": false,
       "Larson": false,
       "Suarez": false,
-      "Buescher": false
+      "Buescher": false,
+      "Gibbs": false
     },
     "Travis": {
       "Chastain": false,
@@ -148,7 +153,8 @@
       "Reddick": false,
       "Keselowski": false,
       "Elliott": false,
-      "Suarez": false
+      "Suarez": false,
+      "Larson": false
     },
     "Will": {
       "LaJoie": false,
@@ -163,7 +169,8 @@
       "Gilliland": false,
       "Wallace": false,
       "Jones": false,
-      "Allmendinger": false
+      "Allmendinger": false,
+      "Bell": false
     },
     "David": {
       "Cindric": false,
@@ -178,7 +185,8 @@
       "Buescher": false,
       "Reddick": false,
       "Gibbs": false,
-      "Gisbergen": false
+      "Gisbergen": false,
+      "Keselowski": false
     },
     "Randy": {
       "Busch": false,
@@ -193,21 +201,22 @@
       "Keselowski": false,
       "Bell": false,
       "Hocevar": false,
-      "Byron": false
+      "Byron": false,
+      "Zilisch": false
     }
   },
   "total_points": [
     {
-      "player": "Quentin",
-      "points": 65
+      "player": "Dakota",
+      "points": 69
     },
     {
-      "player": "Dakota",
-      "points": 65
+      "player": "Quentin",
+      "points": 67
     },
     {
       "player": "Travis",
-      "points": 62
+      "points": 63
     },
     {
       "player": "Tomas",
@@ -215,72 +224,72 @@
     },
     {
       "player": "Will",
-      "points": 54
+      "points": 57
     },
     {
       "player": "David",
-      "points": 49
+      "points": 55
     },
     {
       "player": "Taylor",
-      "points": 49
+      "points": 54
     },
     {
       "player": "Aaron",
-      "points": 39
+      "points": 46
     },
     {
       "player": "Randy",
-      "points": 34
+      "points": 42
     }
   ],
   "weekly_points": [
     {
-      "player": "David",
-      "points": 9
-    },
-    {
-      "player": "Taylor",
-      "points": 7
-    },
-    {
-      "player": "Will",
-      "points": 6
-    },
-    {
-      "player": "Quentin",
-      "points": 5
-    },
-    {
-      "player": "Travis",
-      "points": 4
-    },
-    {
-      "player": "Dakota",
-      "points": 3
-    },
-    {
-      "player": "Tomas",
-      "points": 2
+      "player": "Randy",
+      "points": 8
     },
     {
       "player": "Aaron",
+      "points": 7
+    },
+    {
+      "player": "David",
+      "points": 6
+    },
+    {
+      "player": "Taylor",
+      "points": 5
+    },
+    {
+      "player": "Dakota",
+      "points": 4
+    },
+    {
+      "player": "Will",
+      "points": 3
+    },
+    {
+      "player": "Quentin",
+      "points": 2
+    },
+    {
+      "player": "Travis",
       "points": 1
     },
     {
-      "player": "Randy",
+      "player": "Tomas",
       "points": 0
     }
   ],
   "sorted_results": [
-    "Randy",
-    "Aaron",
     "Tomas",
-    "Dakota",
     "Travis",
     "Quentin",
     "Will",
+    "Dakota",
     "Taylor",
-    "David"
+    "David",
+    "Aaron",
+    "Randy"
   ]
 }

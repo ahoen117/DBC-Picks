@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series All Star Race
+Weekly Results: NASCAR Cup Series at Charlotte
 ----------------------------------------
-Randy: Zilisch finished 5
+Taylor: Reddick finished 4
 You get 8 points
 
-Aaron: Bowman finished 9
+Tomas: Blaney finished 7
 You get 7 points
 
-David: Keselowski finished 10
+Dakota: Byron finished 9
 You get 6 points
 
-Taylor: Hocevar finished 14
+Aaron: Keselowski finished 15
 You get 5 points
 
-Dakota: Busch finished 17
+David: Wallace finished 22
 You get 4 points
 
-Will: Bell finished 23
+Will: Hocevar finished 23
 You get 3 points
 
-Quentin: Gibbs finished 24
+Quentin: Berry finished 29
 You get 2 points
 
-Travis: Larson finished 26
+Travis: Buescher finished 30
 You get 1 points
 
-Tomas: Preece finished 999
-Check for spelling errors in WeeklyPicks.csv...
+Randy: Elliott finished 37
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 69 pts
-2. Quentin: 67 pts
-3. Travis: 63 pts
-4. Tomas: 58 pts
-5. Will: 57 pts
-6. David: 55 pts
-7. Taylor: 54 pts
-8. Aaron: 46 pts
+1. Dakota: 75 pts
+2. Quentin: 69 pts
+3. Tomas: 65 pts
+4. Travis: 64 pts
+5. Taylor: 62 pts
+6. Will: 60 pts
+7. David: 59 pts
+8. Aaron: 51 pts
 9. Randy: 42 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Tomas
+Randy
 Travis
 Quentin
 Will
-Dakota
-Taylor
 David
 Aaron
-Randy
+Dakota
+Tomas
+Taylor

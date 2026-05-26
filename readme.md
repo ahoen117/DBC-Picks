@@ -1,9 +1,22 @@
-Simple Automation script to give a score output for our DBC Picks game (basically a variation of fantasy Nascar, which started as a segment on the Door Bumper Clear Podcast.)
+This repo powers a small fantasy NASCAR picks game (Door Bumper Clear).
 
-To use, manually edit the PlayerStats.json file and update with whatever choices for the week.
+## Recommended: run the dynamic web app
+1. Set environment variables:
+   - `DBC_PICKS_ADMIN_PASSWORD` (required): password for the admin pages
+   - `DBC_PICKS_SECRET_KEY` (optional): Flask session secret (defaults to a dev value)
+   - `DBC_PICKS_DB_PATH` (optional): where `dbcPicks.db` should live (defaults to `dbcPicks.db` in this folder)
+2. Install dependencies:
+   - `pip install -r requirements.txt`
+3. Start the server:
+   - `python app.py`
+   - or production-style: `gunicorn app:app`
+4. Open:
+   - Public scoreboard: `http://localhost:5000/`
+   - Admin: `http://localhost:5000/admin/login`
 
-https://www.espn.com/racing/results
+Admin flow:
+- Choose weekly picks in the admin UI and click `Save Draft Picks`.
+- Click `Finalize Week` to fetch the latest ESPN results, score everyone, and lock the week.
 
-Running the script pulls the latest race result from the above link and formats an easy to read text with the relavent information for this weeks scoring as well as next weeks pick order into the weeklyResults.txt file. 
-
-After running the script, check results in weeklyResults.txt and look out for any error messages at the bottom of the list regarding spelling. 
+## Legacy script (still present)
+`DBC-Picks.py` can still be run manually by editing `PlayerStats.json`, then running the script to generate `weeklyResults.txt` and `Website/picks-data.json`.

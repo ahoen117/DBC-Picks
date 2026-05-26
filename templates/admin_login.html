@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      form {
+        max-width: 420px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+      label {
+        display: block;
+        margin-top: 12px;
+      }
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+      }
+      button {
+        margin-top: 14px;
+        padding: 10px 14px;
+      }
+      .error {
+        color: #b00020;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DBC Picks Admin</h1>
+
+    <form method="post" action="{{ url_for('admin_login_post') }}">
+      {% if error %}
+      <div class="error">{{ error }}</div>
+      {% endif %}
+
+      <label for="password">Admin password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" />
+
+      <button type="submit">Login</button>
+    </form>
+  </body>
+</html>
+

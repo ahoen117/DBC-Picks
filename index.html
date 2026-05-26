@@ -138,7 +138,7 @@
 
   <script>
     async function loadData() { 
-      const res = await fetch('Website/picks-data.json');
+      const res = await fetch('/api/scoreboard');
       const data = await res.json();
 
       document.getElementById('title').textContent = data.race_name || "DBC Picks";
@@ -189,11 +189,11 @@
 
       // Current picks list
       const currentPicksList = document.getElementById('current_picks_list');
-      const playerStatsRes = await fetch('PlayerStats.json');
-      const playerStats = await playerStatsRes.json();
+      const currentPicksRes = await fetch('/api/current-picks');
+      const playerStats = await currentPicksRes.json();
       let currentPicksHtml = '';
       Object.entries(playerStats).forEach(([player, stats]) => {
-        currentPicksHtml += `<li>${player} : ${stats.pick}</li>`;
+        currentPicksHtml += `<li>${player} : ${stats.pick || '—'}</li>`;
       });
       currentPicksList.innerHTML = currentPicksHtml;
     }

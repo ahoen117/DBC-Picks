@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBC Picks Admin</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 20px;">
+    <h1>DBC Picks Admin</h1>
+
+    <p>
+      Current draft week:
+      <strong>{{ current_week }}</strong>
+    </p>
+
+    {% if error %}
+    <p style="color: #b00020; font-weight: bold;">{{ error }}</p>
+    {% endif %}
+    {% if message %}
+    <p style="color: #1b5e20; font-weight: bold;">{{ message }}</p>
+    {% endif %}
+
+    <h2>Weekly Picks (Draft)</h2>
+    <form method="post" action="{{ url_for('admin_save_picks') }}">
+      <table style="border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ccc;">Player</th>
+            <th style="text-align: left; padding: 8px; border-bottom: 1px solid #ccc;">Driver</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for player in players %}
+          <tr>
+            <td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>{{ player }}</strong></td>
+            <td style="padding: 8px; border-bottom: 1px solid #eee;">
+              <select name="{{ player }}" style="min-width: 220px;">
+                {% for driver in drivers %}
+                <option value="{{ driver }}" {% if current_picks.get(player) == driver %}selected{% endif %}>
+                  {{ driver }}
+                </option>
+                {% endfor %}
+              </select>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <div style="margin-top: 16px;">
+        <button type="submit">Save Draft Picks</button>
+      </div>
+    </form>
+
+    <h2 style="margin-top: 32px;">Finalize Week</h2>
+    <p>
+      Finalizing fetches the latest ESPN results, scores the week, updates season totals, and locks this week.
+    </p>
+    <form method="post" action="{{ url_for('admin_finalize_week') }}">
+      <button type="submit" onclick="return confirm('Finalize this week and lock the scores?');">Finalize Week</button>
+    </form>
+
+    <form method="post" action="{{ url_for('admin_logout') }}" style="margin-top: 12px;">
+      <button type="submit">Logout</button>
+    </form>
+  </body>
+</html>
+

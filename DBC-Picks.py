@@ -4,6 +4,11 @@ import sqlite3
 import shutil
 from pathlib import Path
 from datetime import datetime
+from dbc_picks.scoring import (
+    compute_week_results,
+    extract_event_short_name,
+    extract_positions_by_last_name,
+)
 
 #set True for testing, will reuse saved scoreboard.json and edit the _test db file. True will grab new scoreboard.json file using api and use the actual db. 
 testing = False
@@ -106,7 +111,7 @@ def updateWeeklyPoints(playerName, weeklyPoints):
     conn.commit()
     conn.close()
 
-def export_to_json(race_name, output_file="Website/picks-data.json"):
+def export_to_json(race_name, next_pick_order, output_file="Website/picks-data.json"):
     conn = get_db_connection()
     cur = conn.cursor()
 
@@ -150,7 +155,8 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
         "picks": picks,
         "total_points": total_points,
         "weekly_points": weekly_points,
-        "sorted_results": reversedResults,
+        # next pick order = worst finish -> best finish (for next week drafting)
+        "sorted_results": next_pick_order,
     }
 
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -184,47 +190,17 @@ else:
 
 week = get_week()
 
-for person in playerStats:
-    #value is set to pick in weekly picks csv
+players_to_picks = {person: playerStats[person]["pick"] for person in playerStats}
 
-    add_pick(person, playerStats[person]["pick"], week)
+for person, pick_driver_last_name in players_to_picks.items():
+    add_pick(person, pick_driver_last_name, week)
 
-#setup basic format for weeklyResults dict
-weeklyResults = {
-    name: 0 for name in playerStats
-}
-
-
-#positions set to blank dictionary. 
-positions = {}
-
-eventName = json_data['events'][0]['shortName']
-
-competitors = json_data['events'][0]['competitions'][0]['competitors']
-
-#fill out positions dict with driver name and finishing position.
-for competitor in competitors:
-        #get full name and position
-        full_name = competitor['athlete']['fullName']
-        pos = int(competitor['order'])
-        #last_parts is a list splitting the name by spaces
-        last_parts = full_name.split()
-        #get last name from end of list, or second to the end if ending in "Jr."
-        last_name = last_parts[-1]
-        if last_name == "Jr.":
-            last_name = last_parts[-2]
-        #edit positions dict to key=last_name and value=position
-        positions[last_name] = pos
-
-#set weeklyResults to their matched finishing position, if position doesn't exist, give position 999
-for player in playerStats:
-    weeklyResults[player] = positions.get(playerStats[player]["pick"], 999)
-
-#sort the above by finishing position
-sortedResults = sorted(weeklyResults.items(), key=lambda x: x[1])
-
-#set weekly number of points 8 to first, 0 to last. We have 9 players.
-points = 8
+eventName = extract_event_short_name(json_data)
+positions_by_last_name = extract_positions_by_last_name(json_data)
+sortedResults, score_by_player, next_pick_order = compute_week_results(
+    players_to_picks=players_to_picks,
+    positions_by_last_name=positions_by_last_name,
+)
 
 incriment_week(week)
 
@@ -234,38 +210,28 @@ with open("weeklyResults.txt", "w") as f:
     print(f"Weekly Results: {eventName}", file=f)
     print("-"*40, file=f)
     for player, pos in sortedResults:
-        jsonPoints = 0
-        #print player name, their pick and the finishing position
-        print(f"{player}: {playerStats[player]["pick"]} finished {pos}", file=f)
+        score = score_by_player[player]
+        base_points = score.weekly_points - score.bonus_points
 
-        #if 999 give reminder to check spelling
+        # Print player name, their pick and the finishing position.
+        print(f"{player}: {players_to_picks[player]} finished {pos}", file=f)
+
+        # If 999 give reminder to check spelling.
         if pos == 999:
             print("Check for spelling errors in WeeklyPicks.csv...", file=f)
-            points = 0
-
 
         oldPoints = get_player_points(player)
 
-        jsonPoints += points
+        totalPoints = oldPoints + score.total_week_points
 
-        totalPoints = points + oldPoints
-        
-        #print points
-        print(f"You get {points} points", file=f)
+        # Print base points (and separately print the winner bonus).
+        print(f"You get {base_points} points", file=f)
 
-        #if you pick the winner you get extra point
-        if pos == 1:
+        if score.bonus_points == 1:
             print("You get a bonus point for picking the race winner", file=f)
-            totalPoints += 1
-            jsonPoints += 1
-            
 
         update_player_points(player, totalPoints)
-
-        updateWeeklyPoints(player, jsonPoints)
-        
-        #adjust points each itteration
-        points -= 1
+        updateWeeklyPoints(player, score.total_week_points)
 
         #blank line as seperator between players
         print("", file=f)
@@ -287,9 +253,6 @@ with open("weeklyResults.txt", "w") as f:
     for player in reversed(sortedResults):
         print(player[0], file=f)
 
-reversedResults = [item[0] for item in sortedResults]
-reversedResults.reverse()
-
-export_to_json(eventName)
+export_to_json(eventName, next_pick_order)
 
 

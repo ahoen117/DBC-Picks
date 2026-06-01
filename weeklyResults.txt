@@ -1,52 +1,52 @@
-Weekly Results: NASCAR Cup Series at Charlotte
+Weekly Results: NASCAR Cup Series at Nashville
 ----------------------------------------
-Taylor: Reddick finished 4
+Randy: Reddick finished 6
 You get 8 points
 
-Tomas: Blaney finished 7
+Will: Smith finished 9
 You get 7 points
 
-Dakota: Byron finished 9
+Tomas: Jones finished 11
 You get 6 points
 
-Aaron: Keselowski finished 15
+Travis: Gibbs finished 13
 You get 5 points
 
-David: Wallace finished 22
+Quentin: Logano finished 14
 You get 4 points
 
-Will: Hocevar finished 23
+Taylor: Suarez finished 19
 You get 3 points
 
-Quentin: Berry finished 29
+Aaron: Wallace finished 32
 You get 2 points
 
-Travis: Buescher finished 30
+Dakota: Preece finished 36
 You get 1 points
 
-Randy: Elliott finished 37
+David: Chastain finished 37
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 75 pts
-2. Quentin: 69 pts
-3. Tomas: 65 pts
-4. Travis: 64 pts
-5. Taylor: 62 pts
-6. Will: 60 pts
+1. Dakota: 76 pts
+2. Quentin: 73 pts
+3. Tomas: 71 pts
+4. Travis: 69 pts
+5. Will: 67 pts
+6. Taylor: 65 pts
 7. David: 59 pts
-8. Aaron: 51 pts
-9. Randy: 42 pts
+8. Aaron: 53 pts
+9. Randy: 50 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Randy
-Travis
-Quentin
-Will
 David
-Aaron
 Dakota
-Tomas
+Aaron
 Taylor
+Quentin
+Travis
+Tomas
+Will
+Randy

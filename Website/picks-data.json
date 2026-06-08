@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Nashville",
-  "last_updated": "2026-06-01 10:07",
+  "race_name": "NASCAR Cup Series at Michigan",
+  "last_updated": "2026-06-07 20:06",
   "players": [
     "Aaron",
     "Dakota",
@@ -76,7 +76,8 @@
       "Chastain": false,
       "Bowman": false,
       "Keselowski": false,
-      "Wallace": false
+      "Wallace": false,
+      "Gibbs": false
     },
     "Tomas": {
       "Larson": false,
@@ -94,7 +95,8 @@
       "Zilisch": false,
       "Preece": false,
       "Blaney": false,
-      "Jones": false
+      "Jones": false,
+      "Buescher": false
     },
     "Taylor": {
       "Larson": false,
@@ -112,7 +114,8 @@
       "McDowell": false,
       "Hocevar": false,
       "Reddick": false,
-      "Suarez": false
+      "Suarez": false,
+      "Berry": false
     },
     "Dakota": {
       "Cindric": false,
@@ -130,7 +133,8 @@
       "Smith": false,
       "Busch": false,
       "Byron": false,
-      "Preece": false
+      "Preece": false,
+      "Jones": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -148,7 +152,8 @@
       "Buescher": false,
       "Gibbs": false,
       "Berry": false,
-      "Logano": false
+      "Logano": false,
+      "Wallace": false
     },
     "Travis": {
       "Chastain": false,
@@ -166,7 +171,8 @@
       "Suarez": false,
       "Larson": false,
       "Buescher": false,
-      "Gibbs": false
+      "Gibbs": false,
+      "Smith": false
     },
     "Will": {
       "LaJoie": false,
@@ -184,7 +190,8 @@
       "Allmendinger": false,
       "Bell": false,
       "Hocevar": false,
-      "Smith": false
+      "Smith": false,
+      "Byron": false
     },
     "David": {
       "Cindric": false,
@@ -202,7 +209,8 @@
       "Gisbergen": false,
       "Keselowski": false,
       "Wallace": false,
-      "Chastain": false
+      "Chastain": false,
+      "Preece": false
     },
     "Randy": {
       "Busch": false,
@@ -220,70 +228,71 @@
       "Byron": false,
       "Zilisch": false,
       "Elliott": false,
-      "Reddick": false
+      "Reddick": false,
+      "Suarez": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 76
+      "points": 84
     },
     {
       "player": "Quentin",
-      "points": 73
+      "points": 80
     },
     {
       "player": "Tomas",
-      "points": 71
+      "points": 76
+    },
+    {
+      "player": "Will",
+      "points": 70
     },
     {
       "player": "Travis",
       "points": 69
     },
     {
-      "player": "Will",
-      "points": 67
-    },
-    {
       "player": "Taylor",
-      "points": 65
+      "points": 69
     },
     {
       "player": "David",
-      "points": 59
-    },
-    {
-      "player": "Aaron",
-      "points": 53
+      "points": 60
     },
     {
       "player": "Randy",
-      "points": 50
+      "points": 56
+    },
+    {
+      "player": "Aaron",
+      "points": 55
     }
   ],
   "weekly_points": [
     {
-      "player": "Randy",
+      "player": "Dakota",
       "points": 8
     },
     {
-      "player": "Will",
+      "player": "Quentin",
       "points": 7
     },
     {
-      "player": "Tomas",
+      "player": "Randy",
       "points": 6
     },
     {
-      "player": "Travis",
+      "player": "Tomas",
       "points": 5
     },
     {
-      "player": "Quentin",
+      "player": "Taylor",
       "points": 4
     },
     {
-      "player": "Taylor",
+      "player": "Will",
       "points": 3
     },
     {
@@ -291,23 +300,23 @@
       "points": 2
     },
     {
-      "player": "Dakota",
+      "player": "David",
       "points": 1
     },
     {
-      "player": "David",
+      "player": "Travis",
       "points": 0
     }
   ],
   "sorted_results": [
-    "David",
-    "Dakota",
-    "Aaron",
-    "Taylor",
-    "Quentin",
     "Travis",
-    "Tomas",
+    "David",
+    "Aaron",
     "Will",
-    "Randy"
+    "Taylor",
+    "Tomas",
+    "Randy",
+    "Quentin",
+    "Dakota"
   ]
 }

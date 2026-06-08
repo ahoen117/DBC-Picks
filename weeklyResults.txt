@@ -1,52 +1,52 @@
-Weekly Results: NASCAR Cup Series at Nashville
+Weekly Results: NASCAR Cup Series at Michigan
 ----------------------------------------
-Randy: Reddick finished 6
+Dakota: Jones finished 2
 You get 8 points
 
-Will: Smith finished 9
+Quentin: Wallace finished 3
 You get 7 points
 
-Tomas: Jones finished 11
+Randy: Suarez finished 6
 You get 6 points
 
-Travis: Gibbs finished 13
+Tomas: Buescher finished 9
 You get 5 points
 
-Quentin: Logano finished 14
+Taylor: Berry finished 15
 You get 4 points
 
-Taylor: Suarez finished 19
+Will: Byron finished 18
 You get 3 points
 
-Aaron: Wallace finished 32
+Aaron: Gibbs finished 25
 You get 2 points
 
-Dakota: Preece finished 36
+David: Preece finished 28
 You get 1 points
 
-David: Chastain finished 37
+Travis: Smith finished 33
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 76 pts
-2. Quentin: 73 pts
-3. Tomas: 71 pts
-4. Travis: 69 pts
-5. Will: 67 pts
-6. Taylor: 65 pts
-7. David: 59 pts
-8. Aaron: 53 pts
-9. Randy: 50 pts
+1. Dakota: 84 pts
+2. Quentin: 80 pts
+3. Tomas: 76 pts
+4. Will: 70 pts
+5. Travis: 69 pts
+6. Taylor: 69 pts
+7. David: 60 pts
+8. Randy: 56 pts
+9. Aaron: 55 pts
 
 Pick order for next week is: 
 ----------------------------------------
-David
-Dakota
-Aaron
-Taylor
-Quentin
 Travis
-Tomas
+David
+Aaron
 Will
+Taylor
+Tomas
 Randy
+Quentin
+Dakota

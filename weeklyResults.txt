@@ -1,52 +1,53 @@
-Weekly Results: NASCAR Cup Series at Michigan
+Weekly Results: NASCAR Cup Series at Pocono
 ----------------------------------------
-Dakota: Jones finished 2
+Aaron: Hamlin finished 1
 You get 8 points
+You get a bonus point for picking the race winner
 
-Quentin: Wallace finished 3
+David: Byron finished 3
 You get 7 points
 
-Randy: Suarez finished 6
+Dakota: Nemechek finished 4
 You get 6 points
 
-Tomas: Buescher finished 9
+Travis: Jones finished 6
 You get 5 points
 
-Taylor: Berry finished 15
+Taylor: Gibbs finished 9
 You get 4 points
 
-Will: Byron finished 18
+Randy: Blaney finished 10
 You get 3 points
 
-Aaron: Gibbs finished 25
+Will: Elliott finished 11
 You get 2 points
 
-David: Preece finished 28
+Tomas: Briscoe finished 12
 You get 1 points
 
-Travis: Smith finished 33
+Quentin: Cindric finished 14
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 84 pts
+1. Dakota: 90 pts
 2. Quentin: 80 pts
-3. Tomas: 76 pts
-4. Will: 70 pts
-5. Travis: 69 pts
-6. Taylor: 69 pts
-7. David: 60 pts
-8. Randy: 56 pts
-9. Aaron: 55 pts
+3. Tomas: 77 pts
+4. Travis: 74 pts
+5. Taylor: 73 pts
+6. Will: 72 pts
+7. David: 67 pts
+8. Aaron: 64 pts
+9. Randy: 59 pts
 
 Pick order for next week is: 
 ----------------------------------------
+Quentin
+Tomas
+Will
+Randy
+Taylor
 Travis
+Dakota
 David
 Aaron
-Will
-Taylor
-Tomas
-Randy
-Quentin
-Dakota

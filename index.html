@@ -167,7 +167,8 @@
       const weeklyList = document.getElementById('weekly_list');
       let weeklyHtml = '';
       (data.weekly_points || []).forEach(p => {
-        weeklyHtml += `<li>${p.player} : ${p.points} points</li>`;
+        const pickText = p.pick ? ` - "${p.pick}" finished ${p.position}` : '';
+        weeklyHtml += `<li>${p.player} : ${p.points} points${pickText}</li>`;
       });
       weeklyList.innerHTML = weeklyHtml;
 

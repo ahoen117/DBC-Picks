@@ -1,29 +1,47 @@
 {
-    "Aaron": {
-        "pick": "Hamlin"
-    },
-    "Dakota": {
-        "pick": "Nemechek"
-    },
-    "David": {
-        "pick": "Byron"
-    },
-    "Quentin": {
-        "pick": "Cindric"
-    },
-    "Randy": {
-        "pick": "Blaney"
-    },
-    "Taylor": {
-        "pick": "Gibbs"
-    },
-    "Tomas": {
-        "pick": "Briscoe"
-    },
-    "Travis": {
-        "pick": "Jones"
-    },
-    "Will": {
-        "pick": "Elliott"
-    }
+  "Aaron": {
+    "pick": "Hamlin",
+    "position": 1,
+    "points_this_week": 9
+  },
+  "Dakota": {
+    "pick": "Nemechek",
+    "position": 4,
+    "points_this_week": 6
+  },
+  "David": {
+    "pick": "Byron",
+    "position": 3,
+    "points_this_week": 7
+  },
+  "Quentin": {
+    "pick": "Cindric",
+    "position": 14,
+    "points_this_week": 0
+  },
+  "Randy": {
+    "pick": "Blaney",
+    "position": 10,
+    "points_this_week": 3
+  },
+  "Taylor": {
+    "pick": "Gibbs",
+    "position": 9,
+    "points_this_week": 4
+  },
+  "Tomas": {
+    "pick": "Briscoe",
+    "position": 12,
+    "points_this_week": 1
+  },
+  "Travis": {
+    "pick": "Jones",
+    "position": 6,
+    "points_this_week": 5
+  },
+  "Will": {
+    "pick": "Elliott",
+    "position": 11,
+    "points_this_week": 2
+  }
 }

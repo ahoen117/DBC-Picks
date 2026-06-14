@@ -137,7 +137,20 @@ def export_to_json(race_name, output_file="Website/picks-data.json"):
     # For now we'll just use 0 or pull from another table if you add it
 
     cur.execute("SELECT player_name, weekly_points FROM weeklyPoints ORDER BY weekly_points DESC")
-    weekly_points = [{"player": row[0], "points": row[1]} for row in cur.fetchall()]
+    rows = cur.fetchall()
+    # try to augment weekly points with PlayerStats.json (pick and finishing position)
+    try:
+        with open("PlayerStats.json", "r", encoding='utf-8') as psf:
+            ps_data = json.load(psf)
+    except Exception:
+        ps_data = {}
+    weekly_points = []
+    for row in rows:
+        pname = row[0]
+        pts = row[1]
+        pick = ps_data.get(pname, {}).get("pick", "")
+        position = ps_data.get(pname, {}).get("position", None)
+        weekly_points.append({"player": pname, "points": pts, "pick": pick, "position": position})
 
 
     conn.close()
@@ -263,6 +276,13 @@ with open("weeklyResults.txt", "w") as f:
         update_player_points(player, totalPoints)
 
         updateWeeklyPoints(player, jsonPoints)
+
+        # store position and weekly points in the PlayerStats structure for JSON output
+        try:
+            playerStats[player]["position"] = pos
+            playerStats[player]["points_this_week"] = jsonPoints
+        except Exception:
+            pass
         
         #adjust points each itteration
         points -= 1
@@ -289,6 +309,10 @@ with open("weeklyResults.txt", "w") as f:
 
 reversedResults = [item[0] for item in sortedResults]
 reversedResults.reverse()
+
+# write updated PlayerStats back to file so export_to_json can include positions
+with open("PlayerStats.json", "w", encoding='utf-8') as psf:
+    json.dump(playerStats, psf, indent=2, ensure_ascii=False)
 
 export_to_json(eventName)
 

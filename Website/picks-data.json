@@ -1,6 +1,6 @@
 {
   "race_name": "NASCAR Cup Series at Pocono",
-  "last_updated": "2026-06-14 17:27",
+  "last_updated": "2026-06-14 18:59",
   "players": [
     "Aaron",
     "Dakota",
@@ -282,39 +282,57 @@
   "weekly_points": [
     {
       "player": "Aaron",
-      "points": 9
+      "points": 9,
+      "pick": "Hamlin",
+      "position": 1
     },
     {
       "player": "David",
-      "points": 7
+      "points": 7,
+      "pick": "Byron",
+      "position": 3
     },
     {
       "player": "Dakota",
-      "points": 6
+      "points": 6,
+      "pick": "Nemechek",
+      "position": 4
     },
     {
       "player": "Travis",
-      "points": 5
+      "points": 5,
+      "pick": "Jones",
+      "position": 6
     },
     {
       "player": "Taylor",
-      "points": 4
+      "points": 4,
+      "pick": "Gibbs",
+      "position": 9
     },
     {
       "player": "Randy",
-      "points": 3
+      "points": 3,
+      "pick": "Blaney",
+      "position": 10
     },
     {
       "player": "Will",
-      "points": 2
+      "points": 2,
+      "pick": "Elliott",
+      "position": 11
     },
     {
       "player": "Tomas",
-      "points": 1
+      "points": 1,
+      "pick": "Briscoe",
+      "position": 12
     },
     {
       "player": "Quentin",
-      "points": 0
+      "points": 0,
+      "pick": "Cindric",
+      "position": 14
     }
   ],
   "sorted_results": [

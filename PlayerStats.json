@@ -1,47 +1,29 @@
 {
   "Aaron": {
-    "pick": "Hamlin",
-    "position": 1,
-    "points_this_week": 9
+    "pick": "Smith"
   },
   "Dakota": {
-    "pick": "Nemechek",
-    "position": 4,
-    "points_this_week": 6
+    "pick": "Magnussen"
   },
   "David": {
-    "pick": "Byron",
-    "position": 3,
-    "points_this_week": 7
+    "pick": "Herbst"
   },
   "Quentin": {
-    "pick": "Cindric",
-    "position": 14,
-    "points_this_week": 0
+    "pick": "Gisbergen"
   },
   "Randy": {
-    "pick": "Blaney",
-    "position": 10,
-    "points_this_week": 3
+    "pick": "Preece"
   },
   "Taylor": {
-    "pick": "Gibbs",
-    "position": 9,
-    "points_this_week": 4
+    "pick": "Zilisch"
   },
   "Tomas": {
-    "pick": "Briscoe",
-    "position": 12,
-    "points_this_week": 1
+    "pick": "McDowell"
   },
   "Travis": {
-    "pick": "Jones",
-    "position": 6,
-    "points_this_week": 5
+    "pick": "Allmendinger"
   },
   "Will": {
-    "pick": "Elliott",
-    "position": 11,
-    "points_this_week": 2
+    "pick": "Gibbs"
   }
 }

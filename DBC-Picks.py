@@ -106,7 +106,7 @@ def updateWeeklyPoints(playerName, weeklyPoints):
     conn.commit()
     conn.close()
 
-def export_to_json(race_name, output_file="Website/picks-data.json", player_stats=None):
+def export_to_json(race_name, output_file="Website/picks-data.json"):
     conn = get_db_connection()
     cur = conn.cursor()
 
@@ -133,25 +133,27 @@ def export_to_json(race_name, output_file="Website/picks-data.json", player_stat
     cur.execute("SELECT player_name, total_points FROM players ORDER BY total_points DESC")
     total_points = [{"player": row[0], "points": row[1]} for row in cur.fetchall()]
 
+    # Last Week Points — placeholder for now (you can add a column later if you want)
+    # For now we'll just use 0 or pull from another table if you add it
+
     cur.execute("SELECT player_name, weekly_points FROM weeklyPoints ORDER BY weekly_points DESC")
     rows = cur.fetchall()
-
-    if player_stats is None:
-        try:
-            with open("PlayerStats.json", "r", encoding='utf-8') as psf:
-                ps_data = json.load(psf)
-        except Exception:
-            ps_data = {}
-    else:
-        ps_data = player_stats
-
+    # try to augment weekly points with PlayerStats.json (pick and finishing position)
+    try:
+        with open("PlayerStats.json", "r", encoding='utf-8') as psf:
+            ps_data = json.load(psf)
+    except Exception:
+        ps_data = {}
+    # Create a dict from sortedResults for quick lookup
+    sortedResults_dict = {player: pos for player, pos in sortedResults}
     weekly_points = []
     for row in rows:
         pname = row[0]
         pts = row[1]
         pick = ps_data.get(pname, {}).get("pick", "")
-        position = ps_data.get(pname, {}).get("position", None)
+        position = sortedResults_dict.get(pname, None)
         weekly_points.append({"player": pname, "points": pts, "pick": pick, "position": position})
+
 
     conn.close()
 
@@ -313,7 +315,6 @@ reversedResults.reverse()
 # write updated PlayerStats back to file so export_to_json can include positions
 #with open("PlayerStats.json", "w", encoding='utf-8') as psf:
     #json.dump(playerStats, psf, indent=2, ensure_ascii=False)
-    
 
 export_to_json(eventName)
 

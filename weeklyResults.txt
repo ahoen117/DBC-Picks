@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series at Pocono
+Weekly Results: NASCAR Cup Series at San Diego
 ----------------------------------------
-Aaron: Hamlin finished 1
+Aaron: Smith finished 4
 You get 8 points
-You get a bonus point for picking the race winner
 
-David: Byron finished 3
+Travis: Allmendinger finished 5
 You get 7 points
 
-Dakota: Nemechek finished 4
+David: Herbst finished 8
 You get 6 points
 
-Travis: Jones finished 6
+Tomas: McDowell finished 10
 You get 5 points
 
-Taylor: Gibbs finished 9
+Randy: Preece finished 11
 You get 4 points
 
-Randy: Blaney finished 10
+Will: Gibbs finished 15
 You get 3 points
 
-Will: Elliott finished 11
+Dakota: Magnussen finished 27
 You get 2 points
 
-Tomas: Briscoe finished 12
+Taylor: Zilisch finished 37
 You get 1 points
 
-Quentin: Cindric finished 14
+Quentin: Gisbergen finished 38
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 90 pts
-2. Quentin: 80 pts
-3. Tomas: 77 pts
-4. Travis: 74 pts
-5. Taylor: 73 pts
-6. Will: 72 pts
-7. David: 67 pts
-8. Aaron: 64 pts
-9. Randy: 59 pts
+1. Dakota: 92 pts
+2. Tomas: 82 pts
+3. Travis: 81 pts
+4. Quentin: 80 pts
+5. Will: 75 pts
+6. Taylor: 74 pts
+7. David: 73 pts
+8. Aaron: 72 pts
+9. Randy: 63 pts
 
 Pick order for next week is: 
 ----------------------------------------
 Quentin
-Tomas
+Taylor
+Dakota
 Will
 Randy
-Taylor
-Travis
-Dakota
+Tomas
 David
+Travis
 Aaron

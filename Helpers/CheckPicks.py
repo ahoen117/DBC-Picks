@@ -9,7 +9,7 @@ dbPath = Path.cwd()
 conn = sqlite3.connect(dbPath / 'dbcPicks.db')
 cur = conn.cursor()
 
-with open('PlayerStats.json') as ps:
+with open(dbPath / 'PlayerStats.json') as ps:
     playerStats = json.load(ps)
 
 for player, data in playerStats.items():

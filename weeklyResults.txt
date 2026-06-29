@@ -1,52 +1,53 @@
-Weekly Results: NASCAR Cup Series at San Diego
+Weekly Results: NASCAR Cup Series at Sonoma
 ----------------------------------------
-Aaron: Smith finished 4
+Dakota: Gisbergen finished 1
 You get 8 points
+You get a bonus point for picking the race winner
 
-Travis: Allmendinger finished 5
+Quentin: Zilisch finished 7
 You get 7 points
 
-David: Herbst finished 8
+Aaron: Preece finished 8
 You get 6 points
 
-Tomas: McDowell finished 10
+Will: McDowell finished 9
 You get 5 points
 
-Randy: Preece finished 11
+Randy: Cindric finished 13
 You get 4 points
 
-Will: Gibbs finished 15
+Tomas: Allmendinger finished 16
 You get 3 points
 
-Dakota: Magnussen finished 27
+Travis: Wallace finished 22
 You get 2 points
 
-Taylor: Zilisch finished 37
+Taylor: Jones finished 23
 You get 1 points
 
-Quentin: Gisbergen finished 38
+David: Suarez finished 31
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 92 pts
-2. Tomas: 82 pts
-3. Travis: 81 pts
-4. Quentin: 80 pts
-5. Will: 75 pts
-6. Taylor: 74 pts
-7. David: 73 pts
-8. Aaron: 72 pts
-9. Randy: 63 pts
+1. Dakota: 101 pts
+2. Quentin: 87 pts
+3. Tomas: 85 pts
+4. Travis: 83 pts
+5. Will: 80 pts
+6. Aaron: 78 pts
+7. Taylor: 75 pts
+8. David: 73 pts
+9. Randy: 67 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Quentin
-Taylor
-Dakota
-Will
-Randy
-Tomas
 David
+Taylor
 Travis
+Tomas
+Randy
+Will
 Aaron
+Quentin
+Dakota

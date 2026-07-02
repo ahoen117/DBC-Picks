@@ -3,8 +3,12 @@ import sqlite3
 from pathlib import Path
 import json
 
+windows = True if Path("C:/").exists() else False
+
 dbPath = Path.cwd()
-# dbPath = dbPath.parent
+
+if windows == True:
+    dbPath = dbPath.parent
 
 conn = sqlite3.connect(dbPath / 'dbcPicks.db')
 cur = conn.cursor()

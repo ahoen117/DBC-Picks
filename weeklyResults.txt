@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Sonoma
+Weekly Results: NASCAR Cup Series at Chicago
 ----------------------------------------
-Dakota: Gisbergen finished 1
+Quentin: Briscoe finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Quentin: Zilisch finished 7
+Dakota: Bowman finished 5
 You get 7 points
 
-Aaron: Preece finished 8
+David: Blaney finished 7
 You get 6 points
 
-Will: McDowell finished 9
+Travis: Heim finished 9
 You get 5 points
 
-Randy: Cindric finished 13
+Randy: Logano finished 12
 You get 4 points
 
-Tomas: Allmendinger finished 16
+Aaron: Jones finished 15
 You get 3 points
 
-Travis: Wallace finished 22
+Tomas: Hocevar finished 22
 You get 2 points
 
-Taylor: Jones finished 23
+Taylor: Gisbergen finished 25
 You get 1 points
 
-David: Suarez finished 31
+Will: Larson finished 34
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 101 pts
-2. Quentin: 87 pts
-3. Tomas: 85 pts
-4. Travis: 83 pts
-5. Will: 80 pts
-6. Aaron: 78 pts
-7. Taylor: 75 pts
-8. David: 73 pts
-9. Randy: 67 pts
+1. Dakota: 108 pts
+2. Quentin: 96 pts
+3. Travis: 88 pts
+4. Tomas: 87 pts
+5. Aaron: 81 pts
+6. Will: 80 pts
+7. David: 79 pts
+8. Taylor: 76 pts
+9. Randy: 71 pts
 
 Pick order for next week is: 
 ----------------------------------------
-David
-Taylor
-Travis
-Tomas
-Randy
 Will
+Taylor
+Tomas
 Aaron
-Quentin
+Randy
+Travis
+David
 Dakota
+Quentin

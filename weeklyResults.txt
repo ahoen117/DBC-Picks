@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series at Chicago
+Weekly Results: NASCAR Cup Series at Atlanta
 ----------------------------------------
-Quentin: Briscoe finished 1
+Quentin: Hocevar finished 3
 You get 8 points
-You get a bonus point for picking the race winner
 
-Dakota: Bowman finished 5
+Randy: Chastain finished 11
 You get 7 points
 
-David: Blaney finished 7
+Dakota: Elliott finished 13
 You get 6 points
 
-Travis: Heim finished 9
+Tomas: Cindric finished 14
 You get 5 points
 
-Randy: Logano finished 12
+Travis: Gilliland finished 19
 You get 4 points
 
-Aaron: Jones finished 15
+Will: Suarez finished 21
 You get 3 points
 
-Tomas: Hocevar finished 22
+David: Stenhouse finished 23
 You get 2 points
 
-Taylor: Gisbergen finished 25
+Taylor: Preece finished 24
 You get 1 points
 
-Will: Larson finished 34
+Aaron: Allmendinger finished 37
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 108 pts
-2. Quentin: 96 pts
-3. Travis: 88 pts
-4. Tomas: 87 pts
-5. Aaron: 81 pts
-6. Will: 80 pts
-7. David: 79 pts
-8. Taylor: 76 pts
-9. Randy: 71 pts
+1. Dakota: 114 pts
+2. Quentin: 104 pts
+3. Travis: 92 pts
+4. Tomas: 92 pts
+5. Will: 83 pts
+6. David: 81 pts
+7. Aaron: 81 pts
+8. Randy: 78 pts
+9. Taylor: 77 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Will
-Taylor
-Tomas
 Aaron
-Randy
-Travis
+Taylor
 David
+Will
+Travis
+Tomas
 Dakota
+Randy
 Quentin

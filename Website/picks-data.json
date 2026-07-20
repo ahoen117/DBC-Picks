@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Atlanta",
-  "last_updated": "2026-07-13 12:24",
+  "race_name": "NASCAR Cup Series at North Wilkesboro",
+  "last_updated": "2026-07-19 22:38",
   "players": [
     "Aaron",
     "Dakota",
@@ -83,7 +83,8 @@
       "Smith": false,
       "Preece": false,
       "Jones": false,
-      "Allmendinger": false
+      "Allmendinger": false,
+      "Cindric": false
     },
     "Tomas": {
       "Larson": false,
@@ -107,7 +108,8 @@
       "McDowell": false,
       "Allmendinger": false,
       "Hocevar": false,
-      "Cindric": false
+      "Cindric": false,
+      "Suarez": false
     },
     "Taylor": {
       "Larson": false,
@@ -131,7 +133,8 @@
       "Zilisch": false,
       "Jones": false,
       "Gisbergen": false,
-      "Preece": false
+      "Preece": false,
+      "Briscoe": false
     },
     "Dakota": {
       "Cindric": false,
@@ -155,7 +158,8 @@
       "Magnussen": false,
       "Gisbergen": false,
       "Bowman": false,
-      "Elliott": false
+      "Elliott": false,
+      "Chastain": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -179,7 +183,8 @@
       "Gisbergen": false,
       "Zilisch": false,
       "Briscoe": false,
-      "Hocevar": false
+      "Hocevar": false,
+      "McDowell": false
     },
     "Travis": {
       "Chastain": false,
@@ -203,7 +208,8 @@
       "Allmendinger": false,
       "Wallace": false,
       "Heim": false,
-      "Gilliland": false
+      "Gilliland": false,
+      "Dillon": false
     },
     "Will": {
       "LaJoie": false,
@@ -227,7 +233,8 @@
       "Gibbs": false,
       "McDowell": false,
       "Larson": false,
-      "Suarez": false
+      "Suarez": false,
+      "Herbst": false
     },
     "David": {
       "Cindric": false,
@@ -251,7 +258,8 @@
       "Herbst": false,
       "Suarez": false,
       "Blaney": false,
-      "Stenhouse": false
+      "Stenhouse": false,
+      "Logano": false
     },
     "Randy": {
       "Busch": false,
@@ -275,7 +283,8 @@
       "Preece": false,
       "Cindric": false,
       "Logano": false,
-      "Chastain": false
+      "Chastain": false,
+      "Gibbs": false
     }
   },
   "total_points": [
@@ -285,102 +294,102 @@
     },
     {
       "player": "Quentin",
-      "points": 104
-    },
-    {
-      "player": "Travis",
-      "points": 92
+      "points": 105
     },
     {
       "player": "Tomas",
-      "points": 92
+      "points": 97
     },
     {
-      "player": "Will",
-      "points": 83
+      "player": "Travis",
+      "points": 94
     },
     {
       "player": "David",
-      "points": 81
+      "points": 90
+    },
+    {
+      "player": "Will",
+      "points": 86
     },
     {
       "player": "Aaron",
-      "points": 81
+      "points": 85
     },
     {
       "player": "Randy",
-      "points": 78
+      "points": 84
     },
     {
       "player": "Taylor",
-      "points": 77
+      "points": 84
     }
   ],
   "weekly_points": [
     {
-      "player": "Quentin",
-      "points": 8,
-      "pick": "Hocevar",
+      "player": "David",
+      "points": 9,
+      "pick": "Logano",
+      "position": 1
+    },
+    {
+      "player": "Taylor",
+      "points": 7,
+      "pick": "Briscoe",
       "position": 3
     },
     {
       "player": "Randy",
-      "points": 7,
-      "pick": "Chastain",
-      "position": 11
-    },
-    {
-      "player": "Dakota",
       "points": 6,
-      "pick": "Elliott",
-      "position": 13
+      "pick": "Gibbs",
+      "position": 4
     },
     {
       "player": "Tomas",
       "points": 5,
+      "pick": "Suarez",
+      "position": 9
+    },
+    {
+      "player": "Aaron",
+      "points": 4,
       "pick": "Cindric",
       "position": 14
     },
     {
-      "player": "Travis",
-      "points": 4,
-      "pick": "Gilliland",
-      "position": 19
-    },
-    {
       "player": "Will",
       "points": 3,
-      "pick": "Suarez",
-      "position": 21
+      "pick": "Herbst",
+      "position": 18
     },
     {
-      "player": "David",
+      "player": "Travis",
       "points": 2,
-      "pick": "Stenhouse",
+      "pick": "Dillon",
       "position": 23
     },
     {
-      "player": "Taylor",
+      "player": "Quentin",
       "points": 1,
-      "pick": "Preece",
+      "pick": "McDowell",
       "position": 24
     },
     {
-      "player": "Aaron",
+      "player": "Dakota",
       "points": 0,
-      "pick": "Allmendinger",
-      "position": 37
+      "pick": "Chastain",
+      "position": 27
     }
   ],
   "sorted_results": [
-    "Aaron",
-    "Taylor",
-    "David",
-    "Will",
-    "Travis",
-    "Tomas",
     "Dakota",
+    "Quentin",
+    "Travis",
+    "Will",
+    "Aaron",
+    "Tomas",
     "Randy",
-    "Quentin"
+    "Taylor",
+    "David"
   ]
 }

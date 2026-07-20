@@ -1,52 +1,53 @@
-Weekly Results: NASCAR Cup Series at Atlanta
+Weekly Results: NASCAR Cup Series at North Wilkesboro
 ----------------------------------------
-Quentin: Hocevar finished 3
+David: Logano finished 1
 You get 8 points
+You get a bonus point for picking the race winner
 
-Randy: Chastain finished 11
+Taylor: Briscoe finished 3
 You get 7 points
 
-Dakota: Elliott finished 13
+Randy: Gibbs finished 4
 You get 6 points
 
-Tomas: Cindric finished 14
+Tomas: Suarez finished 9
 You get 5 points
 
-Travis: Gilliland finished 19
+Aaron: Cindric finished 14
 You get 4 points
 
-Will: Suarez finished 21
+Will: Herbst finished 18
 You get 3 points
 
-David: Stenhouse finished 23
+Travis: Dillon finished 23
 You get 2 points
 
-Taylor: Preece finished 24
+Quentin: McDowell finished 24
 You get 1 points
 
-Aaron: Allmendinger finished 37
+Dakota: Chastain finished 27
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
 1. Dakota: 114 pts
-2. Quentin: 104 pts
-3. Travis: 92 pts
-4. Tomas: 92 pts
-5. Will: 83 pts
-6. David: 81 pts
-7. Aaron: 81 pts
-8. Randy: 78 pts
-9. Taylor: 77 pts
+2. Quentin: 105 pts
+3. Tomas: 97 pts
+4. Travis: 94 pts
+5. David: 90 pts
+6. Will: 86 pts
+7. Aaron: 85 pts
+8. Randy: 84 pts
+9. Taylor: 84 pts
 
 Pick order for next week is: 
 ----------------------------------------
+Dakota
+Quentin
+Travis
+Will
 Aaron
+Tomas
+Randy
 Taylor
 David
-Will
-Travis
-Tomas
-Dakota
-Randy
-Quentin

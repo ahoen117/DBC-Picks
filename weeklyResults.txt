@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at North Wilkesboro
+Weekly Results: NASCAR Cup Series at Indianapolis
 ----------------------------------------
-David: Logano finished 1
+David: Heim finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Taylor: Briscoe finished 3
+Tomas: Keselowski finished 6
 You get 7 points
 
-Randy: Gibbs finished 4
+Quentin: Preece finished 8
 You get 6 points
 
-Tomas: Suarez finished 9
+Randy: Buescher finished 11
 You get 5 points
 
-Aaron: Cindric finished 14
+Will: Cindric finished 14
 You get 4 points
 
-Will: Herbst finished 18
+Aaron: Suarez finished 17
 You get 3 points
 
-Travis: Dillon finished 23
+Travis: Bowman finished 19
 You get 2 points
 
-Quentin: McDowell finished 24
+Dakota: Gilliland finished 24
 You get 1 points
 
-Dakota: Chastain finished 27
+Taylor: Allmendinger finished 25
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 114 pts
-2. Quentin: 105 pts
-3. Tomas: 97 pts
-4. Travis: 94 pts
-5. David: 90 pts
-6. Will: 86 pts
-7. Aaron: 85 pts
-8. Randy: 84 pts
+1. Dakota: 115 pts
+2. Quentin: 111 pts
+3. Tomas: 104 pts
+4. David: 99 pts
+5. Travis: 96 pts
+6. Will: 90 pts
+7. Randy: 89 pts
+8. Aaron: 88 pts
 9. Taylor: 84 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Dakota
-Quentin
-Travis
-Will
-Aaron
-Tomas
-Randy
 Taylor
+Dakota
+Travis
+Aaron
+Will
+Randy
+Quentin
+Tomas
 David

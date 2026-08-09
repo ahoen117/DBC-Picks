@@ -233,7 +233,28 @@ for competitor in competitors:
 
 #set weeklyResults to their matched finishing position, if position doesn't exist, give position 999
 for player in playerStats:
-    weeklyResults[player] = positions.get(playerStats[player]["pick"], 999)
+        # Normalize pick handling for ambiguous "Dillon" — prefer Austin if he's on the weekend's roster
+    pick = playerStats[player].get("pick", "").strip()
+    if pick.lower() == "dillon":
+        # Look through competitors to prefer Austin Dillon, then Ty Dillon
+        pos = 999
+        for comp in competitors:
+            full_name = comp['athlete']['fullName']
+            if full_name.startswith("Austin Dillon"):
+                pos = int(comp['order'])
+                break
+        else:
+            for comp in competitors:
+                full_name = comp['athlete']['fullName']
+                if full_name.startswith("Ty Dillon"):
+                    pos = int(comp['order'])
+                    break
+        # fallback to the last-name lookup if neither first-name match found
+        if pos == 999:
+            pos = positions.get("Dillon", 999)
+        weeklyResults[player] = pos
+    else:
+        weeklyResults[player] = positions.get(pick, 999)
 
 #sort the above by finishing position
 sortedResults = sorted(weeklyResults.items(), key=lambda x: x[1])

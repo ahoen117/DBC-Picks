@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series at Indianapolis
+Weekly Results: NASCAR Cup Series at Iowa
 ----------------------------------------
-David: Heim finished 1
+Will: Blaney finished 3
 You get 8 points
-You get a bonus point for picking the race winner
 
-Tomas: Keselowski finished 6
+Aaron: Dillon finished 10
 You get 7 points
 
-Quentin: Preece finished 8
+Dakota: Logano finished 14
 You get 6 points
 
-Randy: Buescher finished 11
+David: Smith finished 16
 You get 5 points
 
-Will: Cindric finished 14
+Tomas: Nemechek finished 19
 You get 4 points
 
-Aaron: Suarez finished 17
+Taylor: Cindric finished 29
 You get 3 points
 
-Travis: Bowman finished 19
+Randy: Gisbergen finished 30
 You get 2 points
 
-Dakota: Gilliland finished 24
+Travis: Hocevar finished 31
 You get 1 points
 
-Taylor: Allmendinger finished 25
+Quentin: Reddick finished 36
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 115 pts
+1. Dakota: 121 pts
 2. Quentin: 111 pts
-3. Tomas: 104 pts
-4. David: 99 pts
-5. Travis: 96 pts
-6. Will: 90 pts
-7. Randy: 89 pts
-8. Aaron: 88 pts
-9. Taylor: 84 pts
+3. Tomas: 108 pts
+4. David: 104 pts
+5. Will: 98 pts
+6. Travis: 97 pts
+7. Aaron: 95 pts
+8. Randy: 91 pts
+9. Taylor: 87 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Taylor
-Dakota
-Travis
-Aaron
-Will
-Randy
 Quentin
+Travis
+Randy
+Taylor
 Tomas
 David
+Dakota
+Aaron
+Will

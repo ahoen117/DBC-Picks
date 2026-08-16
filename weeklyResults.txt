@@ -1,52 +1,53 @@
-Weekly Results: NASCAR Cup Series at Iowa
+Weekly Results: NASCAR Cup Series at Richmond
 ----------------------------------------
-Will: Blaney finished 3
+David: Briscoe finished 2
 You get 8 points
 
-Aaron: Dillon finished 10
+Dakota: Hamlin finished 4
 You get 7 points
 
-Dakota: Logano finished 14
+Travis: Berry finished 8
 You get 6 points
 
-David: Smith finished 16
+Will: Bowman finished 10
 You get 5 points
 
-Tomas: Nemechek finished 19
+Taylor: Chastain finished 12
 You get 4 points
 
-Taylor: Cindric finished 29
+Aaron: Gisbergen finished 14
 You get 3 points
 
-Randy: Gisbergen finished 30
+Quentin: Dillon finished 19
 You get 2 points
 
-Travis: Hocevar finished 31
+Tomas: Stenhouse finished 31
 You get 1 points
 
-Quentin: Reddick finished 36
+Randy: Heim finished 999
+Check for spelling errors in WeeklyPicks.csv...
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 121 pts
-2. Quentin: 111 pts
-3. Tomas: 108 pts
-4. David: 104 pts
-5. Will: 98 pts
-6. Travis: 97 pts
-7. Aaron: 95 pts
+1. Dakota: 128 pts
+2. Quentin: 113 pts
+3. David: 112 pts
+4. Tomas: 109 pts
+5. Travis: 103 pts
+6. Will: 103 pts
+7. Aaron: 98 pts
 8. Randy: 91 pts
-9. Taylor: 87 pts
+9. Taylor: 91 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Quentin
-Travis
 Randy
-Taylor
 Tomas
-David
-Dakota
+Quentin
 Aaron
+Taylor
 Will
+Travis
+Dakota
+David

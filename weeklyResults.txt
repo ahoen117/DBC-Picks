@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series at Richmond
+Weekly Results: NASCAR Cup Series at New Hampshire
 ----------------------------------------
-David: Briscoe finished 2
+Will: Berry finished 3
 You get 8 points
 
-Dakota: Hamlin finished 4
+Dakota: Larson finished 5
 You get 7 points
 
-Travis: Berry finished 8
+Travis: Cindric finished 12
 You get 6 points
 
-Will: Bowman finished 10
+Randy: Bowman finished 15
 You get 5 points
 
-Taylor: Chastain finished 12
+Tomas: Gisbergen finished 20
 You get 4 points
 
-Aaron: Gisbergen finished 14
+Quentin: Gilliland finished 21
 You get 3 points
 
-Quentin: Dillon finished 19
+Taylor: Custer finished 22
 You get 2 points
 
-Tomas: Stenhouse finished 31
+Aaron: Briscoe finished 26
 You get 1 points
 
-Randy: Heim finished 999
-Check for spelling errors in WeeklyPicks.csv...
+David: Zilisch finished 35
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 128 pts
-2. Quentin: 113 pts
-3. David: 112 pts
-4. Tomas: 109 pts
-5. Travis: 103 pts
-6. Will: 103 pts
-7. Aaron: 98 pts
-8. Randy: 91 pts
-9. Taylor: 91 pts
+1. Dakota: 135 pts
+2. Quentin: 116 pts
+3. Tomas: 113 pts
+4. David: 112 pts
+5. Will: 111 pts
+6. Travis: 109 pts
+7. Aaron: 99 pts
+8. Randy: 96 pts
+9. Taylor: 93 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Randy
-Tomas
-Quentin
+David
 Aaron
 Taylor
-Will
+Quentin
+Tomas
+Randy
 Travis
 Dakota
-David
+Will

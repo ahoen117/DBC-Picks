@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Richmond",
-  "last_updated": "2026-08-16 11:09",
+  "race_name": "NASCAR Cup Series at New Hampshire",
+  "last_updated": "2026-08-24 18:35",
   "players": [
     "Aaron",
     "Dakota",
@@ -87,7 +87,8 @@
       "Cindric": false,
       "Suarez": false,
       "Dillon": false,
-      "Gisbergen": false
+      "Gisbergen": false,
+      "Briscoe": false
     },
     "Tomas": {
       "Larson": false,
@@ -115,7 +116,8 @@
       "Suarez": false,
       "Keselowski": false,
       "Nemechek": false,
-      "Stenhouse": false
+      "Stenhouse": false,
+      "Gisbergen": false
     },
     "Taylor": {
       "Larson": false,
@@ -143,7 +145,8 @@
       "Briscoe": false,
       "Allmendinger": false,
       "Cindric": false,
-      "Chastain": false
+      "Chastain": false,
+      "Custer": false
     },
     "Dakota": {
       "Cindric": false,
@@ -171,7 +174,8 @@
       "Chastain": false,
       "Gilliland": false,
       "Logano": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Larson": false
     },
     "Quentin": {
       "Hamlin": false,
@@ -199,7 +203,8 @@
       "McDowell": false,
       "Preece": false,
       "Reddick": false,
-      "Dillon": false
+      "Dillon": false,
+      "Gilliland": false
     },
     "Travis": {
       "Chastain": false,
@@ -227,7 +232,8 @@
       "Dillon": false,
       "Bowman": false,
       "Hocevar": false,
-      "Berry": false
+      "Berry": false,
+      "Cindric": false
     },
     "Will": {
       "LaJoie": false,
@@ -255,7 +261,8 @@
       "Herbst": false,
       "Cindric": false,
       "Blaney": false,
-      "Bowman": false
+      "Bowman": false,
+      "Berry": false
     },
     "David": {
       "Cindric": false,
@@ -283,7 +290,8 @@
       "Logano": false,
       "Heim": false,
       "Smith": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Zilisch": false
     },
     "Randy": {
       "Busch": false,
@@ -310,16 +318,21 @@
       "Chastain": false,
       "Gibbs": false,
       "Buescher": false,
-      "Gisbergen": false
+      "Gisbergen": false,
+      "Bowman": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 128
+      "points": 135
     },
     {
       "player": "Quentin",
+      "points": 116
+    },
+    {
+      "player": "Tomas",
       "points": 113
     },
     {
@@ -327,95 +340,91 @@
       "points": 112
     },
     {
-      "player": "Tomas",
-      "points": 109
+      "player": "Will",
+      "points": 111
     },
     {
       "player": "Travis",
-      "points": 103
-    },
-    {
-      "player": "Will",
-      "points": 103
+      "points": 109
     },
     {
       "player": "Aaron",
-      "points": 98
+      "points": 99
     },
     {
       "player": "Randy",
-      "points": 91
+      "points": 96
     },
     {
       "player": "Taylor",
-      "points": 91
+      "points": 93
     }
   ],
   "weekly_points": [
     {
-      "player": "David",
+      "player": "Will",
       "points": 8,
-      "pick": "Briscoe",
-      "position": 2
+      "pick": "Berry",
+      "position": 3
     },
     {
       "player": "Dakota",
       "points": 7,
-      "pick": "Hamlin",
-      "position": 4
+      "pick": "Larson",
+      "position": 5
     },
     {
       "player": "Travis",
       "points": 6,
-      "pick": "Berry",
-      "position": 8
-    },
-    {
-      "player": "Will",
-      "points": 5,
-      "pick": "Bowman",
-      "position": 10
-    },
-    {
-      "player": "Taylor",
-      "points": 4,
-      "pick": "Chastain",
+      "pick": "Cindric",
       "position": 12
     },
     {
-      "player": "Aaron",
-      "points": 3,
-      "pick": "Gisbergen",
-      "position": 14
-    },
-    {
-      "player": "Quentin",
-      "points": 2,
-      "pick": "Dillon",
-      "position": 19
+      "player": "Randy",
+      "points": 5,
+      "pick": "Bowman",
+      "position": 15
     },
     {
       "player": "Tomas",
-      "points": 1,
-      "pick": "Stenhouse",
-      "position": 31
+      "points": 4,
+      "pick": "Gisbergen",
+      "position": 20
     },
     {
-      "player": "Randy",
+      "player": "Quentin",
+      "points": 3,
+      "pick": "Gilliland",
+      "position": 21
+    },
+    {
+      "player": "Taylor",
+      "points": 2,
+      "pick": "Custer",
+      "position": 22
+    },
+    {
+      "player": "Aaron",
+      "points": 1,
+      "pick": "Briscoe",
+      "position": 26
+    },
+    {
+      "player": "David",
       "points": 0,
-      "pick": "Heim",
-      "position": 999
+      "pick": "Zilisch",
+      "position": 35
     }
   ],
   "sorted_results": [
-    "Randy",
-    "Tomas",
-    "Quentin",
+    "David",
     "Aaron",
     "Taylor",
-    "Will",
+    "Quentin",
+    "Tomas",
+    "Randy",
     "Travis",
     "Dakota",
-    "David"
+    "Will"
   ]
 }

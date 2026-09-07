@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Daytona
+Weekly Results: NASCAR Cup Series at Darlington
 ----------------------------------------
-Travis: Preece finished 1
+Travis: Bell finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Taylor: Stenhouse finished 5
+Will: Reddick finished 3
 You get 7 points
 
-Tomas: Dillon finished 7
+Taylor: Blaney finished 4
 You get 6 points
 
-Aaron: Custer finished 10
+Tomas: Larson finished 5
 You get 5 points
 
-Quentin: Nemechek finished 15
+Quentin: Briscoe finished 6
 You get 4 points
 
-Randy: Heim finished 16
+Randy: Logano finished 9
 You get 3 points
 
-Dakota: Wallace finished 20
+Aaron: Jones finished 15
 You get 2 points
 
-Will: Chastain finished 24
+Dakota: Hamlin finished 18
 You get 1 points
 
-David: Allmendinger finished 30
+David: Buescher finished 20
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 137 pts
-2. Quentin: 120 pts
-3. Tomas: 119 pts
-4. Travis: 118 pts
-5. David: 112 pts
-6. Will: 112 pts
-7. Aaron: 104 pts
-8. Taylor: 100 pts
-9. Randy: 99 pts
+1. Dakota: 138 pts
+2. Travis: 127 pts
+3. Quentin: 124 pts
+4. Tomas: 124 pts
+5. Will: 119 pts
+6. David: 112 pts
+7. Aaron: 106 pts
+8. Taylor: 106 pts
+9. Randy: 102 pts
 
 Pick order for next week is: 
 ----------------------------------------
 David
-Will
 Dakota
+Aaron
 Randy
 Quentin
-Aaron
 Tomas
 Taylor
+Will
 Travis

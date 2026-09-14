@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Darlington
+Weekly Results: NASCAR Cup Series at World Wide Technology Raceway
 ----------------------------------------
-Travis: Bell finished 1
+Taylor: Larson finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-Will: Reddick finished 3
+Tomas: Logano finished 3
 You get 7 points
 
-Taylor: Blaney finished 4
+Quentin: Hamlin finished 9
 You get 6 points
 
-Tomas: Larson finished 5
+Will: Cindric finished 10
 You get 5 points
 
-Quentin: Briscoe finished 6
+David: Bell finished 19
 You get 4 points
 
-Randy: Logano finished 9
+Randy: Reddick finished 25
 You get 3 points
 
-Aaron: Jones finished 15
+Aaron: Elliott finished 31
 You get 2 points
 
-Dakota: Hamlin finished 18
+Travis: Briscoe finished 32
 You get 1 points
 
-David: Buescher finished 20
+Dakota: Blaney finished 35
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
 1. Dakota: 138 pts
-2. Travis: 127 pts
-3. Quentin: 124 pts
-4. Tomas: 124 pts
-5. Will: 119 pts
-6. David: 112 pts
-7. Aaron: 106 pts
-8. Taylor: 106 pts
-9. Randy: 102 pts
+2. Tomas: 131 pts
+3. Quentin: 130 pts
+4. Travis: 128 pts
+5. Will: 124 pts
+6. David: 116 pts
+7. Taylor: 115 pts
+8. Aaron: 108 pts
+9. Randy: 105 pts
 
 Pick order for next week is: 
 ----------------------------------------
-David
 Dakota
+Travis
 Aaron
 Randy
+David
+Will
 Quentin
 Tomas
 Taylor
-Will
-Travis

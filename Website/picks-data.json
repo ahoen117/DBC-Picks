@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Darlington",
-  "last_updated": "2026-09-06 22:47",
+  "race_name": "NASCAR Cup Series at World Wide Technology Raceway",
+  "last_updated": "2026-09-13 20:36",
   "players": [
     "Aaron",
     "Dakota",
@@ -62,31 +62,40 @@
   ],
   "picks": {
     "Aaron": {
-      "Jones": false
+      "Jones": false,
+      "Elliott": false
     },
     "Dakota": {
-      "Hamlin": false
-    },
-    "David": {
-      "Buescher": false
-    },
-    "Quentin": {
-      "Briscoe": false
-    },
-    "Randy": {
-      "Logano": false
-    },
-    "Taylor": {
+      "Hamlin": false,
       "Blaney": false
     },
-    "Tomas": {
-      "Larson": false
-    },
-    "Travis": {
+    "David": {
+      "Buescher": false,
       "Bell": false
     },
-    "Will": {
+    "Quentin": {
+      "Briscoe": false,
+      "Hamlin": false
+    },
+    "Randy": {
+      "Logano": false,
       "Reddick": false
+    },
+    "Taylor": {
+      "Blaney": false,
+      "Larson": false
+    },
+    "Tomas": {
+      "Larson": false,
+      "Logano": false
+    },
+    "Travis": {
+      "Bell": false,
+      "Briscoe": false
+    },
+    "Will": {
+      "Reddick": false,
+      "Cindric": false
     }
   },
   "total_points": [
@@ -95,103 +104,103 @@
       "points": 138
     },
     {
-      "player": "Travis",
-      "points": 127
+      "player": "Tomas",
+      "points": 131
     },
     {
       "player": "Quentin",
-      "points": 124
+      "points": 130
     },
     {
-      "player": "Tomas",
-      "points": 124
+      "player": "Travis",
+      "points": 128
     },
     {
       "player": "Will",
-      "points": 119
+      "points": 124
     },
     {
       "player": "David",
-      "points": 112
-    },
-    {
-      "player": "Aaron",
-      "points": 106
+      "points": 116
     },
     {
       "player": "Taylor",
-      "points": 106
+      "points": 115
+    },
+    {
+      "player": "Aaron",
+      "points": 108
     },
     {
       "player": "Randy",
-      "points": 102
+      "points": 105
     }
   ],
   "weekly_points": [
     {
-      "player": "Travis",
+      "player": "Taylor",
       "points": 9,
-      "pick": "Bell",
+      "pick": "Larson",
       "position": 1
     },
     {
-      "player": "Will",
+      "player": "Tomas",
       "points": 7,
-      "pick": "Reddick",
+      "pick": "Logano",
       "position": 3
     },
     {
-      "player": "Taylor",
-      "points": 6,
-      "pick": "Blaney",
-      "position": 4
-    },
-    {
-      "player": "Tomas",
-      "points": 5,
-      "pick": "Larson",
-      "position": 5
-    },
-    {
       "player": "Quentin",
+      "points": 6,
+      "pick": "Hamlin",
+      "position": 9
+    },
+    {
+      "player": "Will",
+      "points": 5,
+      "pick": "Cindric",
+      "position": 10
+    },
+    {
+      "player": "David",
       "points": 4,
-      "pick": "Briscoe",
-      "position": 6
+      "pick": "Bell",
+      "position": 19
     },
     {
       "player": "Randy",
       "points": 3,
-      "pick": "Logano",
-      "position": 9
+      "pick": "Reddick",
+      "position": 25
     },
     {
       "player": "Aaron",
       "points": 2,
-      "pick": "Jones",
-      "position": 15
+      "pick": "Elliott",
+      "position": 31
+    },
+    {
+      "player": "Travis",
+      "points": 1,
+      "pick": "Briscoe",
+      "position": 32
     },
     {
       "player": "Dakota",
-      "points": 1,
-      "pick": "Hamlin",
-      "position": 18
-    },
-    {
-      "player": "David",
       "points": 0,
-      "pick": "Buescher",
-      "position": 20
+      "pick": "Blaney",
+      "position": 35
     }
   ],
   "sorted_results": [
-    "David",
     "Dakota",
+    "Travis",
     "Aaron",
     "Randy",
+    "David",
+    "Will",
     "Quentin",
     "Tomas",
-    "Taylor",
-    "Will",
-    "Travis"
+    "Taylor"
   ]
 }

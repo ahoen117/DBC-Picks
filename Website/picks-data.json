@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at World Wide Technology Raceway",
-  "last_updated": "2026-09-13 20:36",
+  "race_name": "NASCAR Cup Series at Bristol",
+  "last_updated": "2026-09-20 08:24",
   "players": [
     "Aaron",
     "Dakota",
@@ -63,73 +63,82 @@
   "picks": {
     "Aaron": {
       "Jones": false,
-      "Elliott": false
+      "Elliott": false,
+      "Gibbs": false
     },
     "Dakota": {
       "Hamlin": false,
-      "Blaney": false
-    },
-    "David": {
-      "Buescher": false,
-      "Bell": false
-    },
-    "Quentin": {
-      "Briscoe": false,
-      "Hamlin": false
-    },
-    "Randy": {
-      "Logano": false,
-      "Reddick": false
-    },
-    "Taylor": {
       "Blaney": false,
       "Larson": false
     },
-    "Tomas": {
+    "David": {
+      "Buescher": false,
+      "Bell": false,
+      "Reddick": false
+    },
+    "Quentin": {
+      "Briscoe": false,
+      "Hamlin": false,
+      "Gilliland": false
+    },
+    "Randy": {
+      "Logano": false,
+      "Reddick": false,
+      "Blaney": false
+    },
+    "Taylor": {
+      "Blaney": false,
       "Larson": false,
       "Logano": false
     },
+    "Tomas": {
+      "Larson": false,
+      "Logano": false,
+      "Hocevar": false
+    },
     "Travis": {
       "Bell": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Hamlin": false
     },
     "Will": {
       "Reddick": false,
-      "Cindric": false
+      "Cindric": false,
+      "Bell": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 138
+      "points": 145
     },
     {
       "player": "Tomas",
+      "points": 137
+    },
+    {
+      "player": "Travis",
       "points": 131
     },
     {
       "player": "Quentin",
-      "points": 130
-    },
-    {
-      "player": "Travis",
-      "points": 128
+      "points": 131
     },
     {
       "player": "Will",
+      "points": 129
+    },
+    {
+      "player": "Taylor",
       "points": 124
     },
     {
       "player": "David",
-      "points": 116
-    },
-    {
-      "player": "Taylor",
-      "points": 115
+      "points": 118
     },
     {
       "player": "Aaron",
-      "points": 108
+      "points": 112
     },
     {
       "player": "Randy",
@@ -140,67 +149,67 @@
     {
       "player": "Taylor",
       "points": 9,
-      "pick": "Larson",
+      "pick": "Logano",
       "position": 1
     },
     {
-      "player": "Tomas",
+      "player": "Dakota",
       "points": 7,
-      "pick": "Logano",
-      "position": 3
+      "pick": "Larson",
+      "position": 2
     },
     {
-      "player": "Quentin",
+      "player": "Tomas",
       "points": 6,
-      "pick": "Hamlin",
-      "position": 9
+      "pick": "Hocevar",
+      "position": 3
     },
     {
       "player": "Will",
       "points": 5,
-      "pick": "Cindric",
-      "position": 10
+      "pick": "Bell",
+      "position": 4
+    },
+    {
+      "player": "Aaron",
+      "points": 4,
+      "pick": "Gibbs",
+      "position": 5
+    },
+    {
+      "player": "Travis",
+      "points": 3,
+      "pick": "Hamlin",
+      "position": 8
     },
     {
       "player": "David",
-      "points": 4,
-      "pick": "Bell",
+      "points": 2,
+      "pick": "Reddick",
+      "position": 18
+    },
+    {
+      "player": "Quentin",
+      "points": 1,
+      "pick": "Gilliland",
       "position": 19
     },
     {
       "player": "Randy",
-      "points": 3,
-      "pick": "Reddick",
-      "position": 25
-    },
-    {
-      "player": "Aaron",
-      "points": 2,
-      "pick": "Elliott",
-      "position": 31
-    },
-    {
-      "player": "Travis",
-      "points": 1,
-      "pick": "Briscoe",
-      "position": 32
-    },
-    {
-      "player": "Dakota",
       "points": 0,
       "pick": "Blaney",
-      "position": 35
+      "position": 33
     }
   ],
   "sorted_results": [
-    "Dakota",
+    "Randy",
+    "Quentin",
+    "David",
     "Travis",
     "Aaron",
-    "Randy",
-    "David",
     "Will",
-    "Quentin",
     "Tomas",
+    "Dakota",
     "Taylor"
   ]
 }

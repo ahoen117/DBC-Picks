@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Bristol",
-  "last_updated": "2026-09-20 08:24",
+  "race_name": "NASCAR Cup Series at Kansas",
+  "last_updated": "2026-09-27 19:47",
   "players": [
     "Aaron",
     "Dakota",
@@ -64,152 +64,161 @@
     "Aaron": {
       "Jones": false,
       "Elliott": false,
-      "Gibbs": false
+      "Gibbs": false,
+      "Bowman": false
     },
     "Dakota": {
       "Hamlin": false,
       "Blaney": false,
-      "Larson": false
+      "Larson": false,
+      "Briscoe": false
     },
     "David": {
       "Buescher": false,
       "Bell": false,
-      "Reddick": false
+      "Reddick": false,
+      "Hamlin": false
     },
     "Quentin": {
       "Briscoe": false,
       "Hamlin": false,
-      "Gilliland": false
+      "Gilliland": false,
+      "Reddick": false
     },
     "Randy": {
       "Logano": false,
       "Reddick": false,
-      "Blaney": false
+      "Blaney": false,
+      "Larson": false
     },
     "Taylor": {
       "Blaney": false,
       "Larson": false,
-      "Logano": false
+      "Logano": false,
+      "Byron": false
     },
     "Tomas": {
       "Larson": false,
       "Logano": false,
-      "Hocevar": false
+      "Hocevar": false,
+      "Bell": false
     },
     "Travis": {
       "Bell": false,
       "Briscoe": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Gibbs": false
     },
     "Will": {
       "Reddick": false,
       "Cindric": false,
-      "Bell": false
+      "Bell": false,
+      "Elliott": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 145
+      "points": 151
     },
     {
       "player": "Tomas",
-      "points": 137
-    },
-    {
-      "player": "Travis",
-      "points": 131
+      "points": 142
     },
     {
       "player": "Quentin",
-      "points": 131
+      "points": 133
+    },
+    {
+      "player": "Travis",
+      "points": 132
     },
     {
       "player": "Will",
-      "points": 129
+      "points": 132
     },
     {
       "player": "Taylor",
-      "points": 124
+      "points": 128
     },
     {
       "player": "David",
-      "points": 118
+      "points": 125
+    },
+    {
+      "player": "Randy",
+      "points": 114
     },
     {
       "player": "Aaron",
       "points": 112
-    },
-    {
-      "player": "Randy",
-      "points": 105
     }
   ],
   "weekly_points": [
     {
-      "player": "Taylor",
+      "player": "Randy",
       "points": 9,
-      "pick": "Logano",
+      "pick": "Larson",
       "position": 1
     },
     {
-      "player": "Dakota",
+      "player": "David",
       "points": 7,
-      "pick": "Larson",
-      "position": 2
-    },
-    {
-      "player": "Tomas",
-      "points": 6,
-      "pick": "Hocevar",
+      "pick": "Hamlin",
       "position": 3
     },
     {
-      "player": "Will",
-      "points": 5,
-      "pick": "Bell",
+      "player": "Dakota",
+      "points": 6,
+      "pick": "Briscoe",
       "position": 4
     },
     {
-      "player": "Aaron",
-      "points": 4,
-      "pick": "Gibbs",
-      "position": 5
+      "player": "Tomas",
+      "points": 5,
+      "pick": "Bell",
+      "position": 6
     },
     {
-      "player": "Travis",
+      "player": "Taylor",
+      "points": 4,
+      "pick": "Byron",
+      "position": 7
+    },
+    {
+      "player": "Will",
       "points": 3,
-      "pick": "Hamlin",
+      "pick": "Elliott",
       "position": 8
     },
     {
-      "player": "David",
+      "player": "Quentin",
       "points": 2,
       "pick": "Reddick",
-      "position": 18
+      "position": 11
     },
     {
-      "player": "Quentin",
+      "player": "Travis",
       "points": 1,
-      "pick": "Gilliland",
-      "position": 19
+      "pick": "Gibbs",
+      "position": 17
     },
     {
-      "player": "Randy",
+      "player": "Aaron",
       "points": 0,
-      "pick": "Blaney",
-      "position": 33
+      "pick": "Bowman",
+      "position": 18
     }
   ],
   "sorted_results": [
-    "Randy",
-    "Quentin",
-    "David",
-    "Travis",
     "Aaron",
+    "Travis",
+    "Quentin",
     "Will",
+    "Taylor",
     "Tomas",
     "Dakota",
-    "Taylor"
+    "David",
+    "Randy"
   ]
 }

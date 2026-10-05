@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Kansas",
-  "last_updated": "2026-09-27 19:47",
+  "race_name": "NASCAR Cup Series at Las Vegas",
+  "last_updated": "2026-10-04 21:26",
   "players": [
     "Aaron",
     "Dakota",
@@ -65,160 +65,169 @@
       "Jones": false,
       "Elliott": false,
       "Gibbs": false,
-      "Bowman": false
+      "Bowman": false,
+      "Larson": false
     },
     "Dakota": {
       "Hamlin": false,
       "Blaney": false,
       "Larson": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Byron": false
     },
     "David": {
       "Buescher": false,
       "Bell": false,
       "Reddick": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Logano": false
     },
     "Quentin": {
       "Briscoe": false,
       "Hamlin": false,
       "Gilliland": false,
-      "Reddick": false
+      "Reddick": false,
+      "Bell": false
     },
     "Randy": {
       "Logano": false,
       "Reddick": false,
       "Blaney": false,
-      "Larson": false
+      "Larson": false,
+      "Elliott": false
     },
     "Taylor": {
       "Blaney": false,
       "Larson": false,
       "Logano": false,
-      "Byron": false
+      "Byron": false,
+      "Chastain": false
     },
     "Tomas": {
       "Larson": false,
       "Logano": false,
       "Hocevar": false,
-      "Bell": false
+      "Bell": false,
+      "Briscoe": false
     },
     "Travis": {
       "Bell": false,
       "Briscoe": false,
       "Hamlin": false,
-      "Gibbs": false
+      "Gibbs": false,
+      "Reddick": false
     },
     "Will": {
       "Reddick": false,
       "Cindric": false,
       "Bell": false,
-      "Elliott": false
+      "Elliott": false,
+      "Hamlin": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 151
+      "points": 156
     },
     {
       "player": "Tomas",
-      "points": 142
-    },
-    {
-      "player": "Quentin",
-      "points": 133
+      "points": 151
     },
     {
       "player": "Travis",
-      "points": 132
+      "points": 138
     },
     {
       "player": "Will",
-      "points": 132
+      "points": 134
+    },
+    {
+      "player": "Quentin",
+      "points": 134
+    },
+    {
+      "player": "David",
+      "points": 128
     },
     {
       "player": "Taylor",
       "points": 128
     },
     {
-      "player": "David",
-      "points": 125
+      "player": "Aaron",
+      "points": 119
     },
     {
       "player": "Randy",
-      "points": 114
-    },
-    {
-      "player": "Aaron",
-      "points": 112
+      "points": 118
     }
   ],
   "weekly_points": [
     {
-      "player": "Randy",
+      "player": "Tomas",
       "points": 9,
-      "pick": "Larson",
+      "pick": "Briscoe",
       "position": 1
     },
     {
-      "player": "David",
+      "player": "Aaron",
       "points": 7,
-      "pick": "Hamlin",
+      "pick": "Larson",
+      "position": 2
+    },
+    {
+      "player": "Travis",
+      "points": 6,
+      "pick": "Reddick",
       "position": 3
     },
     {
       "player": "Dakota",
-      "points": 6,
-      "pick": "Briscoe",
-      "position": 4
-    },
-    {
-      "player": "Tomas",
       "points": 5,
-      "pick": "Bell",
+      "pick": "Byron",
       "position": 6
     },
     {
-      "player": "Taylor",
+      "player": "Randy",
       "points": 4,
-      "pick": "Byron",
+      "pick": "Elliott",
       "position": 7
     },
     {
-      "player": "Will",
+      "player": "David",
       "points": 3,
-      "pick": "Elliott",
-      "position": 8
+      "pick": "Logano",
+      "position": 10
+    },
+    {
+      "player": "Will",
+      "points": 2,
+      "pick": "Hamlin",
+      "position": 16
     },
     {
       "player": "Quentin",
-      "points": 2,
-      "pick": "Reddick",
-      "position": 11
-    },
-    {
-      "player": "Travis",
       "points": 1,
-      "pick": "Gibbs",
-      "position": 17
+      "pick": "Bell",
+      "position": 23
     },
     {
-      "player": "Aaron",
+      "player": "Taylor",
       "points": 0,
-      "pick": "Bowman",
-      "position": 18
+      "pick": "Chastain",
+      "position": 30
     }
   ],
   "sorted_results": [
-    "Aaron",
-    "Travis",
+    "Taylor",
     "Quentin",
     "Will",
-    "Taylor",
-    "Tomas",
-    "Dakota",
     "David",
-    "Randy"
+    "Randy",
+    "Dakota",
+    "Travis",
+    "Aaron",
+    "Tomas"
   ]
 }

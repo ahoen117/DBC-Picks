@@ -1,53 +1,53 @@
-Weekly Results: NASCAR Cup Series at Kansas
+Weekly Results: NASCAR Cup Series at Las Vegas
 ----------------------------------------
-Randy: Larson finished 1
+Tomas: Briscoe finished 1
 You get 8 points
 You get a bonus point for picking the race winner
 
-David: Hamlin finished 3
+Aaron: Larson finished 2
 You get 7 points
 
-Dakota: Briscoe finished 4
+Travis: Reddick finished 3
 You get 6 points
 
-Tomas: Bell finished 6
+Dakota: Byron finished 6
 You get 5 points
 
-Taylor: Byron finished 7
+Randy: Elliott finished 7
 You get 4 points
 
-Will: Elliott finished 8
+David: Logano finished 10
 You get 3 points
 
-Quentin: Reddick finished 11
+Will: Hamlin finished 16
 You get 2 points
 
-Travis: Gibbs finished 17
+Quentin: Bell finished 23
 You get 1 points
 
-Aaron: Bowman finished 18
+Taylor: Chastain finished 30
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 151 pts
-2. Tomas: 142 pts
-3. Quentin: 133 pts
-4. Travis: 132 pts
-5. Will: 132 pts
-6. Taylor: 128 pts
-7. David: 125 pts
-8. Randy: 114 pts
-9. Aaron: 112 pts
+1. Dakota: 156 pts
+2. Tomas: 151 pts
+3. Travis: 138 pts
+4. Will: 134 pts
+5. Quentin: 134 pts
+6. David: 128 pts
+7. Taylor: 128 pts
+8. Aaron: 119 pts
+9. Randy: 118 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Aaron
-Travis
+Taylor
 Quentin
 Will
-Taylor
-Tomas
-Dakota
 David
 Randy
+Dakota
+Travis
+Aaron
+Tomas

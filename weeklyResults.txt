@@ -1,53 +1,52 @@
-Weekly Results: NASCAR Cup Series at Las Vegas
+Weekly Results: NASCAR Cup Series at Charlotte
 ----------------------------------------
-Tomas: Briscoe finished 1
+Randy: Bell finished 2
 You get 8 points
-You get a bonus point for picking the race winner
 
-Aaron: Larson finished 2
+Tomas: Hamlin finished 5
 You get 7 points
 
-Travis: Reddick finished 3
+Will: Larson finished 6
 You get 6 points
 
-Dakota: Byron finished 6
+Taylor: Reddick finished 8
 You get 5 points
 
-Randy: Elliott finished 7
+Aaron: Logano finished 9
 You get 4 points
 
-David: Logano finished 10
+Travis: Jones finished 24
 You get 3 points
 
-Will: Hamlin finished 16
+David: Keselowski finished 29
 You get 2 points
 
-Quentin: Bell finished 23
+Dakota: Gibbs finished 34
 You get 1 points
 
-Taylor: Chastain finished 30
+Quentin: Byron finished 39
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 156 pts
-2. Tomas: 151 pts
-3. Travis: 138 pts
-4. Will: 134 pts
+1. Tomas: 158 pts
+2. Dakota: 157 pts
+3. Travis: 141 pts
+4. Will: 140 pts
 5. Quentin: 134 pts
-6. David: 128 pts
-7. Taylor: 128 pts
-8. Aaron: 119 pts
-9. Randy: 118 pts
+6. Taylor: 133 pts
+7. David: 130 pts
+8. Randy: 126 pts
+9. Aaron: 123 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Taylor
 Quentin
-Will
-David
-Randy
 Dakota
+David
 Travis
 Aaron
+Taylor
+Will
 Tomas
+Randy

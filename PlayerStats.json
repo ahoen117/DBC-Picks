@@ -1,29 +1,29 @@
 {
   "Taylor": {
-    "pick": "Reddick"
+    "pick": "Briscoe"
   },
   "Quentin": {
-    "pick": "Byron"
+    "pick": "Blaney"
   },
   "Will": {
-    "pick": "Larson"
+    "pick": "Berry"
   },
   "David": {
-    "pick": "Keselowski"
+    "pick": "Larson"
   },
   "Randy": {
-    "pick": "Bell"
-  },
-  "Dakota": {
     "pick": "Gibbs"
   },
-  "Travis": {
-    "pick": "Jones"
+  "Dakota": {
+    "pick": "Bell"
   },
-  "Aaron": {
+  "Travis": {
     "pick": "Logano"
   },
-  "Tomas": {
+  "Aaron": {
     "pick": "Hamlin"
+  },
+  "Tomas": {
+    "pick": "Byron"
   }
 }

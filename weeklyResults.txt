@@ -1,52 +1,52 @@
-Weekly Results: NASCAR Cup Series at Charlotte
+Weekly Results: NASCAR Cup Series at Phoenix
 ----------------------------------------
-Randy: Bell finished 2
+Quentin: Blaney finished 2
 You get 8 points
 
-Tomas: Hamlin finished 5
+Dakota: Bell finished 4
 You get 7 points
 
-Will: Larson finished 6
+Travis: Logano finished 6
 You get 6 points
 
-Taylor: Reddick finished 8
+Taylor: Briscoe finished 8
 You get 5 points
 
-Aaron: Logano finished 9
+Randy: Gibbs finished 10
 You get 4 points
 
-Travis: Jones finished 24
+Will: Berry finished 11
 You get 3 points
 
-David: Keselowski finished 29
+Tomas: Byron finished 21
 You get 2 points
 
-Dakota: Gibbs finished 34
+Aaron: Hamlin finished 28
 You get 1 points
 
-Quentin: Byron finished 39
+David: Larson finished 34
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Tomas: 158 pts
-2. Dakota: 157 pts
-3. Travis: 141 pts
-4. Will: 140 pts
-5. Quentin: 134 pts
-6. Taylor: 133 pts
+1. Dakota: 164 pts
+2. Tomas: 160 pts
+3. Travis: 147 pts
+4. Will: 143 pts
+5. Quentin: 142 pts
+6. Taylor: 138 pts
 7. David: 130 pts
-8. Randy: 126 pts
-9. Aaron: 123 pts
+8. Randy: 130 pts
+9. Aaron: 124 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Quentin
-Dakota
 David
-Travis
 Aaron
-Taylor
-Will
 Tomas
+Will
 Randy
+Taylor
+Travis
+Dakota
+Quentin

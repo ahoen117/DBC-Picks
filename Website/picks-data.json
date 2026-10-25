@@ -1,6 +1,6 @@
 {
-  "race_name": "NASCAR Cup Series at Phoenix",
-  "last_updated": "2026-10-18 23:19",
+  "race_name": "NASCAR Cup Series at Talladega",
+  "last_updated": "2026-10-25 22:54",
   "players": [
     "Aaron",
     "Dakota",
@@ -68,7 +68,8 @@
       "Bowman": false,
       "Larson": false,
       "Logano": false,
-      "Hamlin": false
+      "Hamlin": false,
+      "Hocevar": false
     },
     "Dakota": {
       "Hamlin": false,
@@ -77,7 +78,8 @@
       "Briscoe": false,
       "Byron": false,
       "Gibbs": false,
-      "Bell": false
+      "Bell": false,
+      "Smith": false
     },
     "David": {
       "Buescher": false,
@@ -86,7 +88,8 @@
       "Hamlin": false,
       "Logano": false,
       "Keselowski": false,
-      "Larson": false
+      "Larson": false,
+      "Byron": false
     },
     "Quentin": {
       "Briscoe": false,
@@ -95,7 +98,8 @@
       "Reddick": false,
       "Bell": false,
       "Byron": false,
-      "Blaney": false
+      "Blaney": false,
+      "Allmendinger": false
     },
     "Randy": {
       "Logano": false,
@@ -104,7 +108,8 @@
       "Larson": false,
       "Elliott": false,
       "Bell": false,
-      "Gibbs": false
+      "Gibbs": false,
+      "Briscoe": false
     },
     "Taylor": {
       "Blaney": false,
@@ -113,7 +118,8 @@
       "Byron": false,
       "Chastain": false,
       "Reddick": false,
-      "Briscoe": false
+      "Briscoe": false,
+      "Bell": false
     },
     "Tomas": {
       "Larson": false,
@@ -122,7 +128,8 @@
       "Bell": false,
       "Briscoe": false,
       "Hamlin": false,
-      "Byron": false
+      "Byron": false,
+      "Blaney": false
     },
     "Travis": {
       "Bell": false,
@@ -131,7 +138,8 @@
       "Gibbs": false,
       "Reddick": false,
       "Jones": false,
-      "Logano": false
+      "Logano": false,
+      "Elliott": false
     },
     "Will": {
       "Reddick": false,
@@ -140,13 +148,14 @@
       "Elliott": false,
       "Hamlin": false,
       "Larson": false,
-      "Berry": false
+      "Berry": false,
+      "Logano": false
     }
   },
   "total_points": [
     {
       "player": "Dakota",
-      "points": 164
+      "points": 170
     },
     {
       "player": "Tomas",
@@ -154,98 +163,98 @@
     },
     {
       "player": "Travis",
+      "points": 148
+    },
+    {
+      "player": "Quentin",
       "points": 147
     },
     {
       "player": "Will",
-      "points": 143
-    },
-    {
-      "player": "Quentin",
-      "points": 142
+      "points": 146
     },
     {
       "player": "Taylor",
-      "points": 138
+      "points": 140
     },
     {
       "player": "David",
-      "points": 130
+      "points": 138
     },
     {
       "player": "Randy",
-      "points": 130
+      "points": 134
     },
     {
       "player": "Aaron",
-      "points": 124
+      "points": 131
     }
   ],
   "weekly_points": [
     {
-      "player": "Quentin",
+      "player": "David",
       "points": 8,
-      "pick": "Blaney",
+      "pick": "Byron",
       "position": 2
     },
     {
-      "player": "Dakota",
+      "player": "Aaron",
       "points": 7,
-      "pick": "Bell",
-      "position": 4
-    },
-    {
-      "player": "Travis",
-      "points": 6,
-      "pick": "Logano",
+      "pick": "Hocevar",
       "position": 6
     },
     {
-      "player": "Taylor",
+      "player": "Dakota",
+      "points": 6,
+      "pick": "Smith",
+      "position": 19
+    },
+    {
+      "player": "Quentin",
       "points": 5,
-      "pick": "Briscoe",
-      "position": 8
+      "pick": "Allmendinger",
+      "position": 31
     },
     {
       "player": "Randy",
       "points": 4,
-      "pick": "Gibbs",
-      "position": 10
+      "pick": "Briscoe",
+      "position": 33
     },
     {
       "player": "Will",
       "points": 3,
-      "pick": "Berry",
-      "position": 11
+      "pick": "Logano",
+      "position": 34
+    },
+    {
+      "player": "Taylor",
+      "points": 2,
+      "pick": "Bell",
+      "position": 35
+    },
+    {
+      "player": "Travis",
+      "points": 1,
+      "pick": "Elliott",
+      "position": 36
     },
     {
       "player": "Tomas",
-      "points": 2,
-      "pick": "Byron",
-      "position": 21
-    },
-    {
-      "player": "Aaron",
-      "points": 1,
-      "pick": "Hamlin",
-      "position": 28
-    },
-    {
-      "player": "David",
       "points": 0,
-      "pick": "Larson",
-      "position": 34
+      "pick": "Blaney",
+      "position": 38
     }
   ],
   "sorted_results": [
-    "David",
-    "Aaron",
     "Tomas",
+    "Travis",
+    "Taylor",
     "Will",
     "Randy",
-    "Taylor",
-    "Travis",
+    "Quentin",
     "Dakota",
-    "Quentin"
+    "Aaron",
+    "David"
   ]
 }

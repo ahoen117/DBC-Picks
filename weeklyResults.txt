@@ -1,52 +1,52 @@
-Weekly Results: NASCAR Cup Series at Talladega
+Weekly Results: NASCAR Cup Series at Martinsville
 ----------------------------------------
-David: Byron finished 2
+Tomas: Elliott finished 2
 You get 8 points
 
-Aaron: Hocevar finished 6
+David: Gibbs finished 3
 You get 7 points
 
-Dakota: Smith finished 19
+Taylor: Hamlin finished 6
 You get 6 points
 
-Quentin: Allmendinger finished 31
+Quentin: Larson finished 9
 You get 5 points
 
-Randy: Briscoe finished 33
+Randy: Chastain finished 11
 You get 4 points
 
-Will: Logano finished 34
+Will: Briscoe finished 14
 You get 3 points
 
-Taylor: Bell finished 35
+Dakota: Logano finished 18
 You get 2 points
 
-Travis: Elliott finished 36
+Aaron: Preece finished 23
 You get 1 points
 
-Tomas: Blaney finished 38
+Travis: Blaney finished 35
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 170 pts
-2. Tomas: 160 pts
-3. Travis: 148 pts
-4. Quentin: 147 pts
-5. Will: 146 pts
-6. Taylor: 140 pts
-7. David: 138 pts
-8. Randy: 134 pts
-9. Aaron: 131 pts
+1. Dakota: 172 pts
+2. Tomas: 168 pts
+3. Quentin: 152 pts
+4. Will: 149 pts
+5. Travis: 148 pts
+6. Taylor: 146 pts
+7. David: 145 pts
+8. Randy: 138 pts
+9. Aaron: 132 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Tomas
 Travis
-Taylor
+Aaron
+Dakota
 Will
 Randy
 Quentin
-Dakota
-Aaron
+Taylor
 David
+Tomas

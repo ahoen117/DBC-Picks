@@ -102,39 +102,28 @@
       text-align: center;
       color: white;
     }
+
+
+    #thanks {
+      margin: 40px auto; 
+      padding: 30px; 
+      width: fit-content; 
+      text-align: center;
+      color: white;
+    }
   </style>
 </head>
 <body>
   <h1 id="title">Loading...</h1>
 
-  <div id="loading">Loading picks...</div>
-
-  <div class="table-container">
-    <table id="table" style="display:none;">
-      <!-- Built by JS -->
-    </table>
-  </div>
   <div id="flexContainer">
-    <div class="pickOrderDiv">
-      <h2 id="weeklyResults">Weekly Results</h2>
-      <ol id="weekly_list"></ol>
-    </div>
-
     <div class="pickOrderDiv">
       <h2 id="currentResults">Season Points</h2>
       <ol id="current_list"></ol>
     </div>
-
-    <div class="pickOrderDiv">
-      <h2 id="pickOrder">Pick order for next race</h2>
-      <ol id="list"></ol>
-    </div>
-
-    <div class="pickOrderDiv">
-      <h2 id="currentPicks">Current Picks</h2>
-      <ol id="current_picks_list"></ol>
-    </div>
   </div>
+
+  <h2 id="thanks">Thanks everyone for playing! Looking forward to the next season!</h2>
 
   <script>
     async function loadData() { 
@@ -143,34 +132,7 @@
 
       document.getElementById('title').textContent = data.race_name || "DBC Picks";
 
-      const table = document.getElementById('table');
-      let html = '<thead><tr><th class="driver"><u>Drivers</u></th>';
 
-      data.players.forEach(p => html += `<th>${p}</th>`);
-      html += '</tr></thead><tbody>';
-
-      data.drivers.forEach(driver => {
-        html += `<tr><td class="driver">${driver}</td>`;
-        data.players.forEach(player => {
-          const isCurrent = data.picks[player] && data.picks[player][driver];
-          const cls = isCurrent ? 'green' : (data.picks[player] && driver in data.picks[player] ? 'red' : '');
-          html += `<td class="${cls}">${cls ? driver : ''}</td>`;
-        });
-        html += '</tr>';
-      });
-
-      table.innerHTML = html;
-      document.getElementById('loading').style.display = 'none';
-      table.style.display = 'table';
-
-      // Weekly list
-      const weeklyList = document.getElementById('weekly_list');
-      let weeklyHtml = '';
-      (data.weekly_points || []).forEach(p => {
-        const pickText = p.pick ? ` - ${p.pick} finished ${p.position}` : '';
-        weeklyHtml += `<li>${p.player} : ${p.points} points${pickText}</li>`;
-      });
-      weeklyList.innerHTML = weeklyHtml;
 
       // Season points list
       const currentList = document.getElementById('current_list');
@@ -180,23 +142,7 @@
       });
       currentList.innerHTML = currentHtml;
 
-      // Pick order list
-      const list = document.getElementById('list');
-      let listHtml = '';
-      (data.sorted_results || []).forEach(item => {
-        listHtml += `<li>${item}</li>`;
-      });
-      list.innerHTML = listHtml;
 
-      // Current picks list
-      const currentPicksList = document.getElementById('current_picks_list');
-      const playerStatsRes = await fetch('PlayerStats.json');
-      const playerStats = await playerStatsRes.json();
-      let currentPicksHtml = '';
-      Object.entries(playerStats).forEach(([player, stats]) => {
-        currentPicksHtml += `<li>${player} : ${stats.pick}</li>`;
-      });
-      currentPicksList.innerHTML = currentPicksHtml;
     }
 
     window.onload = loadData;

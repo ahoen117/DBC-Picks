@@ -1,52 +1,52 @@
-Weekly Results: NASCAR Cup Series at Martinsville
+Weekly Results: NASCAR Cup Series at Miami
 ----------------------------------------
-Tomas: Elliott finished 2
+Aaron: Reddick finished 2
 You get 8 points
 
-David: Gibbs finished 3
+Dakota: Wallace finished 5
 You get 7 points
 
-Taylor: Hamlin finished 6
+Quentin: Cindric finished 7
 You get 6 points
 
-Quentin: Larson finished 9
+Will: Gibbs finished 11
 You get 5 points
 
-Randy: Chastain finished 11
+Travis: Larson finished 12
 You get 4 points
 
-Will: Briscoe finished 14
+Taylor: Elliott finished 22
 You get 3 points
 
-Dakota: Logano finished 18
+Randy: Preece finished 25
 You get 2 points
 
-Aaron: Preece finished 23
+David: Gisbergen finished 34
 You get 1 points
 
-Travis: Blaney finished 35
+Tomas: Heim finished 40
 You get 0 points
 
 Current Standings: 
 ----------------------------------------
-1. Dakota: 172 pts
+1. Dakota: 179 pts
 2. Tomas: 168 pts
-3. Quentin: 152 pts
-4. Will: 149 pts
-5. Travis: 148 pts
-6. Taylor: 146 pts
-7. David: 145 pts
-8. Randy: 138 pts
-9. Aaron: 132 pts
+3. Quentin: 158 pts
+4. Will: 154 pts
+5. Travis: 152 pts
+6. Taylor: 149 pts
+7. David: 146 pts
+8. Randy: 140 pts
+9. Aaron: 140 pts
 
 Pick order for next week is: 
 ----------------------------------------
-Travis
-Aaron
-Dakota
-Will
-Randy
-Quentin
-Taylor
-David
 Tomas
+David
+Randy
+Taylor
+Travis
+Will
+Quentin
+Dakota
+Aaron
